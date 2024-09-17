@@ -1,10 +1,18 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid fe6a3275-f476-4ef7-ba58-e7331ed6d599)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fe6a3275-f476-4ef7-ba58-e7331ed6d599")
+	(paper "A4")
+	(lib_symbols)
+	(text "Nikolas Varga"
+		(exclude_from_sim no)
+		(at 194.056 173.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5587c9b-15ad-465c-ae53-36cfe95f4d84")
+	)
 )
