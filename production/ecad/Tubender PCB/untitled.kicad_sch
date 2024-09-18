@@ -1,45 +1,8 @@
-<<<<<<< HEAD
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "fe6a3275-f476-4ef7-ba58-e7331ed6d599")
+	(uuid "87a75e7f-7564-4050-a57b-20e5576f4694")
 	(paper "A4")
 	(lib_symbols)
-<<<<<<< HEAD
-	(text "Niki"
-		(exclude_from_sim no)
-		(at 120.65 125.476 0)
-=======
-	(text "Nikolas Varga"
-		(exclude_from_sim no)
-		(at 194.056 173.482 0)
->>>>>>> 5c59c3e9f8fde37f1c41dd479eb6e4ff3025e680
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-<<<<<<< HEAD
-		(uuid "46a25a38-9d5d-4387-a305-89839655972d")
-=======
-		(uuid "c5587c9b-15ad-465c-ae53-36cfe95f4d84")
->>>>>>> 5c59c3e9f8fde37f1c41dd479eb6e4ff3025e680
-	)
-=======
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid fe6a3275-f476-4ef7-ba58-e7331ed6d599)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (text "Matt" (at 177.8 168.91 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f90119d6-2fa8-489e-ac75-ce58b732582e)
-  )
->>>>>>> e0c9a57976a8834720b9270575123dabc10a08fc
 )

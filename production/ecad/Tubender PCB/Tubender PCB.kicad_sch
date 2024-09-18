@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "3e1aedd0-6089-4edb-92c7-0c31da2e7927")
 	(paper "A4")
+	(title_block
+		(title "Generate Fall 2024 - Tubender PCB")
+	)
 	(lib_symbols)
 	(sheet
 		(at 15.875 16.51)
