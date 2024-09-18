@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
@@ -25,4 +26,20 @@
 		(uuid "c5587c9b-15ad-465c-ae53-36cfe95f4d84")
 >>>>>>> 5c59c3e9f8fde37f1c41dd479eb6e4ff3025e680
 	)
+=======
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid fe6a3275-f476-4ef7-ba58-e7331ed6d599)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Matt" (at 177.8 168.91 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f90119d6-2fa8-489e-ac75-ce58b732582e)
+  )
+>>>>>>> e0c9a57976a8834720b9270575123dabc10a08fc
 )
