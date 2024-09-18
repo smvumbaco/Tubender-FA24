@@ -1,10 +1,18 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid fe6a3275-f476-4ef7-ba58-e7331ed6d599)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fe6a3275-f476-4ef7-ba58-e7331ed6d599")
+	(paper "A4")
+	(lib_symbols)
+	(text "Niki"
+		(exclude_from_sim no)
+		(at 120.65 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46a25a38-9d5d-4387-a305-89839655972d")
+	)
 )
