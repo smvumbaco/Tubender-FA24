@@ -105,7 +105,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "control.kicad_sch"
+		(property "Sheetfile" "untitled.kicad_sch"
 			(at 116.205 160.6046 0)
 			(effects
 				(font
