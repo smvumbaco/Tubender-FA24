@@ -9,8 +9,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 15.875 16.51)
-		(size 83.82 66.675)
+		(at 17.78 16.51)
+		(size 82.55 67.31)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -19,9 +19,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "65475f3a-13c5-432d-8fc5-0078d498206c")
+		(uuid "3bac66d4-e1f2-42c2-b72f-be753c44ff12")
 		(property "Sheetname" "POWER"
-			(at 15.875 15.7984 0)
+			(at 17.78 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29,8 +29,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 15.875 83.7696 0)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 17.78 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

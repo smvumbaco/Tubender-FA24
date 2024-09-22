@@ -210,13 +210,6 @@
       "mfg": "",
       "mpn": ""
     },
-    "ipc2581": {
-      "dist": "",
-      "distpn": "",
-      "internal_id": "",
-      "mfg": "",
-      "mpn": ""
-    },
     "layer_presets": [],
     "viewports": []
   },
@@ -572,6 +565,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -589,7 +590,7 @@
       "Root"
     ],
     [
-      "65475f3a-13c5-432d-8fc5-0078d498206c",
+      "3bac66d4-e1f2-42c2-b72f-be753c44ff12",
       "POWER"
     ],
     [

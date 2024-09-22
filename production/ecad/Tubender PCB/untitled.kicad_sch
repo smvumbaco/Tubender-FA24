@@ -5,4 +5,14 @@
 	(uuid "87a75e7f-7564-4050-a57b-20e5576f4694")
 	(paper "A4")
 	(lib_symbols)
+	(text "Nik"
+		(exclude_from_sim no)
+		(at 199.644 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0cc318a-9fa5-4ac0-b9c8-7c65fa6aa97b")
+	)
 )
