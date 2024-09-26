@@ -134,7 +134,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "becae73b-ab72-442e-80e3-29cd6d8db453")
-		(property "Sheetname" "MOTORS"
+		(property "Sheetname" "MOTORS & ACTUATORS"
 			(at 116.205 15.7984 0)
 			(effects
 				(font
