@@ -38,6 +38,26 @@
 				(justify left top)
 			)
 		)
+		(pin "3V3" output
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "596f8c11-f61d-48ed-b096-fdc23fc4b5d5")
+		)
+		(pin "+48V" input
+			(at 17.78 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b889672c-55aa-4a30-b1ec-a1d6d6697a2a")
+		)
 		(instances
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
