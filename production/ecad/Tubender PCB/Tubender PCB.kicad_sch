@@ -47,6 +47,44 @@
 		)
 	)
 	(sheet
+		(at 115.57 93.98)
+		(size 83.82 64.77)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65adf537-572f-4850-8052-0180b0042e43")
+		(property "Sheetname" "CONTROL"
+			(at 115.57 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 115.57 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.145 93.345)
 		(size 83.82 66.675)
 		(fields_autoplaced yes)
@@ -80,44 +118,6 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 116.205 93.345)
-		(size 83.82 66.675)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "97c8d774-326f-40d8-842b-78f1328dd44f")
-		(property "Sheetname" "CONTROL"
-			(at 116.205 92.6334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "control.kicad_sch"
-			(at 116.205 160.6046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
-					(page "5")
 				)
 			)
 		)
