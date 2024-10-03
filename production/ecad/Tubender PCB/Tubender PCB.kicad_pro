@@ -594,15 +594,15 @@
       "POWER"
     ],
     [
-      "7b9cb5a6-f814-4d55-9369-b59e741387c8",
-      "SENSORS"
-    ],
-    [
-      "becae73b-ab72-442e-80e3-29cd6d8db453",
+      "13aa630f-a113-42e5-a444-8a43936e9c33",
       "MOTORS & ACTUATORS"
     ],
     [
-      "97c8d774-326f-40d8-842b-78f1328dd44f",
+      "cace885d-07c2-48b7-a983-3b69a09d8a62",
+      "SENSORS"
+    ],
+    [
+      "970b1c80-6c89-48ca-aa97-a5b3735d13b7",
       "CONTROL"
     ]
   ],

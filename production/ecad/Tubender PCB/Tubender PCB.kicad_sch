@@ -9,7 +9,45 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 17.78 16.51)
+		(at 160.02 17.78)
+		(size 82.55 68.58)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13aa630f-a113-42e5-a444-8a43936e9c33")
+		(property "Sheetname" "MOTORS & ACTUATORS"
+			(at 160.02 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motors_actuators.kicad_sch"
+			(at 160.02 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 17.78)
 		(size 82.55 67.31)
 		(fields_autoplaced yes)
 		(stroke
@@ -21,7 +59,7 @@
 		)
 		(uuid "3bac66d4-e1f2-42c2-b72f-be753c44ff12")
 		(property "Sheetname" "POWER"
-			(at 17.78 15.7984 0)
+			(at 52.07 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,7 +68,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 17.78 84.4046 0)
+			(at 52.07 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,7 +77,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 100.33 50.8 0)
+			(at 134.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +87,7 @@
 			(uuid "596f8c11-f61d-48ed-b096-fdc23fc4b5d5")
 		)
 		(pin "+48V" input
-			(at 17.78 49.53 180)
+			(at 52.07 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,8 +105,8 @@
 		)
 	)
 	(sheet
-		(at 17.145 93.345)
-		(size 83.82 66.675)
+		(at 158.75 93.98)
+		(size 85.09 68.58)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -77,47 +115,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "7b9cb5a6-f814-4d55-9369-b59e741387c8")
-		(property "Sheetname" "SENSORS"
-			(at 17.145 92.6334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 17.145 160.6046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 116.205 93.345)
-		(size 83.82 66.675)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "97c8d774-326f-40d8-842b-78f1328dd44f")
+		(uuid "970b1c80-6c89-48ca-aa97-a5b3735d13b7")
 		(property "Sheetname" "CONTROL"
-			(at 116.205 92.6334 0)
+			(at 158.75 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,8 +125,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 116.205 160.6046 0)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 158.75 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -143,8 +143,8 @@
 		)
 	)
 	(sheet
-		(at 116.205 16.51)
-		(size 83.82 66.675)
+		(at 50.8 93.98)
+		(size 83.82 68.58)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -153,9 +153,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "becae73b-ab72-442e-80e3-29cd6d8db453")
-		(property "Sheetname" "MOTORS & ACTUATORS"
-			(at 116.205 15.7984 0)
+		(uuid "cace885d-07c2-48b7-a983-3b69a09d8a62")
+		(property "Sheetname" "SENSORS"
+			(at 50.8 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,8 +163,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 116.205 83.7696 0)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 50.8 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
