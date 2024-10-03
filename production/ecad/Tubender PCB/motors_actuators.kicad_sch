@@ -137,6 +137,28 @@
 			)
 		)
 	)
+	(global_label "BENDING_ENA"
+		(shape input)
+		(at 44.45 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "529f94a7-09a0-4488-92c3-48a40b55fc2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.7043 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADVANCING_ENA+"
 		(shape input)
 		(at 45.72 48.26 180)
