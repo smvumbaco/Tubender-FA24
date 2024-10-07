@@ -71,6 +71,28 @@
 			)
 		)
 	)
+	(global_label "INDUCTIVE_PROX_1"
+		(shape input)
+		(at 35.56 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9dd68a4d-70c9-4bc7-b38f-901f1c2dd3f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.7343 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADVANCE_LIMIT_1"
 		(shape input)
 		(at 35.56 27.94 180)
@@ -84,6 +106,28 @@
 		(uuid "c185162c-171d-4fd9-9a6e-ae528f0daa9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.4881 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INDUCTIVE_PROX_2"
+		(shape input)
+		(at 35.56 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4cb0e7f-b176-41b5-b556-7ceaf0166dfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.7343 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
