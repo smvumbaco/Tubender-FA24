@@ -5109,7 +5109,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SN74HC138PWR")
-		(at 207.01 78.74 0)
+		(at 185.42 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5118,7 +5118,7 @@
 		(fields_autoplaced yes)
 		(uuid "53362399-52ea-41e3-8aa8-71f6c4d7709d")
 		(property "Reference" "IC1"
-			(at 220.98 71.12 0)
+			(at 199.39 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5126,7 @@
 			)
 		)
 		(property "Value" "SN74HC138PWR"
-			(at 220.98 73.66 0)
+			(at 199.39 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5134,7 +5134,7 @@
 			)
 		)
 		(property "Footprint" "SOP65P640X120-16N"
-			(at 231.14 173.66 0)
+			(at 209.55 177.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5144,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc138"
-			(at 231.14 273.66 0)
+			(at 209.55 277.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5154,7 @@
 			)
 		)
 		(property "Description" "3-Line To 8-Line Decoders/Demultiplexers"
-			(at 207.01 78.74 0)
+			(at 185.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +5163,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 231.14 473.66 0)
+			(at 209.55 477.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5173,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 231.14 573.66 0)
+			(at 209.55 577.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5183,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74HC138PWR"
-			(at 231.14 673.66 0)
+			(at 209.55 677.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5193,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74HC138PWR"
-			(at 231.14 773.66 0)
+			(at 209.55 777.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5203,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HC138PWR?qs=WzgTT80quPG%2F%252Bg2Du7xoUA%3D%3D"
-			(at 231.14 873.66 0)
+			(at 209.55 877.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5213,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SN74HC138PWR"
-			(at 231.14 973.66 0)
+			(at 209.55 977.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5223,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74hc138pwr/texas-instruments?utm_currency=USD&region=nac"
-			(at 231.14 1073.66 0)
+			(at 209.55 1077.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
