@@ -5,7 +5,7 @@
 	(uuid "9f07251c-70fc-4231-ac3c-6a25bc977364")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1729157:1729157"
+		(symbol "640445-5:640445-5"
 			(pin_names
 				(offset 1.016)
 			)
@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -6.85 7.62 0)
+				(at -5.58 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +21,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "1729157"
-				(at -6.35 -10.16 0)
+			(property "Value" "640445-5"
+				(at -5.08 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +30,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "1729157:PHOENIX_1729157"
+			(property "Footprint" "640445-5:TE_640445-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "PHOENIX"
+			(property "PARTREV" "R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,71 +68,36 @@
 					(hide yes)
 				)
 			)
-			(symbol "1729157_0_0"
+			(property "MANUFACTURER" "TE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "640445-5_0_0"
 				(rectangle
-					(start -6.35 -7.62)
-					(end 6.35 7.62)
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(circle
-					(center -4.445 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin passive line
@@ -227,7 +192,7 @@
 				)
 			)
 		)
-		(symbol "1729186:1729186"
+		(symbol "640445-6:640445-6"
 			(pin_names
 				(offset 1.016)
 			)
@@ -235,7 +200,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -6.85 12.7 0)
+				(at -5.58 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -243,8 +208,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "1729186"
-				(at -6.35 -12.7 0)
+			(property "Value" "640445-6"
+				(at -5.08 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -252,7 +217,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "1729186:PHOENIX_1729186"
+			(property "Footprint" "640445-6:TE_640445-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -280,7 +245,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "PHOENIX"
+			(property "PARTREV" "R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -290,10 +255,30 @@
 					(hide yes)
 				)
 			)
-			(symbol "1729186_0_0"
+			(property "MANUFACTURER" "TE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "640445-6_0_0"
 				(rectangle
-					(start -6.35 -10.16)
-					(end 6.35 12.7)
+					(start -5.08 -7.62)
+					(end 5.08 10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -302,96 +287,8 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -4.445 -7.62)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 7.62)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -4.445 10.16)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -10.16 10.16 0)
+					(at -10.16 7.62 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -409,7 +306,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 7.62 0)
+					(at -10.16 5.08 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -427,7 +324,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 5.08 0)
+					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -445,7 +342,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 2.54 0)
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -463,7 +360,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
+					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -481,7 +378,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -2.54 0)
+					(at -10.16 -5.08 0)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -491,42 +388,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -634,40 +495,20 @@
 		)
 	)
 	(junction
-		(at 187.96 123.19)
+		(at 184.15 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d3bd57a-b609-472c-a3ae-5b8d1a4bb554")
+		(uuid "1d2426cb-09cf-45ea-9a70-cc2835b24b69")
 	)
-	(junction
-		(at 187.96 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3188687d-7a67-431b-bc3a-4b9cf6301306")
-	)
-	(junction
-		(at 187.96 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66932fe0-ce08-4f79-b4b4-af2f6f134a77")
-	)
-	(junction
-		(at 187.96 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93e41240-286a-4e18-9dbe-8916888ed6cb")
-	)
-	(junction
-		(at 187.96 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c34ecaca-7945-468d-8424-025bd9431eb1")
-	)
-	(junction
-		(at 187.96 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6c82929-94c1-465c-b59c-0f9ed8df5483")
+	(wire
+		(pts
+			(xy 175.26 118.11) (xy 187.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0284a8e9-c603-420e-a67f-02b3a3a2ca65")
 	)
 	(wire
 		(pts
@@ -678,26 +519,6 @@
 			(type default)
 		)
 		(uuid "059a47a3-eb03-4f1c-9ca2-2d2075bac2eb")
-	)
-	(wire
-		(pts
-			(xy 187.96 129.54) (xy 187.96 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ccf73f-a572-434b-adda-991d3a2f3b91")
-	)
-	(wire
-		(pts
-			(xy 187.96 123.19) (xy 187.96 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "116d65f1-adf0-4a82-bf0d-4d9881cb8958")
 	)
 	(wire
 		(pts
@@ -741,7 +562,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 125.73) (xy 187.96 128.27)
+			(xy 184.15 123.19) (xy 184.15 127)
 		)
 		(stroke
 			(width 0)
@@ -761,23 +582,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 118.11) (xy 187.96 118.11)
+			(xy 175.26 113.03) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3de4889b-c4f3-4d23-96b5-f22814240e86")
-	)
-	(wire
-		(pts
-			(xy 187.96 120.65) (xy 187.96 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4006e6fa-4107-451c-988c-71d62a8358cd")
+		(uuid "41c46b02-9eb9-4044-8cf1-dbe1c5d5fbf4")
 	)
 	(wire
 		(pts
@@ -841,23 +652,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 118.11) (xy 187.96 120.65)
+			(xy 175.26 115.57) (xy 187.96 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "759faf51-4f70-4a2a-a305-07c6f659ed2a")
-	)
-	(wire
-		(pts
-			(xy 177.8 115.57) (xy 187.96 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813e1308-8358-4875-9bdc-0993a768b0f7")
+		(uuid "94ef45e4-bfea-455f-9061-73c2fcc119a9")
 	)
 	(wire
 		(pts
@@ -931,26 +732,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 115.57) (xy 187.96 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bab5cc31-aee9-489c-9eea-6fed7795faca")
-	)
-	(wire
-		(pts
-			(xy 177.8 123.19) (xy 187.96 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ce5784-c5a7-472e-9c28-aefa2d02c626")
-	)
-	(wire
-		(pts
 			(xy 149.86 78.74) (xy 146.05 78.74)
 		)
 		(stroke
@@ -971,6 +752,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 123.19) (xy 187.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd459182-010d-478c-8eb9-cd8a71ae3e33")
+	)
+	(wire
+		(pts
 			(xy 146.05 71.12) (xy 149.86 71.12)
 		)
 		(stroke
@@ -978,16 +769,6 @@
 			(type default)
 		)
 		(uuid "e0bec06f-82e5-40ec-bebf-fbd5219eb483")
-	)
-	(wire
-		(pts
-			(xy 187.96 113.03) (xy 187.96 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e33b8466-c19c-4151-bd41-8c23b4fc9899")
 	)
 	(wire
 		(pts
@@ -1001,7 +782,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 125.73) (xy 187.96 125.73)
+			(xy 161.29 123.19) (xy 184.15 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1021,6 +802,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 120.65) (xy 187.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa0f719-001f-4226-8ad0-6ed480483827")
+	)
+	(wire
+		(pts
 			(xy 81.28 73.66) (xy 85.09 73.66)
 		)
 		(stroke
@@ -1028,16 +819,6 @@
 			(type default)
 		)
 		(uuid "fed71166-e161-4d17-9ebc-f9714369577e")
-	)
-	(wire
-		(pts
-			(xy 177.8 120.65) (xy 187.96 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb57f61-360d-480d-b278-f8dce232ebee")
 	)
 	(rectangle
 		(start 121.92 59.69)
@@ -1210,7 +991,7 @@
 	)
 	(global_label "BENDING_RPWM"
 		(shape input)
-		(at 177.8 123.19 180)
+		(at 175.26 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1220,7 +1001,7 @@
 		)
 		(uuid "21179779-bdbc-4ed3-b195-dbfe1b01e427")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.1796 123.19 0)
+			(at 157.6396 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1079,7 @@
 	)
 	(global_label "BENDING_R_ENA"
 		(shape input)
-		(at 177.8 118.11 180)
+		(at 175.26 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1308,7 +1089,7 @@
 		)
 		(uuid "3fa7ec3e-84bc-4c4f-89fa-d01bbff544db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.8167 118.11 0)
+			(at 157.2767 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1123,7 @@
 	)
 	(global_label "BENDING_L_ENA"
 		(shape input)
-		(at 177.8 115.57 180)
+		(at 175.26 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1352,7 +1133,7 @@
 		)
 		(uuid "529f94a7-09a0-4488-92c3-48a40b55fc2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.0586 115.57 0)
+			(at 157.5186 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1277,7 @@
 	)
 	(global_label "BENDING_LPWM"
 		(shape input)
-		(at 177.8 120.65 180)
+		(at 175.26 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1506,7 +1287,7 @@
 		)
 		(uuid "f057178f-197f-45e6-8d77-ee9be6b51439")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.4215 120.65 0)
+			(at 157.8815 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1320,7 @@
 			)
 		)
 	)
-	(hierarchical_label "12V"
+	(hierarchical_label "24V"
 		(shape input)
 		(at 166.37 110.49 180)
 		(fields_autoplaced yes)
@@ -1553,7 +1334,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 165.1 125.73 180)
+		(at 161.29 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1633,6 +1414,116 @@
 		)
 	)
 	(symbol
+		(lib_id "640445-5:640445-5")
+		(at 160.02 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d46158f-5ce8-407c-9cce-4091ffa9a14f")
+		(property "Reference" "J2"
+			(at 166.37 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "640445-5"
+			(at 166.37 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "640445-5:TE_640445-5"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9de9f9f9-ade4-41d3-a01c-c1d3083e3c1a")
+		)
+		(pin "3"
+			(uuid "69af3cda-7fde-43dc-83df-41ad238b4a81")
+		)
+		(pin "4"
+			(uuid "1ac4dc2a-09bb-4e79-b93a-e3ad35b75a96")
+		)
+		(pin "5"
+			(uuid "602756eb-c5ac-4520-8bac-7c4926afaa41")
+		)
+		(pin "1"
+			(uuid "a6ca578e-f75e-415b-8a2f-f99969abb7c4")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 113.03 125.73 0)
 		(mirror y)
@@ -1701,7 +1592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 129.54 0)
+		(at 184.15 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1711,7 +1602,7 @@
 		(fields_autoplaced yes)
 		(uuid "243a612d-ed6d-430a-b7be-e713c482a27a")
 		(property "Reference" "#PWR035"
-			(at 187.96 135.89 0)
+			(at 184.15 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1611,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 134.62 0)
+			(at 184.15 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 129.54 0)
+			(at 184.15 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +1628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 129.54 0)
+			(at 184.15 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +1637,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 129.54 0)
+			(at 184.15 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,17 +1792,17 @@
 		)
 	)
 	(symbol
-		(lib_id "1729186:1729186")
-		(at 198.12 120.65 0)
+		(lib_id "640445-6:640445-6")
+		(at 198.12 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fcc9c9a-a370-4192-b538-b51fe814b450")
+		(uuid "6e056179-6a46-44ec-ae50-1945641c04c2")
 		(property "Reference" "J6"
-			(at 205.74 118.1099 0)
+			(at 204.47 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,8 +1810,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1729186"
-			(at 205.74 120.6499 0)
+		(property "Value" "640445-6"
+			(at 204.47 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,8 +1819,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1729186:PHOENIX_1729186"
-			(at 198.12 120.65 0)
+		(property "Footprint" "640445-6:TE_640445-6"
+			(at 198.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +1830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 120.65 0)
+			(at 198.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1839,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 120.65 0)
+			(at 198.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,8 +1847,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "PHOENIX"
-			(at 198.12 120.65 0)
+		(property "PARTREV" "R"
+			(at 198.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,29 +1857,43 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4d6b37eb-fec1-41e1-b2d8-329b9f568a01")
+		(property "MANUFACTURER" "TE"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "405a2e5a-5c62-45cb-a013-0c6707be3d1e")
-		)
-		(pin "8"
-			(uuid "544c6e38-730a-4d5a-b580-aa3b8279f5e3")
-		)
-		(pin "1"
-			(uuid "47b764ac-044c-4aad-ae12-0de9762635f2")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "e6e49979-4e65-4612-9033-af82e7363406")
-		)
-		(pin "7"
-			(uuid "9e20c935-6045-4e75-b469-c90ed743bd50")
-		)
-		(pin "5"
-			(uuid "5702018a-c890-43ac-a029-138ae0fa2f07")
+			(uuid "55489d2c-18cd-44fc-b67a-c5d6cb7bb57d")
 		)
 		(pin "3"
-			(uuid "fc1ae21f-a54e-4c61-91f2-1c2818e7dff1")
+			(uuid "31adb9af-a28b-4370-a577-d27f62deb7a7")
+		)
+		(pin "4"
+			(uuid "82278227-859b-4ac0-830a-d18e49d57591")
+		)
+		(pin "1"
+			(uuid "26dfb056-47c5-48d4-be13-e5915d208453")
+		)
+		(pin "5"
+			(uuid "7fe98246-78e7-4e2e-b034-813a5bdf2e84")
+		)
+		(pin "2"
+			(uuid "a49650eb-0150-4a45-8eac-8773e476a281")
 		)
 		(instances
 			(project ""
@@ -2000,17 +1905,17 @@
 		)
 	)
 	(symbol
-		(lib_id "1729157:1729157")
-		(at 227.33 73.66 0)
+		(lib_id "640445-5:640445-5")
+		(at 127 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "931f1c35-3578-4887-895e-ff44543c8103")
+		(uuid "8b73cf4b-5fe1-4cd3-9d7d-b8ccd3680f7b")
 		(property "Reference" "J4"
-			(at 234.95 72.3899 0)
+			(at 133.35 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,8 +1923,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1729157"
-			(at 234.95 74.9299 0)
+		(property "Value" "640445-5"
+			(at 133.35 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,8 +1932,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1729157:PHOENIX_1729157"
-			(at 227.33 73.66 0)
+		(property "Footprint" "640445-5:TE_640445-5"
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +1943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 73.66 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +1952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 73.66 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,8 +1960,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "PHOENIX"
-			(at 227.33 73.66 0)
+		(property "PARTREV" "R"
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,20 +1970,40 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "6aa944ec-a5e7-4255-a261-ee835bf10ac5")
+		(property "MANUFACTURER" "TE"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "e12e6c39-db1a-4b4f-8c17-caa16f9d9e82")
-		)
-		(pin "5"
-			(uuid "fb1d0cb7-eaaf-4eb8-9f62-6a6e5c53c5dd")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "a3ace1e3-1f1b-4692-8bc6-35a1d89f4d9c")
+			(uuid "b51c9b65-9065-4079-9dc8-b1bea11e729b")
+		)
+		(pin "3"
+			(uuid "0716a036-1d2a-4e6d-a9bd-d386a5db3559")
+		)
+		(pin "4"
+			(uuid "0bad35eb-ce3a-4211-84d6-8950b9c44ef4")
+		)
+		(pin "5"
+			(uuid "3e54b94a-f916-468b-994a-ae8c15fb4844")
 		)
 		(pin "1"
-			(uuid "cb0613b9-ecfc-46d7-8e03-67a88882a441")
+			(uuid "21fa9af3-b49c-4e4f-9936-5aed0fef9854")
 		)
 		(instances
 			(project "Tubender PCB"
@@ -2090,17 +2015,17 @@
 		)
 	)
 	(symbol
-		(lib_id "1729157:1729157")
-		(at 160.02 73.66 0)
+		(lib_id "640445-5:640445-5")
+		(at 95.25 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd598e9e-121d-4174-b847-6d2066d9bf81")
-		(property "Reference" "J3"
-			(at 167.64 72.3899 0)
+		(uuid "d259635c-fbd5-4b42-a993-ed788205040f")
+		(property "Reference" "J14"
+			(at 101.6 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,8 +2033,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1729157"
-			(at 167.64 74.9299 0)
+		(property "Value" "640445-5"
+			(at 101.6 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,8 +2042,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1729157:PHOENIX_1729157"
-			(at 160.02 73.66 0)
+		(property "Footprint" "640445-5:TE_640445-5"
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2053,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 73.66 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2062,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 73.66 0)
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,8 +2070,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "PHOENIX"
-			(at 160.02 73.66 0)
+		(property "PARTREV" "R"
+			(at 95.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,20 +2080,150 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "789e1276-bd82-4ce0-88e5-481a7168e5ab")
+		(property "MANUFACTURER" "TE"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "797cf922-1181-48fe-bac9-b617f35e21ee")
-		)
-		(pin "5"
-			(uuid "2c9b34bd-9f7c-456f-8911-4a8937069ad9")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "cd3ddc01-cf4e-4fc9-bcaf-e027ce00aaf5")
+			(uuid "a5d7cdca-8694-4e43-a400-d522317ec51c")
+		)
+		(pin "3"
+			(uuid "e8a7cdef-d9bc-414b-a1b5-142348ec64fd")
+		)
+		(pin "4"
+			(uuid "c7c8cc08-99cc-4e15-ae0f-792f65587052")
+		)
+		(pin "5"
+			(uuid "f0b33b42-180b-4b74-b7a7-2e4b7daa3bd2")
 		)
 		(pin "1"
-			(uuid "3d98e1c1-84a3-4cc7-912f-a135d8aac6fd")
+			(uuid "01668ee8-4d19-4187-b2f2-918a9621e12c")
+		)
+		(instances
+			(project ""
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "640445-5:640445-5")
+		(at 227.33 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e21dc9f6-dd10-4191-a787-4c93f1a5e553")
+		(property "Reference" "J3"
+			(at 233.68 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "640445-5"
+			(at 233.68 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "640445-5:TE_640445-5"
+			(at 227.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 227.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 227.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 227.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c3d9052-17e3-4abd-8436-d2d826a212ae")
+		)
+		(pin "3"
+			(uuid "a321eede-e7a3-4902-bf0b-ff5226a1c1ad")
+		)
+		(pin "4"
+			(uuid "26cf8bc6-2518-4b74-8cd9-d9755dd9b61a")
+		)
+		(pin "5"
+			(uuid "3640472c-1ae9-49c5-b998-42a9f9570d42")
+		)
+		(pin "1"
+			(uuid "9c2b5fcf-ddea-43ee-8d20-d25d193f9cfc")
 		)
 		(instances
 			(project "Tubender PCB"
@@ -2241,186 +2296,6 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1729157:1729157")
-		(at 127 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6c3f7b3-50de-4903-bd6b-f102bb73d9ba")
-		(property "Reference" "J5"
-			(at 134.62 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1729157"
-			(at 134.62 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1729157:PHOENIX_1729157"
-			(at 127 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "PHOENIX"
-			(at 127 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3ba9c676-10b4-4fc8-aaec-d899f23b2f68")
-		)
-		(pin "3"
-			(uuid "2c9d53bd-f5f6-44d3-960d-acb2a18f1562")
-		)
-		(pin "5"
-			(uuid "e0c1fc59-d44a-4e40-b82b-76b17de8433b")
-		)
-		(pin "2"
-			(uuid "05dbaaf1-5cfb-4a48-b300-214efef3c82d")
-		)
-		(pin "1"
-			(uuid "86dc8b60-c633-4aa0-a5b7-4e37090ce720")
-		)
-		(instances
-			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1729157:1729157")
-		(at 95.25 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f146a651-833a-4871-9b72-e0b62538613e")
-		(property "Reference" "J2"
-			(at 102.87 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1729157"
-			(at 102.87 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1729157:PHOENIX_1729157"
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "PHOENIX"
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "283ce6a6-347c-4e46-9e51-41a77d527f64")
-		)
-		(pin "3"
-			(uuid "db21771b-d06d-44bb-a954-5e2396157f55")
-		)
-		(pin "5"
-			(uuid "c4dd5a30-a4b2-4daf-bf40-1850748c5415")
-		)
-		(pin "2"
-			(uuid "4243f64c-7b8a-458a-86d4-85496b72e45f")
-		)
-		(pin "1"
-			(uuid "ea30dc70-87ac-4399-b106-2512580c4e23")
-		)
-		(instances
-			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
-					(reference "J2")
 					(unit 1)
 				)
 			)
