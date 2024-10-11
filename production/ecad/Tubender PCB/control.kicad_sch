@@ -5687,6 +5687,10 @@
 		(uuid "e8889a25-476c-48e7-b125-01968043805b")
 	)
 	(no_connect
+		(at 218.44 101.6)
+		(uuid "027a6985-2fbe-4575-9035-5e3ff5ee25a0")
+	)
+	(no_connect
 		(at 152.4 57.15)
 		(uuid "0b5e9a95-e6c9-412a-9ebc-412a4fdb7885")
 	)
@@ -5697,6 +5701,10 @@
 	(no_connect
 		(at 152.4 74.93)
 		(uuid "339a04de-9f7d-404d-8ad2-6473df559a99")
+	)
+	(no_connect
+		(at 218.44 99.06)
+		(uuid "40f77e70-4186-4cdf-8735-0946f54cbcfc")
 	)
 	(no_connect
 		(at 152.4 59.69)
@@ -5737,6 +5745,10 @@
 	(no_connect
 		(at 33.02 49.53)
 		(uuid "df2207bb-efe4-4309-88e6-cba5e529a4d4")
+	)
+	(no_connect
+		(at 254 99.06)
+		(uuid "f9614d6d-ecc9-4ea1-bc2c-9f6ff0b088fa")
 	)
 	(no_connect
 		(at 121.92 44.45)
@@ -5941,6 +5953,16 @@
 			(type default)
 		)
 		(uuid "185733a3-98d3-48d7-a31f-b4601b9b9c59")
+	)
+	(wire
+		(pts
+			(xy 215.9 93.98) (xy 218.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a72ab28-4e3b-48cc-8ff2-a85d63447cc7")
 	)
 	(wire
 		(pts
@@ -6211,6 +6233,16 @@
 			(type default)
 		)
 		(uuid "2d26bc04-e7ce-4d59-8de4-d37f39fb9a02")
+	)
+	(wire
+		(pts
+			(xy 215.9 83.82) (xy 218.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0da5e4-b2a2-45f3-936d-bc6a6b89ba99")
 	)
 	(wire
 		(pts
@@ -6564,6 +6596,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 96.52) (xy 218.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ad8d0e-7918-431d-a8cb-10fe449ef191")
+	)
+	(wire
+		(pts
 			(xy 260.35 78.74) (xy 254 78.74)
 		)
 		(stroke
@@ -6701,6 +6743,16 @@
 			(type default)
 		)
 		(uuid "64e4e4ae-65c5-494e-a553-bb93dd6b3dae")
+	)
+	(wire
+		(pts
+			(xy 215.9 86.36) (xy 218.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a98e74-9914-4946-9259-cdce6a852ee6")
 	)
 	(wire
 		(pts
@@ -7714,6 +7766,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 88.9) (xy 218.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da511fa5-644b-4ff0-bc1d-50f2c26c659b")
+	)
+	(wire
+		(pts
 			(xy 120.65 85.09) (xy 121.92 85.09)
 		)
 		(stroke
@@ -7891,6 +7953,16 @@
 			(type default)
 		)
 		(uuid "f7942636-5329-4d73-bb63-c1a4be49d722")
+	)
+	(wire
+		(pts
+			(xy 215.9 91.44) (xy 218.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ab9c6c-06c9-4729-91c4-6e4cacb0bf71")
 	)
 	(wire
 		(pts
@@ -8252,6 +8324,28 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_MISO"
+		(shape input)
+		(at 215.9 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43eb7469-a98c-41b2-86e4-1921c0784e35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7914 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_0"
 		(shape input)
 		(at 85.09 125.73 0)
@@ -8274,7 +8368,7 @@
 			)
 		)
 	)
-	(global_label "ROTARY_1"
+	(global_label "DIAL_CHANNEL_A"
 		(shape input)
 		(at 257.81 46.99 0)
 		(fields_autoplaced yes)
@@ -8286,7 +8380,7 @@
 		)
 		(uuid "4850809c-4e17-400b-8558-bd49e499e786")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.9876 46.99 0)
+			(at 276.3377 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,6 +8654,50 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_SCK"
+		(shape input)
+		(at 215.9 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63511adf-b7a6-40e3-8bf7-c5a58ef37c3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.6381 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DISPLAY_MOSI"
+		(shape input)
+		(at 215.9 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64b1e6fb-ecde-425d-b905-0039ca5f1bc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7914 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADVANCING_ENA+"
 		(shape input)
 		(at 85.09 146.05 0)
@@ -8617,6 +8755,28 @@
 		(uuid "76297d89-7523-49b9-bfd8-cd2e6f4e4ce8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 195.7396 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DISPLAY_INT"
+		(shape input)
+		(at 215.9 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "773a688b-8adf-42b0-8449-09dacfa39c4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.4847 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +8896,7 @@
 			)
 		)
 	)
-	(global_label "ROTARY_2"
+	(global_label "DIAL_CHANNEL_B"
 		(shape input)
 		(at 257.81 49.53 0)
 		(fields_autoplaced yes)
@@ -8748,7 +8908,7 @@
 		)
 		(uuid "8d2da747-201e-4f46-97ac-3a512dce302e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.9876 49.53 0)
+			(at 276.5191 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,6 +9490,28 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_CS"
+		(shape input)
+		(at 215.9 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc20a8ef-495b-4cfa-9a34-043192f94f36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.9081 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_SCK"
 		(shape input)
 		(at 177.8 152.4 0)
@@ -9348,6 +9530,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DISPLAY_WAIT"
+		(shape input)
+		(at 215.9 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d617de03-ba9a-4c09-9a19-f9b0e049d4fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.2752 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
