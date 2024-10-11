@@ -9,9 +9,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 160.02 17.78)
-		(size 82.55 68.58)
-		(fields_autoplaced yes)
+		(at 153.67 17.78)
+		(size 77.47 68.58)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -21,16 +20,18 @@
 		)
 		(uuid "13aa630f-a113-42e5-a444-8a43936e9c33")
 		(property "Sheetname" "MOTORS & ACTUATORS"
-			(at 160.02 17.0684 0)
+			(at 171.196 51.308 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "motors_actuators.kicad_sch"
-			(at 160.02 86.9446 0)
+			(at 153.67 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,9 +48,8 @@
 		)
 	)
 	(sheet
-		(at 52.07 17.78)
-		(size 82.55 67.31)
-		(fields_autoplaced yes)
+		(at 59.69 17.78)
+		(size 74.93 68.58)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -59,16 +59,18 @@
 		)
 		(uuid "3bac66d4-e1f2-42c2-b72f-be753c44ff12")
 		(property "Sheetname" "POWER"
-			(at 52.07 17.0684 0)
+			(at 90.424 52.07 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 52.07 85.6746 0)
+			(at 59.69 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +79,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 134.62 52.07 0)
+			(at 134.62 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,7 +89,7 @@
 			(uuid "596f8c11-f61d-48ed-b096-fdc23fc4b5d5")
 		)
 		(pin "+48V" input
-			(at 52.07 50.8 180)
+			(at 59.69 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,6 +97,36 @@
 				(justify left)
 			)
 			(uuid "b889672c-55aa-4a30-b1ec-a1d6d6697a2a")
+		)
+		(pin "12V" output
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1d67c8a-e7b6-4099-98c3-21b99196dd23")
+		)
+		(pin "5V" output
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "130ffc45-6ae9-4fcf-977b-7602e50c3948")
+		)
+		(pin "24V" output
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16423616-ec92-468e-bcb6-36f7d8ec866e")
 		)
 		(instances
 			(project "Tubender PCB"
@@ -105,9 +137,8 @@
 		)
 	)
 	(sheet
-		(at 158.75 93.98)
-		(size 85.09 68.58)
-		(fields_autoplaced yes)
+		(at 106.68 95.25)
+		(size 81.28 68.58)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -117,16 +148,18 @@
 		)
 		(uuid "970b1c80-6c89-48ca-aa97-a5b3735d13b7")
 		(property "Sheetname" "CONTROL"
-			(at 158.75 93.2684 0)
+			(at 137.922 130.556 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "control.kicad_sch"
-			(at 158.75 163.1446 0)
+			(at 106.68 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -143,9 +176,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 93.98)
-		(size 83.82 68.58)
-		(fields_autoplaced yes)
+		(at 16.51 95.25)
+		(size 80.01 68.58)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -155,16 +187,18 @@
 		)
 		(uuid "cace885d-07c2-48b7-a983-3b69a09d8a62")
 		(property "Sheetname" "SENSORS"
-			(at 50.8 93.2684 0)
+			(at 45.466 130.556 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 50.8 163.1446 0)
+			(at 16.51 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181,9 +215,8 @@
 		)
 	)
 	(sheet
-		(at 251.46 93.98)
-		(size 25.4 68.58)
-		(fields_autoplaced yes)
+		(at 198.12 93.98)
+		(size 78.74 68.58)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -193,16 +226,18 @@
 		)
 		(uuid "f5482ea7-2c7e-4b8c-980a-1e009a8c23d8")
 		(property "Sheetname" "USER INTERFACE"
-			(at 251.46 93.2684 0)
+			(at 221.488 130.556 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "user_interface.kicad_sch"
-			(at 251.46 163.1446 0)
+			(at 198.12 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

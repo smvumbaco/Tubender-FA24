@@ -6072,7 +6072,7 @@
 		)
 		(uuid "cf1c992b-0fe3-4dad-bf49-bf68b6bffa11")
 	)
-	(hierarchical_label "+24V"
+	(hierarchical_label "24V"
 		(shape input)
 		(at 175.26 139.7 90)
 		(fields_autoplaced yes)

@@ -5,7 +5,7 @@
 	(uuid "9f07251c-70fc-4231-ac3c-6a25bc977364")
 	(paper "A4")
 	(lib_symbols
-		(symbol "640445-5:640445-5"
+		(symbol "640387-5:640387-5"
 			(pin_names
 				(offset 1.016)
 			)
@@ -21,7 +21,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "640445-5"
+			(property "Value" "640387-5"
 				(at -5.08 -10.16 0)
 				(effects
 					(font
@@ -30,7 +30,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "640445-5:TE_640445-5"
+			(property "Footprint" "640387-5:TE_640387-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,16 +68,6 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "TE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
@@ -88,7 +78,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "640445-5_0_0"
+			(property "MANUFACTURER" "TE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "640387-5_0_0"
 				(rectangle
 					(start -5.08 -7.62)
 					(end 5.08 7.62)
@@ -192,7 +192,7 @@
 				)
 			)
 		)
-		(symbol "640445-6:640445-6"
+		(symbol "640387-8:640387-8"
 			(pin_names
 				(offset 1.016)
 			)
@@ -200,7 +200,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.58 10.16 0)
+				(at -5.58 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -208,8 +208,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "640445-6"
-				(at -5.08 -10.16 0)
+			(property "Value" "640387-8"
+				(at -5.08 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -217,7 +217,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "640445-6:TE_640445-6"
+			(property "Footprint" "640387-8:TE_640387-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -255,16 +255,6 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "TE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
 			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
@@ -275,10 +265,20 @@
 					(hide yes)
 				)
 			)
-			(symbol "640445-6_0_0"
+			(property "MANUFACTURER" "TE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "640387-8_0_0"
 				(rectangle
-					(start -5.08 -7.62)
-					(end 5.08 10.16)
+					(start -5.08 -10.16)
+					(end 5.08 12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -288,7 +288,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 7.62 0)
+					(at -10.16 10.16 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -306,7 +306,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 5.08 0)
+					(at -10.16 7.62 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -324,7 +324,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 2.54 0)
+					(at -10.16 5.08 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -342,7 +342,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
+					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -360,7 +360,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -2.54 0)
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -378,7 +378,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -5.08 0)
+					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -388,6 +388,42 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -494,31 +530,35 @@
 			)
 		)
 	)
-	(junction
-		(at 184.15 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d2426cb-09cf-45ea-9a70-cc2835b24b69")
-	)
 	(wire
 		(pts
-			(xy 175.26 118.11) (xy 187.96 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0284a8e9-c603-420e-a67f-02b3a3a2ca65")
-	)
-	(wire
-		(pts
-			(xy 166.37 110.49) (xy 187.96 110.49)
+			(xy 163.83 110.49) (xy 187.96 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "059a47a3-eb03-4f1c-9ca2-2d2075bac2eb")
+	)
+	(wire
+		(pts
+			(xy 158.75 128.27) (xy 187.96 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0616f4d2-bb96-41e5-9020-cf36d5c87e64")
+	)
+	(wire
+		(pts
+			(xy 180.34 120.65) (xy 187.96 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11be8ac8-5098-4d79-9ae9-4bb08995038c")
 	)
 	(wire
 		(pts
@@ -562,13 +602,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 123.19) (xy 184.15 127)
+			(xy 158.75 113.03) (xy 158.75 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26ae13e4-4e9f-4b90-b96d-21037bdf271d")
+		(uuid "236b9858-3f66-478e-8c67-f146fb725875")
 	)
 	(wire
 		(pts
@@ -582,13 +622,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 187.96 113.03)
+			(xy 180.34 115.57) (xy 187.96 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41c46b02-9eb9-4044-8cf1-dbe1c5d5fbf4")
+		(uuid "3c2de60c-712a-4064-b9df-371a247c9520")
 	)
 	(wire
 		(pts
@@ -652,13 +692,33 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 115.57) (xy 187.96 115.57)
+			(xy 161.29 125.73) (xy 187.96 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94ef45e4-bfea-455f-9061-73c2fcc119a9")
+		(uuid "6aa1de2b-65bd-4ee2-b7a7-8f91d1c776e5")
+	)
+	(wire
+		(pts
+			(xy 180.34 118.11) (xy 187.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ffe9c7-422a-4c3d-954c-920ab70088e7")
+	)
+	(wire
+		(pts
+			(xy 158.75 128.27) (xy 158.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821691f6-3264-427f-9f7e-699be0308550")
 	)
 	(wire
 		(pts
@@ -722,6 +782,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 113.03) (xy 187.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9b393e-8232-4ad0-9224-414fcd30d63f")
+	)
+	(wire
+		(pts
 			(xy 113.03 119.38) (xy 116.84 119.38)
 		)
 		(stroke
@@ -752,16 +822,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 123.19) (xy 187.96 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd459182-010d-478c-8eb9-cd8a71ae3e33")
-	)
-	(wire
-		(pts
 			(xy 146.05 71.12) (xy 149.86 71.12)
 		)
 		(stroke
@@ -782,16 +842,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 123.19) (xy 184.15 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9342770-629d-47f2-b3bd-3299ac4875ef")
-	)
-	(wire
-		(pts
 			(xy 217.17 78.74) (xy 213.36 78.74)
 		)
 		(stroke
@@ -802,13 +852,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 120.65) (xy 187.96 120.65)
+			(xy 180.34 123.19) (xy 187.96 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "faa0f719-001f-4226-8ad0-6ed480483827")
+		(uuid "fed0e84b-fdd4-43e0-a2d7-6080d50cfa71")
 	)
 	(wire
 		(pts
@@ -989,28 +1039,6 @@
 			)
 		)
 	)
-	(global_label "BENDING_RPWM"
-		(shape input)
-		(at 175.26 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21179779-bdbc-4ed3-b195-dbfe1b01e427")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6396 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ROTATION_ENA+"
 		(shape input)
 		(at 213.36 73.66 180)
@@ -1024,6 +1052,28 @@
 		(uuid "25d0ecbb-7d49-4a2b-a3e5-a66d07342aa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 195.3766 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BENDING_L_ENA"
+		(shape input)
+		(at 180.34 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2981e2dc-bd02-43d3-a0d7-50e5ac2b9865")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.5986 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,28 +1127,6 @@
 			)
 		)
 	)
-	(global_label "BENDING_R_ENA"
-		(shape input)
-		(at 175.26 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3fa7ec3e-84bc-4c4f-89fa-d01bbff544db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.2767 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADVANCING_PUL+"
 		(shape input)
 		(at 146.05 71.12 180)
@@ -1112,28 +1140,6 @@
 		(uuid "47cb4a2d-62f4-4b6f-a9a5-143bdc01f7e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 126.5546 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BENDING_L_ENA"
-		(shape input)
-		(at 175.26 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "529f94a7-09a0-4488-92c3-48a40b55fc2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.5186 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,6 +1215,28 @@
 			)
 		)
 	)
+	(global_label "BENDING_RPWM"
+		(shape input)
+		(at 180.34 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "680b02d4-9dba-4662-9d61-2d0603b728ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.7196 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CHUCK_CLAMP_ENA+"
 		(shape input)
 		(at 113.03 119.38 180)
@@ -1222,6 +1250,28 @@
 		(uuid "7eacfe64-37ad-4ceb-9a94-a83780cd73f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 90.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BENDING_LPWM"
+		(shape input)
+		(at 180.34 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7ae814f-84b5-4a5a-8dcb-d391afa4b185")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.9615 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,9 +1325,9 @@
 			)
 		)
 	)
-	(global_label "BENDING_LPWM"
+	(global_label "BENDING_R_ENA"
 		(shape input)
-		(at 175.26 118.11 180)
+		(at 180.34 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1285,9 +1335,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f057178f-197f-45e6-8d77-ee9be6b51439")
+		(uuid "fdaa26ea-f0de-48ef-8ba7-76676b29a87d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.8815 118.11 0)
+			(at 162.3567 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,9 +1370,9 @@
 			)
 		)
 	)
-	(hierarchical_label "24V"
+	(hierarchical_label "12V"
 		(shape input)
-		(at 166.37 110.49 180)
+		(at 163.83 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1331,18 +1381,6 @@
 			(justify right)
 		)
 		(uuid "db37630f-05a4-467b-945f-bba9d31c0253")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 161.29 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ead205dc-4efc-487a-9ea5-c0e656788da1")
 	)
 	(hierarchical_label "+48V"
 		(shape input)
@@ -1390,6 +1428,18 @@
 			)
 		)
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 161.29 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f05bc01b-85e6-461d-8827-2d958a473489")
+	)
 	(hierarchical_label "+48V"
 		(shape input)
 		(at 68.58 68.58 180)
@@ -1410,116 +1460,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "640445-5:640445-5")
-		(at 160.02 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d46158f-5ce8-407c-9cce-4091ffa9a14f")
-		(property "Reference" "J2"
-			(at 166.37 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "640445-5"
-			(at 166.37 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "640445-5:TE_640445-5"
-			(at 160.02 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "R"
-			(at 160.02 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE"
-			(at 160.02 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 160.02 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9de9f9f9-ade4-41d3-a01c-c1d3083e3c1a")
-		)
-		(pin "3"
-			(uuid "69af3cda-7fde-43dc-83df-41ad238b4a81")
-		)
-		(pin "4"
-			(uuid "1ac4dc2a-09bb-4e79-b93a-e3ad35b75a96")
-		)
-		(pin "5"
-			(uuid "602756eb-c5ac-4520-8bac-7c4926afaa41")
-		)
-		(pin "1"
-			(uuid "a6ca578e-f75e-415b-8a2f-f99969abb7c4")
-		)
-		(instances
-			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
-					(reference "J2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1592,7 +1532,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 127 0)
+		(at 158.75 130.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1602,7 +1542,7 @@
 		(fields_autoplaced yes)
 		(uuid "243a612d-ed6d-430a-b7be-e713c482a27a")
 		(property "Reference" "#PWR035"
-			(at 184.15 133.35 0)
+			(at 158.75 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1551,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 132.08 0)
+			(at 158.75 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 127 0)
+			(at 158.75 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 127 0)
+			(at 158.75 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 127 0)
+			(at 158.75 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,6 +1665,183 @@
 		)
 	)
 	(symbol
+		(lib_id "640387-5:640387-5")
+		(at 95.25 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ffb10df-cf0c-475f-b878-31a9a2664dab")
+		(property "Reference" "J2"
+			(at 101.6 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "640387-5"
+			(at 101.6 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "640387-5:TE_640387-5"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99b7dfae-d546-49b7-b6cb-cebcc9379287")
+		)
+		(pin "2"
+			(uuid "11b05218-852d-4018-ab68-d9c3ed2f6ac2")
+		)
+		(pin "3"
+			(uuid "0fe4f9cd-92c5-4f8d-8abc-d771eb5cc138")
+		)
+		(pin "4"
+			(uuid "fcffdf02-67a9-4b44-b468-6b716bb4c4ed")
+		)
+		(pin "5"
+			(uuid "4a1a93ca-9c24-4511-bfd0-9b78c0aadc25")
+		)
+		(instances
+			(project ""
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "407b93ea-61fc-4789-913c-b9a43c6e11b1")
+		(property "Reference" "#PWR043"
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4a00438-cb7f-48b5-bc72-c2c4dcef467e")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 213.36 80.01 0)
 		(mirror y)
@@ -1792,130 +1909,17 @@
 		)
 	)
 	(symbol
-		(lib_id "640445-6:640445-6")
-		(at 198.12 118.11 0)
+		(lib_id "640387-5:640387-5")
+		(at 227.33 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6e056179-6a46-44ec-ae50-1945641c04c2")
-		(property "Reference" "J6"
-			(at 204.47 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "640445-6"
-			(at 204.47 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "640445-6:TE_640445-6"
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "R"
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE"
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 198.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "55489d2c-18cd-44fc-b67a-c5d6cb7bb57d")
-		)
-		(pin "3"
-			(uuid "31adb9af-a28b-4370-a577-d27f62deb7a7")
-		)
-		(pin "4"
-			(uuid "82278227-859b-4ac0-830a-d18e49d57591")
-		)
-		(pin "1"
-			(uuid "26dfb056-47c5-48d4-be13-e5915d208453")
-		)
-		(pin "5"
-			(uuid "7fe98246-78e7-4e2e-b034-813a5bdf2e84")
-		)
-		(pin "2"
-			(uuid "a49650eb-0150-4a45-8eac-8773e476a281")
-		)
-		(instances
-			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "640445-5:640445-5")
-		(at 127 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b73cf4b-5fe1-4cd3-9d7d-b8ccd3680f7b")
+		(uuid "8cb0ec16-3c77-42fb-8203-510c393faaf7")
 		(property "Reference" "J4"
-			(at 133.35 118.1099 0)
+			(at 233.68 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,8 +1927,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "640445-5"
-			(at 133.35 120.6499 0)
+		(property "Value" "640387-5"
+			(at 233.68 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,8 +1936,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640445-5:TE_640445-5"
-			(at 127 119.38 0)
+		(property "Footprint" "640387-5:TE_640387-5"
+			(at 227.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +1947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 119.38 0)
+			(at 227.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +1956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 119.38 0)
+			(at 227.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,17 +1965,7 @@
 			)
 		)
 		(property "PARTREV" "R"
-			(at 127 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE"
-			(at 127 119.38 0)
+			(at 227.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1975,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 127 119.38 0)
+			(at 227.33 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,20 +1984,30 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "b51c9b65-9065-4079-9dc8-b1bea11e729b")
-		)
-		(pin "3"
-			(uuid "0716a036-1d2a-4e6d-a9bd-d386a5db3559")
-		)
-		(pin "4"
-			(uuid "0bad35eb-ce3a-4211-84d6-8950b9c44ef4")
-		)
-		(pin "5"
-			(uuid "3e54b94a-f916-468b-994a-ae8c15fb4844")
+		(property "MANUFACTURER" "TE"
+			(at 227.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "21fa9af3-b49c-4e4f-9936-5aed0fef9854")
+			(uuid "202a0470-45a1-4f34-9a35-0e9d10d98447")
+		)
+		(pin "2"
+			(uuid "5ab05ee3-6957-4716-961d-721a646f21f5")
+		)
+		(pin "3"
+			(uuid "12ac35cf-46d2-452a-bdfc-8c75421a89e9")
+		)
+		(pin "4"
+			(uuid "31645763-d442-4c07-a943-54c604d20bc0")
+		)
+		(pin "5"
+			(uuid "59c4469d-f474-43cc-8f9c-c76dc1cd44de")
 		)
 		(instances
 			(project "Tubender PCB"
@@ -2015,17 +2019,17 @@
 		)
 	)
 	(symbol
-		(lib_id "640445-5:640445-5")
-		(at 95.25 73.66 0)
+		(lib_id "640387-5:640387-5")
+		(at 127 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d259635c-fbd5-4b42-a993-ed788205040f")
-		(property "Reference" "J14"
-			(at 101.6 72.3899 0)
+		(uuid "98b26830-463a-461a-bffa-92a17aa24c6c")
+		(property "Reference" "J13"
+			(at 133.35 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,8 +2037,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "640445-5"
-			(at 101.6 74.9299 0)
+		(property "Value" "640387-5"
+			(at 133.35 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,8 +2046,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640445-5:TE_640445-5"
-			(at 95.25 73.66 0)
+		(property "Footprint" "640387-5:TE_640387-5"
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 73.66 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2066,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 73.66 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,17 +2075,7 @@
 			)
 		)
 		(property "PARTREV" "R"
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE"
-			(at 95.25 73.66 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2085,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 95.25 73.66 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,42 +2094,52 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a5d7cdca-8694-4e43-a400-d522317ec51c")
-		)
-		(pin "3"
-			(uuid "e8a7cdef-d9bc-414b-a1b5-142348ec64fd")
-		)
-		(pin "4"
-			(uuid "c7c8cc08-99cc-4e15-ae0f-792f65587052")
-		)
-		(pin "5"
-			(uuid "f0b33b42-180b-4b74-b7a7-2e4b7daa3bd2")
+		(property "MANUFACTURER" "TE"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "01668ee8-4d19-4187-b2f2-918a9621e12c")
+			(uuid "142dfc94-6e12-47b6-9919-6ad84cf1a79f")
+		)
+		(pin "2"
+			(uuid "7b431008-8a1e-415c-b960-3b83b2ee80b4")
+		)
+		(pin "3"
+			(uuid "dc990eba-27fa-43f7-9c14-6a00319a4328")
+		)
+		(pin "4"
+			(uuid "d0173b61-43a6-4c93-9a82-2c9b97a83e8e")
+		)
+		(pin "5"
+			(uuid "2bce0f65-e70d-4b05-8911-9aca0e71cd8a")
 		)
 		(instances
-			(project ""
+			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "640445-5:640445-5")
-		(at 227.33 73.66 0)
+		(lib_id "640387-8:640387-8")
+		(at 198.12 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e21dc9f6-dd10-4191-a787-4c93f1a5e553")
-		(property "Reference" "J3"
-			(at 233.68 72.3899 0)
+		(uuid "bf276eb5-2860-4e47-9057-3bffb12d0338")
+		(property "Reference" "J11"
+			(at 204.47 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,8 +2147,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "640445-5"
-			(at 233.68 74.9299 0)
+		(property "Value" "640387-8"
+			(at 204.47 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,8 +2156,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640445-5:TE_640445-5"
-			(at 227.33 73.66 0)
+		(property "Footprint" "640387-8:TE_640387-8"
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 73.66 0)
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2176,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 73.66 0)
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,17 +2185,7 @@
 			)
 		)
 		(property "PARTREV" "R"
-			(at 227.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE"
-			(at 227.33 73.66 0)
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2195,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 227.33 73.66 0)
+			(at 198.12 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,25 +2204,44 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2c3d9052-17e3-4abd-8436-d2d826a212ae")
-		)
-		(pin "3"
-			(uuid "a321eede-e7a3-4902-bf0b-ff5226a1c1ad")
-		)
-		(pin "4"
-			(uuid "26cf8bc6-2518-4b74-8cd9-d9755dd9b61a")
-		)
-		(pin "5"
-			(uuid "3640472c-1ae9-49c5-b998-42a9f9570d42")
+		(property "MANUFACTURER" "TE"
+			(at 198.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "9c2b5fcf-ddea-43ee-8d20-d25d193f9cfc")
+			(uuid "1427f773-cdfd-4a0f-b2e3-2f50818af086")
+		)
+		(pin "2"
+			(uuid "e7ca690c-db33-4f71-b551-418dac535b9b")
+		)
+		(pin "3"
+			(uuid "6a226da1-8c0c-424f-964b-948b0e5e4bd8")
+		)
+		(pin "8"
+			(uuid "3bdb5929-dbfd-45f9-9a04-a4ed184a0ccf")
+		)
+		(pin "4"
+			(uuid "9c23163f-e802-4b85-95a1-84fa47fe0925")
+		)
+		(pin "5"
+			(uuid "7b948dba-7386-433d-a892-6f6efeff033f")
+		)
+		(pin "7"
+			(uuid "7e2bc8c8-39c2-4d73-90e8-eb3be55dc692")
+		)
+		(pin "6"
+			(uuid "d9551635-7b8e-4f69-9289-6c20f6f6a97a")
 		)
 		(instances
-			(project "Tubender PCB"
+			(project ""
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
-					(reference "J3")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -2296,6 +2309,116 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "640387-5:640387-5")
+		(at 160.02 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a7b363-eed5-49d6-83f4-8f8033cefab4")
+		(property "Reference" "J3"
+			(at 166.37 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "640387-5"
+			(at 166.37 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "640387-5:TE_640387-5"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 160.02 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df72ec6d-0a60-4ee6-9dd3-65321a44212f")
+		)
+		(pin "2"
+			(uuid "bc7eba81-91a2-4cdc-adbd-5f29fe8ad580")
+		)
+		(pin "3"
+			(uuid "a65c2bc6-5744-4c69-ace2-296818b8f37f")
+		)
+		(pin "4"
+			(uuid "a8b9b8dd-c2e3-4afa-9b73-5d35475e163c")
+		)
+		(pin "5"
+			(uuid "2460a47b-a8ef-483e-a36f-618a626ab55d")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "J3")
 					(unit 1)
 				)
 			)
