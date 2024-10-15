@@ -548,6 +548,126 @@
 				)
 			)
 		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -646,10 +766,10 @@
 		)
 	)
 	(junction
-		(at 189.23 57.15)
+		(at 190.5 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "334ca546-12d4-4c23-a4c4-6bfc2b5ff1bb")
+		(uuid "709f8123-d430-4bc0-a31e-526482494615")
 	)
 	(junction
 		(at 111.76 57.15)
@@ -685,13 +805,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 54.61) (xy 193.04 54.61)
+			(xy 193.04 52.07) (xy 177.8 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01a50cc0-ea0a-42da-9414-3b722406d8f3")
+		(uuid "043e279f-1036-4e25-9d84-2d8905cae387")
 	)
 	(wire
 		(pts
@@ -705,23 +825,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 102.87) (xy 177.8 99.06)
+			(xy 190.5 57.15) (xy 190.5 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e1402dd-f726-4907-a6b7-bd2466b9ae94")
-	)
-	(wire
-		(pts
-			(xy 179.07 96.52) (xy 193.04 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee4248b-f60f-4472-acd4-3f7a723d362d")
+		(uuid "0f7be53d-adad-4c49-92dc-71a376c0b0a4")
 	)
 	(wire
 		(pts
@@ -745,6 +855,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 99.06) (xy 193.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a17106-644d-4e45-8dc3-1b0e67d40f2d")
+	)
+	(wire
+		(pts
 			(xy 114.3 52.07) (xy 99.06 52.07)
 		)
 		(stroke
@@ -755,6 +875,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 54.61) (xy 38.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d35b2ea-9e62-47da-8146-a999dd46da17")
+	)
+	(wire
+		(pts
 			(xy 101.6 46.99) (xy 114.3 46.99)
 		)
 		(stroke
@@ -762,6 +892,16 @@
 			(type default)
 		)
 		(uuid "1e6ee740-f2c7-4726-a909-bb84a85adfce")
+	)
+	(wire
+		(pts
+			(xy 22.86 34.29) (xy 45.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f05a36c-d665-4e9c-9f12-0259baf09643")
 	)
 	(wire
 		(pts
@@ -785,13 +925,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 44.45) (xy 193.04 44.45)
+			(xy 180.34 54.61) (xy 193.04 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4501e3fb-6a8a-4af3-8ea6-4be161ddbb1f")
+		(uuid "45e69eaa-69b8-4c06-947f-f9086a47e417")
+	)
+	(wire
+		(pts
+			(xy 43.18 74.93) (xy 38.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465e0aa0-c455-4056-8e93-08bc36ae5cf0")
 	)
 	(wire
 		(pts
@@ -805,6 +955,36 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 91.44) (xy 193.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a0b732-8e80-4875-a539-d2838b0948e9")
+	)
+	(wire
+		(pts
+			(xy 43.18 64.77) (xy 38.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ce7c42-36c4-454e-ad6d-c660139e9318")
+	)
+	(wire
+		(pts
+			(xy 24.13 38.1) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c1f7f0-9c19-4cc2-ab7f-2ceaf8f80f99")
+	)
+	(wire
+		(pts
 			(xy 102.87 92.71) (xy 116.84 92.71)
 		)
 		(stroke
@@ -812,6 +992,16 @@
 			(type default)
 		)
 		(uuid "643512ba-4f7c-47c4-a8b3-5d5482619c6c")
+	)
+	(wire
+		(pts
+			(xy 43.18 62.23) (xy 38.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c7e943-e9c8-40e5-89c1-3338a9aff7d2")
 	)
 	(wire
 		(pts
@@ -825,26 +1015,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 49.53) (xy 189.23 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d73b9b5-83c2-4261-8dde-2c3c240ef31c")
-	)
-	(wire
-		(pts
-			(xy 189.23 49.53) (xy 193.04 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74d7ff54-6ce5-4d76-aeb8-280fcd941dc5")
-	)
-	(wire
-		(pts
 			(xy 184.15 137.16) (xy 191.77 137.16)
 		)
 		(stroke
@@ -852,6 +1022,56 @@
 			(type default)
 		)
 		(uuid "802e001e-26c2-4c0f-ac1e-82d7e57466fb")
+	)
+	(wire
+		(pts
+			(xy 179.07 102.87) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c546cc-36e2-48eb-809e-aacc7dc2ed63")
+	)
+	(wire
+		(pts
+			(xy 43.18 69.85) (xy 38.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865f2992-5611-45a7-8505-8848f672cb8c")
+	)
+	(wire
+		(pts
+			(xy 190.5 49.53) (xy 190.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89408167-0e31-4f42-b78d-3393996a014f")
+	)
+	(wire
+		(pts
+			(xy 166.37 92.71) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899deb21-15fe-4a01-a63a-207947f31d4a")
+	)
+	(wire
+		(pts
+			(xy 193.04 49.53) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9296ebf6-4b6e-40d1-945b-495821ab84a9")
 	)
 	(wire
 		(pts
@@ -865,33 +1085,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 91.44) (xy 193.04 91.44)
+			(xy 177.8 44.45) (xy 193.04 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9791e47c-ffd2-440e-bf48-37f2368443a5")
-	)
-	(wire
-		(pts
-			(xy 179.07 88.9) (xy 193.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97a8820b-18f2-4e9d-9b01-13ef809bf883")
-	)
-	(wire
-		(pts
-			(xy 189.23 57.15) (xy 189.23 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c724a3-4faf-40a8-8d5a-042eec2e29d9")
+		(uuid "99938866-6df0-4de7-bdbe-82c492e4e91c")
 	)
 	(wire
 		(pts
@@ -905,16 +1105,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 93.98) (xy 193.04 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a69ba8f4-5f37-4791-afba-45346bc3674d")
-	)
-	(wire
-		(pts
 			(xy 191.77 139.7) (xy 189.23 139.7)
 		)
 		(stroke
@@ -925,13 +1115,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 52.07) (xy 193.04 52.07)
+			(xy 24.13 26.67) (xy 31.75 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3968954-1b00-4253-8df2-4ba3fa49c7ce")
+		(uuid "ba10e8fc-6bc1-40f2-9f56-ee3826b308a3")
 	)
 	(wire
 		(pts
@@ -942,6 +1132,26 @@
 			(type default)
 		)
 		(uuid "bc1b1fb3-8344-4704-add0-ab9a322610fb")
+	)
+	(wire
+		(pts
+			(xy 24.13 30.48) (xy 40.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7a24df-c1e9-470d-beba-3ae5a827393d")
+	)
+	(wire
+		(pts
+			(xy 43.18 59.69) (xy 38.1 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8319897-a01f-4a92-b452-4cc174458fe9")
 	)
 	(wire
 		(pts
@@ -985,6 +1195,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 67.31) (xy 38.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ac244a-306f-4acd-b4b2-ab878fe257b4")
+	)
+	(wire
+		(pts
 			(xy 172.72 134.62) (xy 191.77 134.62)
 		)
 		(stroke
@@ -992,16 +1212,6 @@
 			(type default)
 		)
 		(uuid "dc846c09-abc3-40d9-bad4-0ceb346dd40a")
-	)
-	(wire
-		(pts
-			(xy 189.23 57.15) (xy 193.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddca0d1f-2697-4c12-9a70-2de89284a928")
 	)
 	(wire
 		(pts
@@ -1025,6 +1235,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 88.9) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44ae609-89a5-4485-a1ae-485f4fc66b1f")
+	)
+	(wire
+		(pts
 			(xy 111.76 57.15) (xy 114.3 57.15)
 		)
 		(stroke
@@ -1035,23 +1255,43 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 99.06) (xy 193.04 99.06)
+			(xy 43.18 57.15) (xy 38.1 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec30c11a-b288-4240-a8a0-e955862a4a96")
+		(uuid "e80a6846-2478-4939-9266-01e54a5c1499")
 	)
 	(wire
 		(pts
-			(xy 163.83 92.71) (xy 163.83 91.44)
+			(xy 180.34 46.99) (xy 193.04 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efc8085c-01d9-4be6-9f9a-0a439761469b")
+		(uuid "e97ea01e-1fb9-4032-95ab-64ba25906f1a")
+	)
+	(wire
+		(pts
+			(xy 179.07 96.52) (xy 193.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec91ca47-12e4-4e13-ace6-21e206b04d97")
+	)
+	(wire
+		(pts
+			(xy 43.18 72.39) (xy 38.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfab1fa-15a3-4828-8579-c6a283264c25")
 	)
 	(wire
 		(pts
@@ -1065,6 +1305,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 57.15) (xy 193.04 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d574f8-77ab-4053-b753-c13bcd5fd42b")
+	)
+	(wire
+		(pts
 			(xy 90.17 88.9) (xy 90.17 87.63)
 		)
 		(stroke
@@ -1075,13 +1325,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 46.99) (xy 193.04 46.99)
+			(xy 182.88 93.98) (xy 193.04 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb5c93b2-2105-416e-aeb2-66a7658885e5")
+		(uuid "fe60bccc-6e12-4c25-806d-8dce918e2fb3")
 	)
 	(rectangle
 		(start 85.09 121.92)
@@ -1094,6 +1344,18 @@
 			(type none)
 		)
 		(uuid 01ee8e2b-a93a-4831-aa09-8a0cbdb6936d)
+	)
+	(rectangle
+		(start 16.51 20.32)
+		(end 58.42 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0bd7ae6c-499c-4d14-aae8-f0888a019a31)
 	)
 	(rectangle
 		(start 83.82 77.47)
@@ -1142,6 +1404,18 @@
 			(type none)
 		)
 		(uuid 6ce0093c-bee1-4377-8ddc-3145ec7fe6d4)
+	)
+	(rectangle
+		(start 16.51 50.8)
+		(end 66.04 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 785f34f2-8e95-41bc-a3f9-bf16c79ddad8)
 	)
 	(rectangle
 		(start 160.02 123.19)
@@ -1194,6 +1468,30 @@
 		)
 		(uuid "396add0a-f098-40f7-a84a-664b2514a193")
 	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 22.606 17.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "4a76b989-3e7e-476c-a00d-10feaa33b4b6")
+	)
+	(text "Inputs"
+		(exclude_from_sim no)
+		(at 22.098 48.006 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "500cd828-d174-4d94-8f9e-aa07b428101f")
+	)
 	(text "Chuck Break Beam Connector"
 		(exclude_from_sim no)
 		(at 188.976 77.47 0)
@@ -1233,9 +1531,9 @@
 		)
 		(uuid "eb254a82-e114-458d-8619-7a28345ab53b")
 	)
-	(global_label "CHUCK_BEAM"
+	(global_label "ADVANCE_LIMIT_2"
 		(shape input)
-		(at 184.15 93.98 180)
+		(at 38.1 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1243,9 +1541,119 @@
 			)
 			(justify right)
 		)
-		(uuid "36300b0e-645b-4143-bc9c-d0cb2e78070d")
+		(uuid "0973a794-892b-4286-98b4-313a90020053")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.7672 93.98 0)
+			(at 19.0281 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADVANCE_LIMIT_1"
+		(shape input)
+		(at 38.1 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a7a6dd9-b268-4987-a95d-d765e3ac218f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.0281 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INDUCTIVE_PROX_1"
+		(shape input)
+		(at 38.1 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10e2e353-78bc-4f70-a0b1-f177b0674d46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2743 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INDUCTIVE_PROX_2"
+		(shape input)
+		(at 38.1 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "301be200-b387-4060-981d-88100a0eb541")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2743 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADVANCE_LIMIT_2"
+		(shape input)
+		(at 227.33 -158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "352ef803-d962-4a89-9dcf-6ce620c3567b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.2581 -158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADVANCE_LIMIT_1"
+		(shape input)
+		(at 227.33 -166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "395176f7-fc43-44ea-9c7a-0964d94ee75a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.2581 -166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,6 +1676,28 @@
 		(uuid "3a52a894-d5e7-4451-8ef1-a5a0bc836512")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.4733 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIE_BEAM"
+		(shape input)
+		(at 38.1 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d32ac10-203b-4550-92c7-94e5efccf119")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1644 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,6 +1731,28 @@
 	)
 	(global_label "DIE_LIMIT_1"
 		(shape input)
+		(at 38.1 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f172f67-7edf-4414-b488-d6828235c346")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.2896 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIE_LIMIT_1"
+		(shape input)
 		(at 101.6 46.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1312,6 +1764,28 @@
 		(uuid "8b28e600-d40d-49fc-bc8e-610eeeb296bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.7896 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BENDING_LIN_POT"
+		(shape input)
+		(at 38.1 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "957fae46-24e3-430f-bbd9-8bb0ae7293ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.4233 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,9 +1817,53 @@
 			)
 		)
 	)
+	(global_label "CHUCK_BEAM"
+		(shape input)
+		(at 38.1 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0d64486-4b4c-4ced-8379-ebb8ce7733d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7172 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CHUCK_BEAM"
+		(shape input)
+		(at 182.88 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8c2086c-6bff-4c7c-8fcc-271a9d65c4cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.4972 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADVANCE_LIMIT_1"
 		(shape input)
-		(at 181.61 46.99 180)
+		(at 180.34 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1355,7 +1873,7 @@
 		)
 		(uuid "c185162c-171d-4fd9-9a6e-ae528f0daa9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.5381 46.99 0)
+			(at 161.2681 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1907,7 @@
 	)
 	(global_label "ADVANCE_LIMIT_2"
 		(shape input)
-		(at 181.61 54.61 180)
+		(at 180.34 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1399,7 +1917,7 @@
 		)
 		(uuid "da6f9af1-d7ca-4391-8934-8f58c57d51d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.5381 54.61 0)
+			(at 161.2681 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,21 +1949,9 @@
 			)
 		)
 	)
-	(hierarchical_label "5V"
-		(shape output)
-		(at 102.87 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "17c06558-9f82-4784-ae13-88f054c486b4")
-	)
-	(hierarchical_label "12V"
+	(global_label "DIE_LIMIT_2"
 		(shape input)
-		(at 177.8 52.07 180)
+		(at 38.1 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1453,11 +1959,21 @@
 			)
 			(justify right)
 		)
-		(uuid "22780a48-873d-4432-8fba-4c4c6b466fcb")
+		(uuid "ee025def-076a-4c0d-a677-80a8fd14b0c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.2896 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "12V"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 99.06 52.07 180)
+		(at 24.13 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1465,71 +1981,11 @@
 			)
 			(justify right)
 		)
-		(uuid "27ff0b33-e2b9-4271-b876-e5be2a218938")
-	)
-	(hierarchical_label "5V"
-		(shape output)
-		(at 179.07 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d7be607-47ba-4942-91ea-beb06f8b8321")
-	)
-	(hierarchical_label "12V"
-		(shape input)
-		(at 99.06 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3325a7f6-29bf-43e2-8a72-4ff5e653312c")
-	)
-	(hierarchical_label "5V"
-		(shape output)
-		(at 102.87 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47058243-9080-4380-a3a0-8e7195acbfc4")
-	)
-	(hierarchical_label "12V"
-		(shape input)
-		(at 177.8 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f5fd1a9-4f97-40e0-83a4-aff83a50cb34")
-	)
-	(hierarchical_label "12V"
-		(shape input)
-		(at 96.52 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4a4e978-fd85-4f90-933e-d10098c13370")
+		(uuid "213257f5-0cd6-4444-900b-a02d98963a11")
 	)
 	(hierarchical_label "24V"
 		(shape input)
-		(at 172.72 134.62 180)
+		(at 24.13 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1537,11 +1993,119 @@
 			)
 			(justify right)
 		)
-		(uuid "d59d18ea-f261-474f-975f-776b86db4278")
+		(uuid "2149e473-0450-4169-ad51-5d9cdaa3cb24")
+	)
+	(hierarchical_label "DIE_BEAM"
+		(shape input)
+		(at 43.18 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e149400-ed5e-43f5-bdda-8f4638b46929")
+	)
+	(hierarchical_label "ADVANCE_LIMIT_1"
+		(shape input)
+		(at 43.18 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c13ca36-2ced-40a1-9415-f2421cdddc99")
+	)
+	(hierarchical_label "ADVANCE_LIMIT_2"
+		(shape input)
+		(at 43.18 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90c854b9-f292-47fc-8d6a-35a1b2f81e08")
+	)
+	(hierarchical_label "DIE_LIMIT_2"
+		(shape input)
+		(at 43.18 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94f144d3-0c73-4a4d-a262-43e669ca3619")
+	)
+	(hierarchical_label "INDUCTIVE_PROX_2"
+		(shape input)
+		(at 43.18 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97c46930-5fa5-49a4-a14f-ce26c17ed8f2")
+	)
+	(hierarchical_label "DIE_LIMIT_1"
+		(shape input)
+		(at 43.18 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7ce5a4d-5c28-4ed3-b5e5-1a4c2d267b18")
+	)
+	(hierarchical_label "BENDING_LIN_POT"
+		(shape input)
+		(at 43.18 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6aed160-9d13-486c-ac5b-905d8a7fba55")
+	)
+	(hierarchical_label "CHUCK_BEAM"
+		(shape input)
+		(at 43.18 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8ccc29a-e9f8-4750-af37-4841ea8f88c0")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 22.86 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dde179ef-2b24-4543-ab9f-5103981a26c2")
 	)
 	(hierarchical_label "12V"
 		(shape input)
-		(at 96.52 130.81 180)
+		(at 24.13 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1549,19 +2113,214 @@
 			)
 			(justify right)
 		)
-		(uuid "dd6b37e9-9208-4006-8814-c48c7b69a2be")
+		(uuid "f9ecc0be-9399-4d3e-a3c7-5f16dd6be3dd")
 	)
-	(hierarchical_label "5V"
-		(shape output)
-		(at 179.07 88.9 180)
+	(hierarchical_label "INDUCTIVE_PROX_1"
+		(shape input)
+		(at 43.18 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f1ec7a1d-bde4-4723-a21f-8c91823c82cd")
+		(uuid "fc8692f3-adc0-4676-857f-8ea51fbdf335")
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 96.52 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0715c69f-9037-4e63-9c38-23265a7fc4b1")
+		(property "Reference" "#PWR0100"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 92.964 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 96.52 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8839967d-3eba-45ac-a00b-69995d2cbec1")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 102.87 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c5638fd-df8e-47b5-9851-523f6ce58317")
+		(property "Reference" "#PWR092"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 99.568 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc79c06-5a43-4cf7-8997-483675ed9b9e")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 179.07 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11c03b09-8ad5-4465-bf57-e8a6fd531e1e")
+		(property "Reference" "#PWR096"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 173.736 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a2297cf-c7de-4ed2-82bb-1a049c79db50")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1630,6 +2389,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 40.64 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c13861f-ebc3-4ab2-a1f8-a53e34583646")
+		(property "Reference" "#PWR080"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 40.64 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebedf3a1-9e91-4750-ad31-fb19adc7391f")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 60.96 0)
 		(unit 1)
@@ -1690,6 +2514,267 @@
 			(project ""
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2683272d-dcce-4b57-803b-df325ee88cdf")
+		(property "Reference" "#PWR097"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccffb595-c075-4b87-835a-8150a97c74cc")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 99.06 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3258598d-d72f-4660-958e-ceed43ddd185")
+		(property "Reference" "#PWR090"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 95.504 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f5283fa-1714-4c3c-84de-1e128e7b6d3f")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 172.72 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4324e131-dc6a-4c82-ba1b-a290611d97b6")
+		(property "Reference" "#PWR0102"
+			(at 172.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 172.72 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 172.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fde457da-adfb-42ab-8f09-ef42e5a452ab")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 99.06 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43777682-0dbc-4a14-8edc-e69e2abb9bb9")
+		(property "Reference" "#PWR091"
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 95.504 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "034854f0-af5b-4022-8303-124bbfd45cff")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -1904,6 +2989,136 @@
 			(project ""
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 31.75 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "638364eb-5235-4d07-a358-cce5cc31f9bc")
+		(property "Reference" "#PWR079"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 31.75 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 31.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da0249b0-fe8f-493d-a826-ade6c381f5de")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 45.72 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b205faa-403c-4d6d-9c07-da0fa94e3d14")
+		(property "Reference" "#PWR081"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.72 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84d6fc49-18c6-464e-8c4b-4596a16de71e")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -2133,6 +3348,333 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 177.8 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "788b6799-3cad-408b-bc16-975268224023")
+		(property "Reference" "#PWR098"
+			(at 177.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 174.244 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd500e93-e55c-425f-bde7-42184fe8cfcb")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 96.52 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e0ca857-d16b-4977-969e-3928d8b85c5c")
+		(property "Reference" "#PWR0101"
+			(at 96.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 92.964 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c00d4d2c-058d-4dc3-860c-5816ee7c67c5")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80fc52d4-1263-4c80-b0ec-9c93ab663db4")
+		(property "Reference" "#PWR094"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "443e7469-a6ae-4129-b202-787705a6e347")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c2381d4-b398-4ea0-94a1-d85d59565440")
+		(property "Reference" "#PWR099"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cbc50c7-b01d-458b-9681-7dd29f56137b")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 179.07 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91a2a6ff-b874-4329-a4ad-a341fda0f543")
+		(property "Reference" "#PWR095"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 175.768 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb9b6e6b-62dd-4205-b86f-49e8ce8b4e2e")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 148.59 0)
 		(unit 1)
@@ -2200,16 +3742,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 102.87 0)
+		(at 50.8 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9fb2d43-fbf4-425c-8e97-428f09c78f72")
-		(property "Reference" "#PWR038"
-			(at 177.8 109.22 0)
+		(uuid "ab995708-e1b5-4e6a-8119-736401a0933f")
+		(property "Reference" "#PWR082"
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +3759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 107.95 0)
+			(at 50.8 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +3767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 102.87 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +3776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 102.87 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +3785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 102.87 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,12 +3794,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "acd582b2-f69c-4bdb-89f8-01973f6ccbd8")
+			(uuid "19af07e5-a2c6-4cb2-977c-6b6a1895cb8b")
 		)
 		(instances
-			(project "Tubender PCB"
+			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
-					(reference "#PWR038")
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 177.8 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6297b5a-db48-424f-b791-ef3706602b7f")
+		(property "Reference" "#PWR040"
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 174.244 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 177.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac829bc9-6d03-4793-bca4-defde0e15d7c")
+		)
+		(instances
+			(project "Tubender Main_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2379,72 +3985,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c85c73e0-8171-409f-a160-efbbc7d5d5e2")
-		(property "Reference" "#PWR036"
-			(at 189.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e06e9ca-4c03-47c2-9fc1-2812919ac738")
-		)
-		(instances
-			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 189.23 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2510,17 +4050,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 92.71 0)
+		(lib_id "power:+24V")
+		(at 102.87 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f415a879-faf7-4113-8259-b06ff30e350f")
-		(property "Reference" "#PWR040"
-			(at 163.83 99.06 0)
+		(uuid "efcc913d-3ae9-4f1d-a832-9f35101c41b0")
+		(property "Reference" "#PWR093"
+			(at 106.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,8 +4067,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 163.83 97.79 0)
+		(property "Value" "+5V"
+			(at 97.536 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +4076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 92.71 0)
+			(at 102.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +4085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 92.71 0)
+			(at 102.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,8 +4093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 92.71 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 102.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,12 +4103,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e68c1a92-9590-43d0-8dd1-1ac449dc62d4")
+			(uuid "9b6333d4-0d69-4723-9750-0b0f1cd1400b")
 		)
 		(instances
-			(project "Tubender PCB"
+			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
-					(reference "#PWR040")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
