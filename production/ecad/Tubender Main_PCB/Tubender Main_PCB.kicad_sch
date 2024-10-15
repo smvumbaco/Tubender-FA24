@@ -9,7 +9,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 153.67 17.78)
+		(at 148.59 17.78)
 		(size 77.47 68.58)
 		(stroke
 			(width 0.1524)
@@ -20,7 +20,7 @@
 		)
 		(uuid "13aa630f-a113-42e5-a444-8a43936e9c33")
 		(property "Sheetname" "MOTORS & ACTUATORS"
-			(at 171.196 51.308 0)
+			(at 166.116 51.308 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "motors_actuators.kicad_sch"
-			(at 153.67 86.9446 0)
+			(at 148.59 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "Tubender PCB"
+			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
 					(page "3")
 				)
@@ -129,7 +129,7 @@
 			(uuid "16423616-ec92-468e-bcb6-36f7d8ec866e")
 		)
 		(instances
-			(project "Tubender PCB"
+			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
 					(page "2")
 				)
@@ -137,8 +137,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 95.25)
-		(size 81.28 68.58)
+		(at 147.32 93.98)
+		(size 78.74 68.58)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -148,7 +148,7 @@
 		)
 		(uuid "970b1c80-6c89-48ca-aa97-a5b3735d13b7")
 		(property "Sheetname" "CONTROL"
-			(at 137.922 130.556 0)
+			(at 178.562 129.286 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -159,7 +159,7 @@
 			)
 		)
 		(property "Sheetfile" "control.kicad_sch"
-			(at 106.68 164.4146 0)
+			(at 147.32 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,7 +168,7 @@
 			)
 		)
 		(instances
-			(project "Tubender PCB"
+			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
 					(page "5")
 				)
@@ -176,7 +176,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 95.25)
+		(at 58.42 95.25)
 		(size 80.01 68.58)
 		(stroke
 			(width 0.1524)
@@ -187,7 +187,7 @@
 		)
 		(uuid "cace885d-07c2-48b7-a983-3b69a09d8a62")
 		(property "Sheetname" "SENSORS"
-			(at 45.466 130.556 0)
+			(at 87.376 130.556 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -198,7 +198,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 16.51 164.4146 0)
+			(at 58.42 164.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,48 +207,9 @@
 			)
 		)
 		(instances
-			(project "Tubender PCB"
+			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 198.12 93.98)
-		(size 78.74 68.58)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f5482ea7-2c7e-4b8c-980a-1e009a8c23d8")
-		(property "Sheetname" "USER INTERFACE"
-			(at 221.488 130.556 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-					(thickness 0.508)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "user_interface.kicad_sch"
-			(at 198.12 163.1446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927"
-					(page "6")
 				)
 			)
 		)

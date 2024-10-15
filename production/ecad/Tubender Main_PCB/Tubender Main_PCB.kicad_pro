@@ -433,7 +433,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Tubender PCB.kicad_pro",
+    "filename": "Tubender Main_PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -604,10 +604,6 @@
     [
       "970b1c80-6c89-48ca-aa97-a5b3735d13b7",
       "CONTROL"
-    ],
-    [
-      "f5482ea7-2c7e-4b8c-980a-1e009a8c23d8",
-      "USER INTERFACE"
     ]
   ],
   "text_variables": {}
