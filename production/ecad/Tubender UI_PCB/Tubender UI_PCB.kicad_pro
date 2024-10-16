@@ -433,7 +433,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Tubender Main_PCB.kicad_pro",
+    "filename": "Tubender UI_PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -590,20 +590,8 @@
       "Root"
     ],
     [
-      "3bac66d4-e1f2-42c2-b72f-be753c44ff12",
-      "POWER"
-    ],
-    [
-      "13aa630f-a113-42e5-a444-8a43936e9c33",
-      "MOTORS & ACTUATORS"
-    ],
-    [
-      "cace885d-07c2-48b7-a983-3b69a09d8a62",
-      "SENSORS"
-    ],
-    [
-      "970b1c80-6c89-48ca-aa97-a5b3735d13b7",
-      "CONTROL"
+      "3052d7ff-6484-4cba-b320-c154d511606f",
+      "USER INTERFACE"
     ]
   ],
   "text_variables": {}
