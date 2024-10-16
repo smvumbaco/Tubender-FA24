@@ -9437,6 +9437,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 52.07) (xy 344.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bbc28d-558a-4141-be0b-2427413f7c91")
+	)
+	(wire
+		(pts
 			(xy 293.37 52.07) (xy 289.56 52.07)
 		)
 		(stroke
@@ -10929,6 +10939,28 @@
 		(uuid "134504a4-84c7-4994-9a5d-2f2495c89333")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 324.2514 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIAL_BUTTON"
+		(shape input)
+		(at 340.36 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1468e229-74d3-4bea-88ef-79fc7e2d8df0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.219 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13801,7 +13833,7 @@
 		(uuid "0af08fcf-f046-40a9-89e9-98f17cb7b5f2")
 	)
 	(hierarchical_label "DIAL_CHANNEL_B"
-		(shape input)
+		(shape output)
 		(at 344.17 46.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13897,7 +13929,7 @@
 		(uuid "434a99d1-84dd-4b8f-8dee-44d9397d4404")
 	)
 	(hierarchical_label "DISPLAY_WAIT"
-		(shape input)
+		(shape output)
 		(at 344.17 24.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13969,7 +14001,7 @@
 		(uuid "85f6a5af-cc56-4b40-8c3c-8ef78bb0ebb4")
 	)
 	(hierarchical_label "DISPLAY_MISO"
-		(shape input)
+		(shape output)
 		(at 344.17 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13981,7 +14013,7 @@
 		(uuid "896a27b7-f17d-4cfa-9cd2-8ab2965e97b5")
 	)
 	(hierarchical_label "BUTTON_PLEX_1"
-		(shape input)
+		(shape output)
 		(at 293.37 24.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14041,7 +14073,7 @@
 		(uuid "bb024dbd-6126-4819-bb66-80b2e3300945")
 	)
 	(hierarchical_label "BUTTON_PLEX_2"
-		(shape input)
+		(shape output)
 		(at 293.37 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14065,7 +14097,7 @@
 		(uuid "c0875797-a7e2-4f22-be1c-5d3c01c56d0e")
 	)
 	(hierarchical_label "DIAL_CHANNEL_A"
-		(shape input)
+		(shape output)
 		(at 344.17 49.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14076,8 +14108,20 @@
 		)
 		(uuid "e31d593a-a158-4c7a-b69a-c0b73215c13a")
 	)
+	(hierarchical_label "DIAL_BUTTON"
+		(shape output)
+		(at 344.17 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea83d98b-abb3-4427-9e94-25b5a25765ed")
+	)
 	(hierarchical_label "DISPLAY_INT"
-		(shape input)
+		(shape output)
 		(at 344.17 26.67 0)
 		(fields_autoplaced yes)
 		(effects
