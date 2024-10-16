@@ -11848,7 +11848,7 @@
 		(uuid "01f55b50-5d13-4f2a-98c6-fd748718bc75")
 	)
 	(hierarchical_label "CHUCK_CLAMP_ENA+"
-		(shape input)
+		(shape output)
 		(at 52.07 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11860,7 +11860,7 @@
 		(uuid "04daeb2c-6d5b-4670-b8c0-8ad0f7217fe3")
 	)
 	(hierarchical_label "BENDING_LPWM"
-		(shape input)
+		(shape output)
 		(at 52.07 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11956,7 +11956,7 @@
 		(uuid "191b2bbd-7fee-49a5-a70f-a19337be10eb")
 	)
 	(hierarchical_label "CHUCK_CLAMP_DIR+"
-		(shape input)
+		(shape output)
 		(at 52.07 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11980,7 +11980,7 @@
 		(uuid "27ce3760-ebf6-4136-8124-2163e8da6928")
 	)
 	(hierarchical_label "DIE_CLAMP_PUL+"
-		(shape input)
+		(shape output)
 		(at 52.07 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11992,7 +11992,7 @@
 		(uuid "29c1b65b-dba5-4d37-b139-aa682df20a58")
 	)
 	(hierarchical_label "ROTATION_PUL+"
-		(shape input)
+		(shape output)
 		(at 52.07 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12136,7 +12136,7 @@
 		(uuid "6cb471d6-1a43-43de-97a5-544bd1509f57")
 	)
 	(hierarchical_label "ROTATION_DIR+"
-		(shape input)
+		(shape output)
 		(at 52.07 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12148,7 +12148,7 @@
 		(uuid "6ef8f9e0-48df-498c-909f-daf783defdec")
 	)
 	(hierarchical_label "ROTATION_ENA+"
-		(shape input)
+		(shape output)
 		(at 52.07 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12232,7 +12232,7 @@
 		(uuid "9267c1f6-7b5d-4e1d-b3f8-2bf595fb646f")
 	)
 	(hierarchical_label "DIE_CLAMP_DIR+"
-		(shape input)
+		(shape output)
 		(at 52.07 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12268,7 +12268,7 @@
 		(uuid "a2c18d82-27ff-4cd8-a8e5-b59f3d5b41f8")
 	)
 	(hierarchical_label "CHUCK_CLAMP_PUL+"
-		(shape input)
+		(shape output)
 		(at 52.07 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12280,7 +12280,7 @@
 		(uuid "abe3ceb0-9049-4e38-963f-875644356216")
 	)
 	(hierarchical_label "BENDING_L_ENA"
-		(shape input)
+		(shape output)
 		(at 52.07 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12292,7 +12292,7 @@
 		(uuid "b7022a9a-91f6-474e-a44c-327a5d985b96")
 	)
 	(hierarchical_label "ADVANCING_PUL+"
-		(shape input)
+		(shape output)
 		(at 52.07 67.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12304,7 +12304,7 @@
 		(uuid "b7c3a8dd-d249-4452-9d03-e7529c39511b")
 	)
 	(hierarchical_label "DIE_CLAMP_ENA+"
-		(shape input)
+		(shape output)
 		(at 52.07 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12352,7 +12352,7 @@
 		(uuid "d718e68e-9547-4797-859d-2503d2bf335c")
 	)
 	(hierarchical_label "ADVANCING_ENA+"
-		(shape input)
+		(shape output)
 		(at 52.07 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12400,7 +12400,7 @@
 		(uuid "e86a7b51-e83b-40d0-907e-bc07ad19594c")
 	)
 	(hierarchical_label "ADVANCING_DIR+"
-		(shape input)
+		(shape output)
 		(at 52.07 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12412,7 +12412,7 @@
 		(uuid "e96a4ec2-4e41-40b2-b197-45e50247463a")
 	)
 	(hierarchical_label "BENDING_R_ENA"
-		(shape input)
+		(shape output)
 		(at 52.07 113.03 0)
 		(fields_autoplaced yes)
 		(effects
