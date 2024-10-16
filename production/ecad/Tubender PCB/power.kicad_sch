@@ -535,6 +535,274 @@
 				)
 			)
 		)
+		(symbol "5006:5006"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5006"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "5006:KEYSTONE_5006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5006_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "640387-2:640387-2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.58 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "640387-2"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "640387-2:TE_640387-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "640387-2_0_0"
+				(rectangle
+					(start -5.08 -2.54)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3366,6 +3634,12 @@
 		(uuid "1eeb577d-4981-4b63-ba1b-b7c8ed149755")
 	)
 	(junction
+		(at 267.97 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24bf34c9-349b-4e70-a419-2034c686b2bf")
+	)
+	(junction
 		(at 34.29 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3424,6 +3698,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48a1f248-0b62-4a46-89ed-9f184c06fc27")
+	)
+	(junction
+		(at 248.92 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4beeb2cf-1e45-44bb-8626-ec7c0ba31298")
 	)
 	(junction
 		(at 198.12 113.03)
@@ -3492,6 +3772,12 @@
 		(uuid "8ae9a4fc-c5e6-4b6d-a3b9-da01eb1a3a5d")
 	)
 	(junction
+		(at 210.82 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d6be30c-eec5-4792-8fe4-3952de72cbd8")
+	)
+	(junction
 		(at 193.04 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3552,6 +3838,12 @@
 		(uuid "c22f3d24-0551-4506-9dcd-4eee14eb11fc")
 	)
 	(junction
+		(at 193.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c29a404f-c720-43f3-bbc8-5d4a3ec0d1ee")
+	)
+	(junction
 		(at 27.94 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3580,6 +3872,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb79d1e9-e243-4159-92f0-056ca30dac8c")
+	)
+	(junction
+		(at 229.87 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee9a2006-3093-481d-8371-d5292f2c9f67")
 	)
 	(junction
 		(at 198.12 38.1)
@@ -3719,6 +4017,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 27.94) (xy 127 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0e6754-5cfb-4122-9e21-917a41ae3bdb")
+	)
+	(wire
+		(pts
 			(xy 222.25 93.98) (xy 228.6 93.98)
 		)
 		(stroke
@@ -3769,7 +4077,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 142.24) (xy 210.82 143.51)
+			(xy 210.82 142.24) (xy 210.82 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3829,7 +4137,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 148.59) (xy 248.92 149.86)
+			(xy 248.92 149.86) (xy 248.92 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3876,6 +4184,16 @@
 			(type default)
 		)
 		(uuid "25a135c8-c392-4e74-b569-0b3f20875c38")
+	)
+	(wire
+		(pts
+			(xy 127 24.13) (xy 127 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264a9287-762c-4c89-85fc-9e42f61530d1")
 	)
 	(wire
 		(pts
@@ -4029,7 +4347,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 142.24) (xy 267.97 143.51)
+			(xy 267.97 142.24) (xy 267.97 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4259,7 +4577,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 148.59) (xy 229.87 149.86)
+			(xy 229.87 149.86) (xy 229.87 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4339,7 +4657,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 157.48) (xy 229.87 157.48)
+			(xy 234.95 158.75) (xy 229.87 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4369,7 +4687,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 142.24) (xy 229.87 143.51)
+			(xy 229.87 142.24) (xy 229.87 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4599,7 +4917,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 148.59) (xy 267.97 149.86)
+			(xy 267.97 149.86) (xy 267.97 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4839,7 +5157,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 142.24) (xy 193.04 143.51)
+			(xy 193.04 142.24) (xy 193.04 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4949,7 +5267,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 157.48) (xy 267.97 157.48)
+			(xy 271.78 158.75) (xy 267.97 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5079,13 +5397,23 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 148.59) (xy 210.82 149.86)
+			(xy 210.82 149.86) (xy 210.82 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d46f230c-11ad-4ebc-8163-3c8ccb7cb14d")
+	)
+	(wire
+		(pts
+			(xy 127 25.4) (xy 130.81 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47a63ee-7b14-47ed-9af9-3fd7335c8f88")
 	)
 	(wire
 		(pts
@@ -5109,7 +5437,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 157.48) (xy 210.82 157.48)
+			(xy 215.9 158.75) (xy 210.82 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5189,7 +5517,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 157.48) (xy 248.92 157.48)
+			(xy 252.73 158.75) (xy 248.92 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5289,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 27.94) (xy 127 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddf9085-b9ac-4003-8022-77fb9effdc63")
+	)
+	(wire
+		(pts
 			(xy 156.21 130.81) (xy 163.83 130.81)
 		)
 		(stroke
@@ -5319,7 +5657,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 157.48) (xy 193.04 157.48)
+			(xy 196.85 158.75) (xy 193.04 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5349,7 +5687,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 142.24) (xy 248.92 143.51)
+			(xy 248.92 142.24) (xy 248.92 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5389,7 +5727,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 148.59) (xy 193.04 149.86)
+			(xy 193.04 149.86) (xy 193.04 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5530,6 +5868,18 @@
 		(uuid 0273f052-bc77-4890-ab14-c5a9d96bbda5)
 	)
 	(rectangle
+		(start 122.428 18.542)
+		(end 161.29 36.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2dd70295-9cfa-4fee-bce0-fec77cb5781f)
+	)
+	(rectangle
 		(start 180.34 21.59)
 		(end 273.05 69.85)
 		(stroke
@@ -5625,6 +5975,18 @@
 		)
 		(uuid "58b2d427-85c5-41ed-90e5-7f16a9cc7eb7")
 	)
+	(text "Power Supply In"
+		(exclude_from_sim no)
+		(at 138.43 16.51 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "6674d355-cd9d-44c7-80c7-b792725b79f8")
+	)
 	(text "24V Buck Circuit"
 		(exclude_from_sim yes)
 		(at 32.004 38.608 0)
@@ -5662,7 +6024,7 @@
 		(uuid "cf1c992b-0fe3-4dad-bf49-bf68b6bffa11")
 	)
 	(hierarchical_label "24V"
-		(shape input)
+		(shape output)
 		(at 22.86 27.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5674,7 +6036,7 @@
 		(uuid "3d0f8fa1-175e-40ef-a5cf-322d0c61d8b2")
 	)
 	(hierarchical_label "5V"
-		(shape input)
+		(shape output)
 		(at 48.26 27.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5686,7 +6048,7 @@
 		(uuid "8a73cf3a-670d-41aa-ade7-eadd1f08ad6f")
 	)
 	(hierarchical_label "48V"
-		(shape input)
+		(shape output)
 		(at 22.86 24.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5698,7 +6060,7 @@
 		(uuid "a837c2b8-7ddf-4aa5-9464-23ae32ef01cc")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape output)
 		(at 81.28 27.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5710,7 +6072,7 @@
 		(uuid "bdb00295-2b69-40fa-bde8-d59f7866081b")
 	)
 	(hierarchical_label "12V"
-		(shape input)
+		(shape output)
 		(at 48.26 24.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5722,7 +6084,7 @@
 		(uuid "e018e8c2-bc2a-4047-b321-f4133ca9f6e3")
 	)
 	(hierarchical_label "3.3V"
-		(shape input)
+		(shape output)
 		(at 81.28 24.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5732,6 +6094,74 @@
 			(justify right)
 		)
 		(uuid "e8a07063-3f7d-46a2-a19a-5f2b2feb3f2a")
+	)
+	(symbol
+		(lib_id "WL-SMCW_0603:WL-SMCW_0603")
+		(at 210.82 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "058d5a50-53ca-463b-adc4-2b08f021a2e1")
+		(property "Reference" "D7"
+			(at 205.994 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 213.868 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d8a62c8-b043-406f-ac07-4f29422b2e0b")
+		)
+		(pin "1"
+			(uuid "26fc922f-f327-4874-8acd-91fcd91a6b62")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5869,77 +6299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "WL-SMCW_0603:WL-SMCW_0603")
-		(at 229.87 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b240584-96de-49db-857d-5250ebe43893")
-		(property "Reference" "D_IND12"
-			(at 217.424 152.654 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WL-SMCW_0603"
-			(at 217.932 157.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
-			(at 229.87 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91fe9577-d46e-4444-a61b-925c7923b597")
-		)
-		(pin "2"
-			(uuid "d41d2736-e3cb-43e6-be78-4bd69a7384b5")
-		)
-		(instances
-			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
-					(reference "D_IND12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:CSD19502Q5B")
 		(at 121.92 118.11 0)
 		(unit 1)
@@ -6016,6 +6375,122 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5006:5006")
+		(at 187.96 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1286de95-9934-4f72-9737-874ea8a6d5c4")
+		(property "Reference" "TP1"
+			(at 184.404 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5006"
+			(at 187.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5006:KEYSTONE_5006"
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5006"
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 187.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "cf38b664-5b99-4c5c-91dd-d1a5c45e1ba4")
+		)
+		(instances
+			(project ""
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6992,7 +7467,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 157.48 0)
+		(at 215.9 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7001,7 +7476,7 @@
 		(fields_autoplaced yes)
 		(uuid "360afdf3-afe1-4fa5-80ad-5da28b3fd558")
 		(property "Reference" "#PWR063"
-			(at 215.9 163.83 0)
+			(at 215.9 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 162.56 0)
+			(at 215.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 157.48 0)
+			(at 215.9 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,7 +7502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 157.48 0)
+			(at 215.9 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 157.48 0)
+			(at 215.9 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,6 +7526,74 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WL-SMCW_0603:WL-SMCW_0603")
+		(at 267.97 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36b5ebf3-ea3e-4f3f-b8b6-174d45c1e15a")
+		(property "Reference" "D10"
+			(at 263.144 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 271.018 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+			(at 267.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdddc971-e65f-4013-aba5-b145c22372c8")
+		)
+		(pin "1"
+			(uuid "d09e4566-5124-4a03-8b4e-20740c1f38a4")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7128,7 +7671,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 267.97 146.05 0)
+		(at 267.97 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7136,7 +7679,7 @@
 		(dnp no)
 		(uuid "3d8aa21a-9803-4d01-ad51-c201758cb306")
 		(property "Reference" "R_IND3"
-			(at 260.35 144.018 0)
+			(at 260.35 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7144,8 +7687,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.4"
-			(at 262.89 146.558 0)
+		(property "Value" "440"
+			(at 262.89 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7154,7 +7697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 146.05 0)
+			(at 267.97 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7163,7 +7706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 146.05 0)
+			(at 267.97 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7715,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 267.97 146.05 0)
+			(at 267.97 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7603,15 +8146,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 210.82 146.05 0)
+		(at 210.82 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "562258c4-a156-4350-ae52-b690e81c229f")
-		(property "Reference" "R_IND1"
-			(at 201.93 144.018 0)
+		(property "Reference" "R_IND24"
+			(at 201.93 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,8 +8162,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600"
-			(at 201.93 146.558 0)
+		(property "Value" "3.2k"
+			(at 201.93 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +8172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 146.05 0)
+			(at 210.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +8181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 146.05 0)
+			(at 210.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +8190,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 210.82 146.05 0)
+			(at 210.82 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,7 +8207,7 @@
 		(instances
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
-					(reference "R_IND1")
+					(reference "R_IND24")
 					(unit 1)
 				)
 			)
@@ -7672,34 +8215,31 @@
 	)
 	(symbol
 		(lib_id "WL-SMCW_0603:WL-SMCW_0603")
-		(at 210.82 154.94 90)
+		(at 248.92 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "571f69e4-e5d9-488b-bb6a-6b4ca7aeca51")
-		(property "Reference" "D_IND1"
-			(at 199.644 151.892 90)
+		(uuid "5cdc82d2-ed62-4bed-ac3a-651c6e41c91b")
+		(property "Reference" "D9"
+			(at 244.094 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "WL-SMCW_0603"
-			(at 194.818 154.686 90)
+		(property "Value" "BLUE"
+			(at 251.968 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
-			(at 210.82 154.94 0)
+			(at 248.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7709,7 +8249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 154.94 0)
+			(at 248.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7718,7 +8258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 154.94 0)
+			(at 248.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,16 +8266,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6efddeab-b6d9-4d1e-89b2-a3ddb56537f0")
-		)
 		(pin "2"
-			(uuid "36c04b95-659d-41ba-96e9-73ae6cd8ae61")
+			(uuid "40ad707a-eb6c-4bea-ad17-e95dc9bfffad")
+		)
+		(pin "1"
+			(uuid "9e674f63-8843-49b8-9f7f-80187781856e")
 		)
 		(instances
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
-					(reference "D_IND1")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7873,6 +8413,122 @@
 		)
 	)
 	(symbol
+		(lib_id "5006:5006")
+		(at 243.84 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61cd46c9-28d4-40b5-bb95-52b17d902367")
+		(property "Reference" "TP4"
+			(at 240.284 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5006"
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5006:KEYSTONE_5006"
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5006"
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 243.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "7e9a7b79-dda0-4814-ba27-bb7382de7640")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 262.89 86.36 90)
 		(unit 1)
@@ -7935,77 +8591,6 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "C_VCC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WL-SMCW_0603:WL-SMCW_0603")
-		(at 248.92 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69a50480-0156-4dd3-95c0-e3b041763ad3")
-		(property "Reference" "D_IND5"
-			(at 238.506 152.146 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WL-SMCW_0603"
-			(at 240.538 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
-			(at 248.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3091116-56d2-4d58-bf01-4dd1f43fd456")
-		)
-		(pin "2"
-			(uuid "0f502438-e725-4496-ac21-108d661d3cac")
-		)
-		(instances
-			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
-					(reference "D_IND5")
 					(unit 1)
 				)
 			)
@@ -8418,7 +9003,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 248.92 146.05 0)
+		(at 248.92 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8426,7 +9011,7 @@
 		(dnp no)
 		(uuid "76c99e5c-98fd-4cd4-a677-667643ac47a0")
 		(property "Reference" "R_IND5"
-			(at 241.808 144.272 0)
+			(at 241.808 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8434,8 +9019,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
-			(at 243.84 146.558 0)
+		(property "Value" "660"
+			(at 243.84 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,7 +9029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 146.05 0)
+			(at 248.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,7 +9038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 146.05 0)
+			(at 248.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8462,7 +9047,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 248.92 146.05 0)
+			(at 248.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +9539,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 157.48 0)
+		(at 271.78 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8963,7 +9548,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fe6c29b-0398-4386-aae9-ce9851931e5c")
 		(property "Reference" "#PWR038"
-			(at 271.78 163.83 0)
+			(at 271.78 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8972,7 +9557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 162.56 0)
+			(at 271.78 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,7 +9565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 157.48 0)
+			(at 271.78 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8989,7 +9574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 157.48 0)
+			(at 271.78 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8998,7 +9583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 157.48 0)
+			(at 271.78 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,6 +10106,122 @@
 			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "C_IN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5006:5006")
+		(at 205.74 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87a5cfd0-9267-473b-a090-68f00caa93e7")
+		(property "Reference" "TP2"
+			(at 202.184 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5006"
+			(at 205.74 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5006:KEYSTONE_5006"
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5006"
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "deeadff5-5e00-4a76-bc7b-2ff881e8420a")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10103,7 +10804,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 229.87 146.05 0)
+		(at 229.87 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10111,7 +10812,7 @@
 		(dnp no)
 		(uuid "a20d2acb-2ccb-4064-9fa1-d6913fe6d6a6")
 		(property "Reference" "R_IND12"
-			(at 219.71 144.018 0)
+			(at 219.71 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,8 +10820,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "340"
-			(at 223.52 146.304 0)
+		(property "Value" "1.6k"
+			(at 223.52 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +10830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 146.05 0)
+			(at 229.87 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 146.05 0)
+			(at 229.87 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +10848,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 229.87 146.05 0)
+			(at 229.87 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,8 +10872,124 @@
 		)
 	)
 	(symbol
+		(lib_id "5006:5006")
+		(at 262.89 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a242372f-533c-4cff-8000-7d0d6b21d304")
+		(property "Reference" "TP5"
+			(at 259.334 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5006"
+			(at 262.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5006:KEYSTONE_5006"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5006"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 262.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "6a7e02d0-e9d8-44c0-9c0f-892b19e97024")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 252.73 157.48 0)
+		(at 252.73 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10181,7 +10998,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5170764-cc97-4a28-b640-f9cf92ee5f3a")
 		(property "Reference" "#PWR037"
-			(at 252.73 163.83 0)
+			(at 252.73 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +11007,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 162.56 0)
+			(at 252.73 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +11015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 157.48 0)
+			(at 252.73 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +11024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 157.48 0)
+			(at 252.73 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +11033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 157.48 0)
+			(at 252.73 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,6 +11048,107 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "640387-2:640387-2")
+		(at 140.97 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6b62866-2abd-4128-83c7-aada6df22db7")
+		(property "Reference" "J30"
+			(at 147.32 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "640387-2"
+			(at 147.32 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "640387-2:TE_640387-2"
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 140.97 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bcd309a-98a8-4989-ba30-a6bde6008892")
+		)
+		(pin "2"
+			(uuid "2bbf35b9-af6a-4da0-bb7f-1bd1d3169dda")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -10438,6 +11356,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 127 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2b3bdc9-3b46-4390-ad93-257c3c113ff8")
+		(property "Reference" "#PWR0121"
+			(at 127 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b585dc6b-9d2d-4103-aa5b-b014a164209b")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 114.3 81.28 0)
 		(mirror y)
 		(unit 1)
@@ -10635,6 +11618,74 @@
 			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "C_OUT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WL-SMCW_0603:WL-SMCW_0603")
+		(at 193.04 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b73d4112-7384-402c-849e-078f49945dd3")
+		(property "Reference" "D6"
+			(at 188.214 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 196.088 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+			(at 193.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "442f2af1-142b-4ab4-a90e-cf098d1679ec")
+		)
+		(pin "1"
+			(uuid "2f983af2-4996-4c55-a658-b36a4fa5bf95")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11110,7 +12161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 193.04 146.05 0)
+		(at 193.04 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11118,7 +12169,7 @@
 		(dnp no)
 		(uuid "c16eaaec-8592-437f-b328-8c526e6d7f94")
 		(property "Reference" "R_IND48"
-			(at 184.15 144.018 0)
+			(at 184.15 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11126,8 +12177,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 184.15 146.558 0)
+		(property "Value" "6.4k"
+			(at 184.15 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +12187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 146.05 0)
+			(at 193.04 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,7 +12196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 146.05 0)
+			(at 193.04 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,7 +12205,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 193.04 146.05 0)
+			(at 193.04 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11239,6 +12290,74 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WL-SMCW_0603:WL-SMCW_0603")
+		(at 229.87 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3f45638-118e-464a-9238-da8497ab4115")
+		(property "Reference" "D8"
+			(at 225.044 154.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 232.918 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+			(at 229.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c46f013-1051-43f4-a64f-b951c2375457")
+		)
+		(pin "1"
+			(uuid "514b34a6-ce54-43ce-9f87-60bdc0c37f92")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11510,7 +12629,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 157.48 0)
+		(at 234.95 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11518,7 +12637,7 @@
 		(dnp no)
 		(uuid "c9b1b001-4196-4391-8e95-f91885dd4da8")
 		(property "Reference" "#PWR036"
-			(at 234.95 163.83 0)
+			(at 234.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,7 +12646,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 162.56 0)
+			(at 234.95 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +12654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 157.48 0)
+			(at 234.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +12663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 157.48 0)
+			(at 234.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +12672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 157.48 0)
+			(at 234.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12180,6 +13299,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 127 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3d8e08e-d4c3-4bd6-bed0-2dc4ca7e5dfb")
+		(property "Reference" "#PWR0120"
+			(at 127 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 127 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 127 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b2faf8f-134a-4e25-8335-2a59155a3671")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 142.24 90)
 		(unit 1)
@@ -12577,35 +13761,33 @@
 		)
 	)
 	(symbol
-		(lib_id "WL-SMCW_0603:WL-SMCW_0603")
-		(at 267.97 154.94 90)
+		(lib_id "5006:5006")
+		(at 224.79 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f4582996-b482-4264-aef8-c5c128d184d2")
-		(property "Reference" "D_IND3"
-			(at 259.08 151.892 90)
+		(uuid "f4b34e8a-9530-4c13-afe8-f215915b6d72")
+		(property "Reference" "TP3"
+			(at 221.234 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "WL-SMCW_0603"
-			(at 271.272 155.956 90)
+		(property "Value" "5006"
+			(at 224.79 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
-			(at 267.97 154.94 0)
+		(property "Footprint" "5006:KEYSTONE_5006"
+			(at 224.79 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12615,7 +13797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 154.94 0)
+			(at 224.79 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12624,7 +13806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 154.94 0)
+			(at 224.79 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12632,16 +13814,63 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "13a8223c-5ed2-4948-b1dd-a7692343927c")
+		(property "PARTREV" "F"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "386546df-c128-4470-9fbf-4304e1d64b4c")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5006"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 224.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "286946e2-a36d-4c44-b1ae-824fce366e5d")
 		)
 		(instances
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
-					(reference "D_IND3")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12854,7 +14083,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 157.48 0)
+		(at 196.85 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12863,7 +14092,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa2b7577-347f-4fe6-8def-b02198213648")
 		(property "Reference" "#PWR034"
-			(at 196.85 163.83 0)
+			(at 196.85 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12872,7 +14101,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 162.56 0)
+			(at 196.85 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12880,7 +14109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 157.48 0)
+			(at 196.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12889,7 +14118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 157.48 0)
+			(at 196.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12898,7 +14127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 157.48 0)
+			(at 196.85 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,77 +14142,6 @@
 			(project ""
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WL-SMCW_0603:WL-SMCW_0603")
-		(at 193.04 154.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "faba5da0-797d-44f2-b671-b863a4752435")
-		(property "Reference" "D_IND48"
-			(at 181.864 151.892 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WL-SMCW_0603"
-			(at 177.038 154.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
-			(at 193.04 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93552434-03e7-4b7f-9e41-2f4970ba3708")
-		)
-		(pin "2"
-			(uuid "56627a08-40e2-470e-acfc-34ffe85966b0")
-		)
-		(instances
-			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
-					(reference "D_IND48")
 					(unit 1)
 				)
 			)

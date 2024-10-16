@@ -271,6 +271,141 @@
 				)
 			)
 		)
+		(symbol "5006:5006"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5006"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "5006:KEYSTONE_5006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5006_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "TP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "AO3400A:AO3400A"
 			(pin_names
 				(offset 1.016)
@@ -5687,6 +5822,12 @@
 		(uuid "7df0854f-324b-4f7c-9e45-6211440cb652")
 	)
 	(junction
+		(at 102.87 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ea6c27d-cb38-4896-80ab-e0a0af04757f")
+	)
+	(junction
 		(at 294.64 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5765,6 +5906,12 @@
 		(uuid "c5a8fca1-c3f8-4e56-8983-df43720f99d8")
 	)
 	(junction
+		(at 177.8 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9930183-f5bb-4639-857e-de1256617832")
+	)
+	(junction
 		(at 138.43 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5795,6 +5942,12 @@
 		(uuid "db33c99f-1d6d-45a1-b735-3fba90c65a20")
 	)
 	(junction
+		(at 102.87 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e420b555-c870-417a-a19b-ec1d20f6017e")
+	)
+	(junction
 		(at 297.18 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5811,6 +5964,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8889a25-476c-48e7-b125-01968043805b")
+	)
+	(junction
+		(at 102.87 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9b3e375-5b74-435a-b5fd-c2c070550079")
 	)
 	(no_connect
 		(at 222.25 88.9)
@@ -6270,7 +6429,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 170.18) (xy 106.68 170.18)
+			(xy 100.33 170.18) (xy 102.87 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6330,7 +6489,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 187.96) (xy 106.68 187.96)
+			(xy 100.33 187.96) (xy 102.87 187.96)
 		)
 		(stroke
 			(width 0)
@@ -6360,7 +6519,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 190.5) (xy 106.68 190.5)
+			(xy 100.33 190.5) (xy 102.87 190.5)
 		)
 		(stroke
 			(width 0)
@@ -7110,7 +7269,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 170.18) (xy 153.67 170.18)
+			(xy 147.32 170.18) (xy 177.8 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7137,6 +7296,16 @@
 			(type default)
 		)
 		(uuid "6ab4931d-7c46-4e14-8e1a-1aa44e2cfe49")
+	)
+	(wire
+		(pts
+			(xy 102.87 187.96) (xy 106.68 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af821c3-4259-4579-9d7d-6587c5eb651a")
 	)
 	(wire
 		(pts
@@ -7257,6 +7426,16 @@
 			(type default)
 		)
 		(uuid "72c9b723-bf49-44d8-a2bb-0fb895360086")
+	)
+	(wire
+		(pts
+			(xy 102.87 190.5) (xy 106.68 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7450e236-59a5-47a8-9f66-93cf2f70b16c")
 	)
 	(wire
 		(pts
@@ -7497,6 +7676,16 @@
 			(type default)
 		)
 		(uuid "8dda7a18-b991-4ded-88cf-30926d8b5618")
+	)
+	(wire
+		(pts
+			(xy 177.8 170.18) (xy 179.07 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f559194-f8df-45f3-9305-7b8a2c558bfc")
 	)
 	(wire
 		(pts
@@ -7857,6 +8046,16 @@
 			(type default)
 		)
 		(uuid "aa0b87d5-50cf-47f1-b177-4e67ad51e4ba")
+	)
+	(wire
+		(pts
+			(xy 102.87 170.18) (xy 106.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad59154-6549-4514-bdd2-e11f395e5a12")
 	)
 	(wire
 		(pts
@@ -9394,7 +9593,7 @@
 	)
 	(global_label "GPIO_0"
 		(shape input)
-		(at 153.67 170.18 0)
+		(at 179.07 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9404,7 +9603,7 @@
 		)
 		(uuid "47f46405-18c9-4ecb-9ab9-f6db9971d95a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.3076 170.18 0)
+			(at 188.7076 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14103,6 +14302,122 @@
 		)
 	)
 	(symbol
+		(lib_id "5006:5006")
+		(at 102.87 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b7434b7-73c7-4c2e-8646-d5daf3a5c84b")
+		(property "Reference" "TP6"
+			(at 100.584 175.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5006"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5006:KEYSTONE_5006"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5006"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 102.87 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "6a874540-bb95-480b-8327-a9143f2d38f7")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RCLAMP1521P:RCLAMP1521P.TCT")
 		(at 142.24 77.47 270)
 		(unit 1)
@@ -14297,6 +14612,122 @@
 			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5006:5006")
+		(at 102.87 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55529c21-e057-4d37-81b0-665b2d6bf85b")
+		(property "Reference" "TP8"
+			(at 100.33 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5006"
+			(at 106.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5006:KEYSTONE_5006"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5006"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "d96c305b-48c4-44e7-9544-f661916f891a")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -15367,6 +15798,122 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5006:5006")
+		(at 177.8 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f93116a-5f30-4672-9a2f-2bc44b47d79a")
+		(property "Reference" "TP9"
+			(at 177.8 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5006"
+			(at 173.99 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5006:KEYSTONE_5006"
+			(at 177.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 177.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 177.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5006"
+			(at 177.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+			(at 177.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 177.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "6217bcbc-840f-4d01-b6a4-dec1fab52299")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -17300,6 +17847,122 @@
 			(project ""
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5006:5006")
+		(at 102.87 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9922c32-9501-415f-be26-2742443b6691")
+		(property "Reference" "TP7"
+			(at 100.33 195.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5006"
+			(at 99.06 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "5006:KEYSTONE_5006"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "F"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5006"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.59 mm"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "TP"
+			(uuid "62be08ec-224a-4073-a152-8d1f57b51c59")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
