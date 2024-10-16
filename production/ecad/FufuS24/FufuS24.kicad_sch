@@ -1,0 +1,116 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c4c3980b-c8c0-435e-abdc-bbed2349d7ac)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 26.67 24.765) (size 45.72 34.925) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1f62379a-1fa8-439b-93cd-7c736b3b1bba)
+    (property "Sheetname" "Power" (at 26.67 24.0534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 26.67 60.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FufuS24"
+        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 83.185 121.92) (size 51.435 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2f899246-8d98-4f9c-b4c6-8497c11eb038)
+    (property "Sheetname" "Control" (at 83.185 121.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Control.kicad_sch" (at 83.185 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FufuS24"
+        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 26.67 74.295) (size 45.085 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4167d6e6-5417-44cf-9a0c-baf8fab8b739)
+    (property "Sheetname" "Water Dispensing" (at 26.67 73.5834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Water_Dispensing.kicad_sch" (at 26.67 111.7096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FufuS24"
+        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 83.82 24.765) (size 50.165 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 57fb5dcd-e779-40d3-8741-57c7eee1ca58)
+    (property "Sheetname" "Induction Heating" (at 83.82 24.0534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Induction_Heating.kicad_sch" (at 83.82 60.9096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FufuS24"
+        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 83.185 74.93) (size 52.07 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 67add6e2-1584-4801-9b59-67cf5082dcca)
+    (property "Sheetname" "Motor" (at 83.185 74.2184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Motor.kicad_sch" (at 83.185 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FufuS24"
+        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 26.67 121.92) (size 44.45 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 876a98ff-842e-4695-a72d-b69ed233d34f)
+    (property "Sheetname" "User Interface" (at 26.67 121.2084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "User_Interface.kicad_sch" (at 26.67 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "FufuS24"
+        (path "/c4c3980b-c8c0-435e-abdc-bbed2349d7ac" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
