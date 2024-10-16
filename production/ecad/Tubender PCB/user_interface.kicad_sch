@@ -7577,6 +7577,26 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 24.13) (xy 340.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0498939f-d22d-4d58-83b9-0cbf94697f8c")
+	)
+	(wire
+		(pts
+			(xy 293.37 26.67) (xy 289.56 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0600882e-3424-42a9-ad2f-c56f38bb65a9")
+	)
+	(wire
+		(pts
 			(xy 119.38 63.5) (xy 120.65 63.5)
 		)
 		(stroke
@@ -7587,7 +7607,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 48.26) (xy 259.08 48.26)
+			(xy 234.95 39.37) (xy 250.19 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7724,6 +7744,16 @@
 			(type default)
 		)
 		(uuid "13b74309-3eb3-4eb0-80f6-3ede4554644b")
+	)
+	(wire
+		(pts
+			(xy 344.17 46.99) (xy 340.36 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bafe59-bd02-480e-964c-f2b143e67743")
 	)
 	(wire
 		(pts
@@ -7897,6 +7927,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 46.99) (xy 289.56 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb48dbe-6085-46c3-9afd-9148af192a4d")
+	)
+	(wire
+		(pts
 			(xy 118.11 96.52) (xy 118.11 97.79)
 		)
 		(stroke
@@ -7967,7 +8007,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 40.64) (xy 255.27 40.64)
+			(xy 234.95 31.75) (xy 246.38 31.75)
 		)
 		(stroke
 			(width 0)
@@ -8004,6 +8044,26 @@
 			(type default)
 		)
 		(uuid "26fa4b8f-9b2d-4d81-8cbc-a23053c34cb6")
+	)
+	(wire
+		(pts
+			(xy 293.37 41.91) (xy 289.56 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281aeefc-2a3a-41cb-8135-7a4d3db47854")
+	)
+	(wire
+		(pts
+			(xy 293.37 39.37) (xy 289.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ae9d40-1f15-43fb-abaa-a194357cc7d6")
 	)
 	(wire
 		(pts
@@ -8717,6 +8777,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 36.83) (xy 340.36 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6649939c-e71c-4d74-9f79-09be9ba54bb1")
+	)
+	(wire
+		(pts
 			(xy 201.93 142.24) (xy 196.85 142.24)
 		)
 		(stroke
@@ -8857,6 +8927,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 31.75) (xy 340.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdafe97-0c02-4f38-ad2e-f8ba8a5a6f37")
+	)
+	(wire
+		(pts
 			(xy 120.65 73.66) (xy 119.38 73.66)
 		)
 		(stroke
@@ -8977,6 +9057,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 49.53) (xy 340.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e55c671-beb9-46dd-8b4a-200606992874")
+	)
+	(wire
+		(pts
 			(xy 99.06 55.88) (xy 99.06 67.31)
 		)
 		(stroke
@@ -9027,6 +9117,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 36.83) (xy 289.56 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87775a06-192f-47a1-b8c8-4a38e3e50545")
+	)
+	(wire
+		(pts
 			(xy 130.81 212.09) (xy 132.08 212.09)
 		)
 		(stroke
@@ -9047,7 +9147,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 36.83) (xy 251.46 36.83)
+			(xy 234.95 27.94) (xy 242.57 27.94)
 		)
 		(stroke
 			(width 0)
@@ -9064,6 +9164,16 @@
 			(type default)
 		)
 		(uuid "8c960030-553d-410e-b115-eca39b3a7e3b")
+	)
+	(wire
+		(pts
+			(xy 293.37 31.75) (xy 289.56 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca0db54-a239-4698-9336-a3a194e495be")
 	)
 	(wire
 		(pts
@@ -9087,6 +9197,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 44.45) (xy 340.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9f169f-266e-4719-a6fd-0dc09e4399ab")
+	)
+	(wire
+		(pts
 			(xy 119.38 68.58) (xy 120.65 68.58)
 		)
 		(stroke
@@ -9104,6 +9224,16 @@
 			(type default)
 		)
 		(uuid "8e09eb02-51d7-4922-ad07-db305ed79ba1")
+	)
+	(wire
+		(pts
+			(xy 344.17 34.29) (xy 340.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec00bb2-ea40-4523-804b-add77821cb28")
 	)
 	(wire
 		(pts
@@ -9307,6 +9437,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 52.07) (xy 289.56 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45d1f7d-d301-4a08-b8f4-a0808e349963")
+	)
+	(wire
+		(pts
 			(xy 54.61 138.43) (xy 52.07 138.43)
 		)
 		(stroke
@@ -9477,6 +9617,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 39.37) (xy 340.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38ed2ba-6442-4d17-ab3f-99bf165be227")
+	)
+	(wire
+		(pts
 			(xy 227.33 261.62) (xy 228.6 261.62)
 		)
 		(stroke
@@ -9567,6 +9717,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 24.13) (xy 289.56 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0d7577-8292-40a2-8338-948816efc5c1")
+	)
+	(wire
+		(pts
 			(xy 121.92 205.74) (xy 121.92 204.47)
 		)
 		(stroke
@@ -9634,6 +9794,16 @@
 			(type default)
 		)
 		(uuid "c0b23a53-17b3-44b8-b575-3dc8c247f836")
+	)
+	(wire
+		(pts
+			(xy 293.37 29.21) (xy 289.56 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c127403c-7d80-4383-b629-a463eecc83a2")
 	)
 	(wire
 		(pts
@@ -9827,6 +9997,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 29.21) (xy 340.36 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09be3f9-bbe7-43de-adb9-0cc1dd797943")
+	)
+	(wire
+		(pts
 			(xy 119.38 58.42) (xy 120.65 58.42)
 		)
 		(stroke
@@ -9894,6 +10074,16 @@
 			(type default)
 		)
 		(uuid "d95d4f6e-e441-4acd-9bd4-60b9d720d5b4")
+	)
+	(wire
+		(pts
+			(xy 293.37 49.53) (xy 289.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4159ab-3cd6-4c82-9472-1ff0125dedb8")
 	)
 	(polyline
 		(pts
@@ -9997,6 +10187,26 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 26.67) (xy 340.36 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fc87d9-d705-472a-99d3-780e58c55c5c")
+	)
+	(wire
+		(pts
+			(xy 293.37 44.45) (xy 289.56 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35f6a79-a228-4de0-bf32-a57d034c4ce2")
+	)
+	(wire
+		(pts
 			(xy 353.06 219.71) (xy 355.6 219.71)
 		)
 		(stroke
@@ -10007,7 +10217,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 48.26) (xy 259.08 49.53)
+			(xy 250.19 39.37) (xy 250.19 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10114,6 +10324,16 @@
 			(type default)
 		)
 		(uuid "f11b2d19-5e81-4df0-a641-7d34383e6a2c")
+	)
+	(wire
+		(pts
+			(xy 344.17 41.91) (xy 340.36 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1afeff6-db15-4dcf-928c-46fdc1d18ec1")
 	)
 	(wire
 		(pts
@@ -10237,7 +10457,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 44.45) (xy 259.08 44.45)
+			(xy 234.95 35.56) (xy 250.19 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10264,6 +10484,16 @@
 			(type default)
 		)
 		(uuid "fceb1f08-5754-40ce-bbd4-958d472bea96")
+	)
+	(wire
+		(pts
+			(xy 293.37 34.29) (xy 289.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfca5bc-e887-4c26-be40-e30e41185ff1")
 	)
 	(polyline
 		(pts
@@ -10350,8 +10580,8 @@
 		(uuid 72de2571-7007-4144-908f-b74ebd269afd)
 	)
 	(rectangle
-		(start 234.95 29.21)
-		(end 270.51 57.15)
+		(start 226.06 20.32)
+		(end 261.62 48.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -10386,8 +10616,8 @@
 		(uuid 9ae0d014-2951-40b1-a8cb-3b10115684f7)
 	)
 	(rectangle
-		(start 273.812 29.21)
-		(end 331.47 57.15)
+		(start 264.922 20.32)
+		(end 364.49 55.88)
 		(stroke
 			(width 0)
 			(type default)
@@ -10399,7 +10629,7 @@
 	)
 	(text "INPUTS"
 		(exclude_from_sim no)
-		(at 281.94 26.67 0)
+		(at 273.05 17.78 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -10412,7 +10642,7 @@
 	)
 	(text "POWER\n"
 		(exclude_from_sim no)
-		(at 243.078 27.178 0)
+		(at 234.188 18.288 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -10506,6 +10736,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "7-SEG_A1"
+		(shape input)
+		(at 340.36 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01751116-16c7-4f64-8f6f-3d7fbeb17eb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.6987 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10664,6 +10916,28 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_MOSI"
+		(shape input)
+		(at 340.36 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "134504a4-84c7-4994-9a5d-2f2495c89333")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 324.2514 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BUTTON_8"
 		(shape input)
 		(at 256.54 129.54 180)
@@ -10730,6 +11004,28 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_MISO"
+		(shape input)
+		(at 340.36 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18f2d8a2-e3dc-4c32-b97c-a93eda4ae114")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 324.2514 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LEDK"
 		(shape input)
 		(at 52.07 49.53 0)
@@ -10765,6 +11061,28 @@
 		(uuid "1b228e57-67c3-4c23-a067-c0a4d291943e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.451 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "7-SEG_SRCLK"
+		(shape input)
+		(at 289.56 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e456a3f-bfe4-4ec4-94ee-b0782cd00176")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.1492 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10853,6 +11171,28 @@
 		(uuid "2323dea6-7815-4564-b9b4-21bdbfb06fc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.2696 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DISPLAY_CS"
+		(shape input)
+		(at 340.36 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "247007a2-48ee-46c1-b925-2b24849a3d2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.3681 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11038,6 +11378,28 @@
 			)
 		)
 	)
+	(global_label "BUTTON_PLEX_2"
+		(shape input)
+		(at 289.56 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "418074aa-3fb0-4a2c-9034-dc0831bb4e78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.5768 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RED3"
 		(shape input)
 		(at 52.07 74.93 0)
@@ -11126,6 +11488,28 @@
 			)
 		)
 	)
+	(global_label "BUTTON_CHAN_SEL_2A"
+		(shape input)
+		(at 289.56 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a8bfa83-9d73-40ac-8f1a-91188c7b0d44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.771 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIAL_BUTTON"
 		(shape input)
 		(at 259.08 147.32 180)
@@ -11161,6 +11545,28 @@
 		(uuid "4d74cd78-b03f-4127-8522-0db1137fd898")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 341.9709 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "7-SEG_A0"
+		(shape input)
+		(at 340.36 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fdb414d-0f69-4376-98fa-0d2a69a8aaa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.6987 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11324,6 +11730,28 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_INT"
+		(shape input)
+		(at 340.36 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fc38a62-cf93-40f6-ae56-d78ec6a9dffc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.9447 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BLUE1"
 		(shape input)
 		(at 201.93 121.92 0)
@@ -11386,6 +11814,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIAL_CHANNEL_B"
+		(shape input)
+		(at 340.36 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65f8dbfb-334e-42bb-89ce-568855ece545")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.6509 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11557,6 +12007,28 @@
 		(uuid "801071fb-67ce-4427-942b-27278f823e7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 244.2415 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_CHAN_SEL_1C"
+		(shape input)
+		(at 289.56 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80668310-245e-491a-a9c4-22783ddfefd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.5896 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,6 +12280,28 @@
 			)
 		)
 	)
+	(global_label "7-SEG_OEb"
+		(shape input)
+		(at 289.56 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b2c40fc-bc0d-45fa-bb89-b956026aac84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.5683 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BUTTON_CHAN_SEL_2A"
 		(shape input)
 		(at 267.97 121.92 180)
@@ -12028,6 +12522,28 @@
 			)
 		)
 	)
+	(global_label "BUTTON_CHAN_SEL_1B"
+		(shape input)
+		(at 289.56 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af498785-7ee5-4881-b8b3-1d0477c1199f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.5896 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BUTTON_3"
 		(shape input)
 		(at 217.17 219.71 180)
@@ -12226,6 +12742,28 @@
 			)
 		)
 	)
+	(global_label "7-SEG_SER"
+		(shape input)
+		(at 289.56 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc252ff2-c1d0-4b2c-979e-8e92d5806aa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.5683 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BUTTON_CHAN_SEL_1B"
 		(shape input)
 		(at 269.24 78.74 180)
@@ -12371,6 +12909,28 @@
 		(uuid "beda279b-6cf1-423d-aa14-d81f3e996df5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 244.9068 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_CHAN_SEL_2C"
+		(shape input)
+		(at 289.56 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf8dc10f-4570-408b-9d48-372ba6de74da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.5896 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,6 +13116,72 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_WAIT"
+		(shape input)
+		(at 340.36 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cde0721f-a7e9-4a6d-917c-1d93066b5cbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 324.7352 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "7-SEG_Gb"
+		(shape input)
+		(at 340.36 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce5d180a-1b45-464b-bfab-225fbe3fc8af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.5778 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DISPLAY_SCK"
+		(shape input)
+		(at 340.36 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cec92d06-77a9-4c80-96fd-8ec17885e1e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.0981 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DISPLAY_CS"
 		(shape input)
 		(at 74.93 140.97 180)
@@ -12569,6 +13195,28 @@
 		(uuid "cfdd16e8-73fc-4138-a440-b6c2920c62bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.9381 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_PLEX_1"
+		(shape input)
+		(at 289.56 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d01bfc3d-ef55-4026-a65f-8ef757c4de31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.5768 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12596,6 +13244,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_CHAN_SEL_2B"
+		(shape input)
+		(at 289.56 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5a1590c-dba0-4340-9351-a919756b1875")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.5896 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12745,6 +13415,50 @@
 		(uuid "e124380c-8cf3-40c3-990d-bc6c7e400a08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 120.65 156.6553 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIAL_CHANNEL_A"
+		(shape input)
+		(at 340.36 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1c22ade-d1fe-466f-8279-a1af44ec9cf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.8323 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "7-SEG_RCLK"
+		(shape input)
+		(at 289.56 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7371e16-2239-4c5e-9690-af6a915f7eb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.3587 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12952,6 +13666,28 @@
 			)
 		)
 	)
+	(global_label "BUTTON_CHAN_SEL_1A"
+		(shape input)
+		(at 289.56 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa4f3551-3307-4912-abf6-7c0dbebbf1bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.771 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "7-SEG_SER"
 		(shape input)
 		(at 45.72 199.39 180)
@@ -13040,9 +13776,21 @@
 			)
 		)
 	)
+	(hierarchical_label "DISPLAY_CS"
+		(shape input)
+		(at 344.17 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0705192a-367b-4772-b4c2-8177fd496898")
+	)
 	(hierarchical_label "24V"
 		(shape input)
-		(at 243.84 36.83 180)
+		(at 234.95 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13052,9 +13800,129 @@
 		)
 		(uuid "0af08fcf-f046-40a9-89e9-98f17cb7b5f2")
 	)
+	(hierarchical_label "DIAL_CHANNEL_B"
+		(shape input)
+		(at 344.17 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e6dc567-b99c-4dcc-917e-8dc57001eba4")
+	)
+	(hierarchical_label "7-SEG_RCLK"
+		(shape input)
+		(at 293.37 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0edbfd61-be8e-401f-b4a3-1f5de8f8817d")
+	)
+	(hierarchical_label "DISPLAY_MOSI"
+		(shape input)
+		(at 344.17 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bce095f-035a-4c7b-8e1b-c9d8328637b9")
+	)
+	(hierarchical_label "7-SEG_A1"
+		(shape input)
+		(at 344.17 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e15f8da-194f-432f-8974-848642aa9c3f")
+	)
+	(hierarchical_label "7-SEG_SRCLK"
+		(shape input)
+		(at 293.37 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "240856ce-cf99-4f7c-bbbe-980f3cb1bd24")
+	)
+	(hierarchical_label "DISPLAY_SCK"
+		(shape input)
+		(at 344.17 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29b8c334-8d7b-46e4-b61b-cb59c8b42662")
+	)
+	(hierarchical_label "7-SEG_OEb"
+		(shape input)
+		(at 293.37 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2da352b2-1ca8-4ac0-bf19-6d00d9564a72")
+	)
+	(hierarchical_label "7-SEG_SER"
+		(shape input)
+		(at 293.37 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "434a99d1-84dd-4b8f-8dee-44d9397d4404")
+	)
+	(hierarchical_label "DISPLAY_WAIT"
+		(shape input)
+		(at 344.17 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a0ccb56-924f-4904-b45b-8b9e26cdd279")
+	)
+	(hierarchical_label "BUTTON_CHAN_SEL_1B"
+		(shape input)
+		(at 293.37 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72cfa3f7-a40f-49fd-987e-c7173f2785f1")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 243.84 44.45 180)
+		(at 234.95 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13064,9 +13932,69 @@
 		)
 		(uuid "733dda54-da12-4be5-bc33-35ad6541a1b3")
 	)
+	(hierarchical_label "BUTTON_CHAN_SEL_1C"
+		(shape input)
+		(at 293.37 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dfc4776-2dc5-4128-8c01-fd31e67059e2")
+	)
+	(hierarchical_label "7-SEG_Gb"
+		(shape input)
+		(at 344.17 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82448acc-4fda-4f2d-8c5c-b0a1b6c6ce0b")
+	)
+	(hierarchical_label "BUTTON_CHAN_SEL_2B"
+		(shape input)
+		(at 293.37 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85f6a5af-cc56-4b40-8c3c-8ef78bb0ebb4")
+	)
+	(hierarchical_label "DISPLAY_MISO"
+		(shape input)
+		(at 344.17 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "896a27b7-f17d-4cfa-9cd2-8ab2965e97b5")
+	)
+	(hierarchical_label "BUTTON_PLEX_1"
+		(shape input)
+		(at 293.37 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92a1681e-b094-45a6-b371-f513daf81c29")
+	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 243.84 48.26 180)
+		(at 234.95 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13076,9 +14004,33 @@
 		)
 		(uuid "9b101c67-5007-4a2e-8c97-49b1aad2bfd3")
 	)
+	(hierarchical_label "BUTTON_CHAN_SEL_1A"
+		(shape input)
+		(at 293.37 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9e818b3-8b8e-42a3-a4aa-df39ff82f0b6")
+	)
+	(hierarchical_label "BUTTON_CHAN_SEL_2A"
+		(shape input)
+		(at 293.37 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6937176-ea31-4948-bf45-5a847a899b50")
+	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 243.84 40.64 180)
+		(at 234.95 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13087,6 +14039,66 @@
 			(justify right)
 		)
 		(uuid "bb024dbd-6126-4819-bb66-80b2e3300945")
+	)
+	(hierarchical_label "BUTTON_PLEX_2"
+		(shape input)
+		(at 293.37 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bda25908-c66e-4f5b-8605-bca448ef17fe")
+	)
+	(hierarchical_label "7-SEG_A0"
+		(shape input)
+		(at 344.17 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0875797-a7e2-4f22-be1c-5d3c01c56d0e")
+	)
+	(hierarchical_label "DIAL_CHANNEL_A"
+		(shape input)
+		(at 344.17 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e31d593a-a158-4c7a-b69a-c0b73215c13a")
+	)
+	(hierarchical_label "DISPLAY_INT"
+		(shape input)
+		(at 344.17 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb01b5f9-ea3b-4954-b71e-2fe35102253c")
+	)
+	(hierarchical_label "BUTTON_CHAN_SEL_2C"
+		(shape input)
+		(at 293.37 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb7b722b-ed16-492b-857e-5cd9e45ba82a")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13147,7 +14159,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR057")
 					(unit 1)
 				)
@@ -13213,7 +14225,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -13324,7 +14336,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "U9")
 					(unit 1)
 				)
@@ -13391,7 +14403,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "C12")
 					(unit 1)
 				)
@@ -13457,7 +14469,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR070")
 					(unit 1)
 				)
@@ -13524,7 +14536,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R37")
 					(unit 1)
 				)
@@ -13591,7 +14603,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "C14")
 					(unit 1)
 				)
@@ -13657,7 +14669,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR058")
 					(unit 1)
 				)
@@ -13724,7 +14736,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "C17")
 					(unit 1)
 				)
@@ -13836,7 +14848,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "U5")
 					(unit 1)
 				)
@@ -13902,7 +14914,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR077")
 					(unit 1)
 				)
@@ -13969,7 +14981,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R40")
 					(unit 1)
 				)
@@ -14038,7 +15050,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "C18")
 					(unit 1)
 				)
@@ -14104,7 +15116,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR080")
 					(unit 1)
 				)
@@ -14171,7 +15183,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR095")
 					(unit 1)
 				)
@@ -14237,7 +15249,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR079")
 					(unit 1)
 				)
@@ -14304,7 +15316,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R56")
 					(unit 1)
 				)
@@ -14371,7 +15383,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -14437,7 +15449,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR068")
 					(unit 1)
 				)
@@ -14504,7 +15516,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -14570,7 +15582,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR083")
 					(unit 1)
 				)
@@ -14637,7 +15649,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R30")
 					(unit 1)
 				)
@@ -14702,7 +15714,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR086")
 					(unit 1)
 				)
@@ -14768,7 +15780,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -14878,7 +15890,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J29")
 					(unit 1)
 				)
@@ -14944,7 +15956,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0112")
 					(unit 1)
 				)
@@ -15011,7 +16023,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R51")
 					(unit 1)
 				)
@@ -15078,7 +16090,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR053")
 					(unit 1)
 				)
@@ -15144,7 +16156,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR099")
 					(unit 1)
 				)
@@ -15210,7 +16222,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR072")
 					(unit 1)
 				)
@@ -15277,7 +16289,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR091")
 					(unit 1)
 				)
@@ -15344,7 +16356,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -15411,7 +16423,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R25")
 					(unit 1)
 				)
@@ -15478,7 +16490,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -15544,7 +16556,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -15645,7 +16657,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J17")
 					(unit 1)
 				)
@@ -15712,7 +16724,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R34")
 					(unit 1)
 				)
@@ -15779,7 +16791,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R58")
 					(unit 1)
 				)
@@ -15845,7 +16857,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR059")
 					(unit 1)
 				)
@@ -15912,7 +16924,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R59")
 					(unit 1)
 				)
@@ -15978,7 +16990,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR064")
 					(unit 1)
 				)
@@ -16044,7 +17056,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0106")
 					(unit 1)
 				)
@@ -16156,7 +17168,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "U8")
 					(unit 1)
 				)
@@ -16257,7 +17269,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J12")
 					(unit 1)
 				)
@@ -16324,7 +17336,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR094")
 					(unit 1)
 				)
@@ -16390,7 +17402,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0102")
 					(unit 1)
 				)
@@ -16491,7 +17503,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J22")
 					(unit 1)
 				)
@@ -16592,7 +17604,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J15")
 					(unit 1)
 				)
@@ -16658,7 +17670,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0110")
 					(unit 1)
 				)
@@ -16774,7 +17786,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -16840,7 +17852,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR067")
 					(unit 1)
 				)
@@ -16907,7 +17919,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0115")
 					(unit 1)
 				)
@@ -16973,7 +17985,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR066")
 					(unit 1)
 				)
@@ -17040,7 +18052,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR093")
 					(unit 1)
 				)
@@ -17107,7 +18119,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R52")
 					(unit 1)
 				)
@@ -17174,7 +18186,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R31")
 					(unit 1)
 				)
@@ -17332,7 +18344,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "IC3")
 					(unit 1)
 				)
@@ -17399,7 +18411,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R26")
 					(unit 1)
 				)
@@ -17466,7 +18478,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R39")
 					(unit 1)
 				)
@@ -17533,7 +18545,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R33")
 					(unit 1)
 				)
@@ -17600,7 +18612,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R53")
 					(unit 1)
 				)
@@ -17701,7 +18713,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J20")
 					(unit 1)
 				)
@@ -17768,7 +18780,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R20")
 					(unit 1)
 				)
@@ -17835,7 +18847,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R22")
 					(unit 1)
 				)
@@ -17902,7 +18914,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R55")
 					(unit 1)
 				)
@@ -17968,7 +18980,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR078")
 					(unit 1)
 				)
@@ -18034,7 +19046,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR075")
 					(unit 1)
 				)
@@ -18101,7 +19113,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0119")
 					(unit 1)
 				)
@@ -18170,7 +19182,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R21")
 					(unit 1)
 				)
@@ -18236,7 +19248,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0111")
 					(unit 1)
 				)
@@ -18303,7 +19315,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R62")
 					(unit 1)
 				)
@@ -18370,7 +19382,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR096")
 					(unit 1)
 				)
@@ -18436,7 +19448,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR069")
 					(unit 1)
 				)
@@ -18503,7 +19515,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR054")
 					(unit 1)
 				)
@@ -18569,7 +19581,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR082")
 					(unit 1)
 				)
@@ -18636,7 +19648,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR092")
 					(unit 1)
 				)
@@ -18703,7 +19715,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR055")
 					(unit 1)
 				)
@@ -18769,7 +19781,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0107")
 					(unit 1)
 				)
@@ -18836,7 +19848,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R61")
 					(unit 1)
 				)
@@ -18903,7 +19915,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R35")
 					(unit 1)
 				)
@@ -18912,7 +19924,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 251.46 36.83 0)
+		(at 242.57 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18921,7 +19933,7 @@
 		(fields_autoplaced yes)
 		(uuid "843cfc56-fd65-4f47-bf22-b48f23449b9a")
 		(property "Reference" "#PWR090"
-			(at 251.46 40.64 0)
+			(at 242.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18930,7 +19942,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 251.46 31.75 0)
+			(at 242.57 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18938,7 +19950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 36.83 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18947,7 +19959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 36.83 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18956,7 +19968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 251.46 36.83 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18969,7 +19981,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR090")
 					(unit 1)
 				)
@@ -19036,7 +20048,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -19102,7 +20114,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -19168,7 +20180,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0105")
 					(unit 1)
 				)
@@ -19235,7 +20247,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R57")
 					(unit 1)
 				)
@@ -19302,7 +20314,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R29")
 					(unit 1)
 				)
@@ -19403,7 +20415,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J27")
 					(unit 1)
 				)
@@ -19469,7 +20481,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0100")
 					(unit 1)
 				)
@@ -19536,7 +20548,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R23")
 					(unit 1)
 				)
@@ -19603,7 +20615,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R49")
 					(unit 1)
 				)
@@ -19669,7 +20681,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0108")
 					(unit 1)
 				)
@@ -19770,7 +20782,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J28")
 					(unit 1)
 				)
@@ -19837,7 +20849,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0116")
 					(unit 1)
 				)
@@ -19904,7 +20916,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR097")
 					(unit 1)
 				)
@@ -19970,7 +20982,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0113")
 					(unit 1)
 				)
@@ -20037,7 +21049,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR098")
 					(unit 1)
 				)
@@ -20138,7 +21150,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J23")
 					(unit 1)
 				)
@@ -20204,7 +21216,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR085")
 					(unit 1)
 				)
@@ -20270,7 +21282,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0103")
 					(unit 1)
 				)
@@ -20337,7 +21349,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R63")
 					(unit 1)
 				)
@@ -20404,7 +21416,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R38")
 					(unit 1)
 				)
@@ -20474,7 +21486,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "C10")
 					(unit 1)
 				)
@@ -20540,7 +21552,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR081")
 					(unit 1)
 				)
@@ -20641,7 +21653,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J16")
 					(unit 1)
 				)
@@ -20708,7 +21720,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "C15")
 					(unit 1)
 				)
@@ -20775,7 +21787,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR048")
 					(unit 1)
 				)
@@ -20842,7 +21854,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "C16")
 					(unit 1)
 				)
@@ -20908,7 +21920,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0109")
 					(unit 1)
 				)
@@ -20975,7 +21987,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -21041,7 +22053,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -21142,7 +22154,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J18")
 					(unit 1)
 				)
@@ -21209,7 +22221,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -21642,7 +22654,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "IC2")
 					(unit 1)
 				)
@@ -21708,7 +22720,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR084")
 					(unit 1)
 				)
@@ -21775,7 +22787,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R42")
 					(unit 1)
 				)
@@ -21842,7 +22854,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R36")
 					(unit 1)
 				)
@@ -22023,7 +23035,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "IC1")
 					(unit 1)
 				)
@@ -22093,7 +23105,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "C11")
 					(unit 1)
 				)
@@ -22171,7 +23183,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "U11")
 					(unit 1)
 				)
@@ -22180,7 +23192,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 259.08 44.45 0)
+		(at 250.19 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22189,7 +23201,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8a95be4-53da-49ec-87ce-5f95c6f21b69")
 		(property "Reference" "#PWR089"
-			(at 259.08 48.26 0)
+			(at 250.19 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22198,7 +23210,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 259.08 39.37 0)
+			(at 250.19 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22206,7 +23218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 44.45 0)
+			(at 250.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22215,7 +23227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 44.45 0)
+			(at 250.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22224,7 +23236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 259.08 44.45 0)
+			(at 250.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22237,7 +23249,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR089")
 					(unit 1)
 				)
@@ -22304,7 +23316,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -22371,7 +23383,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R28")
 					(unit 1)
 				)
@@ -22437,7 +23449,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR056")
 					(unit 1)
 				)
@@ -22538,7 +23550,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J19")
 					(unit 1)
 				)
@@ -22798,7 +23810,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J7")
 					(unit 1)
 				)
@@ -22968,7 +23980,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "DS1")
 					(unit 1)
 				)
@@ -23034,7 +24046,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR074")
 					(unit 1)
 				)
@@ -23183,7 +24195,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "U6")
 					(unit 1)
 				)
@@ -23250,7 +24262,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0114")
 					(unit 1)
 				)
@@ -23351,7 +24363,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J21")
 					(unit 1)
 				)
@@ -23417,7 +24429,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR071")
 					(unit 1)
 				)
@@ -23484,7 +24496,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R24")
 					(unit 1)
 				)
@@ -23551,7 +24563,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "C13")
 					(unit 1)
 				)
@@ -23618,7 +24630,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R41")
 					(unit 1)
 				)
@@ -23719,7 +24731,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J26")
 					(unit 1)
 				)
@@ -23728,7 +24740,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 49.53 0)
+		(at 250.19 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23737,7 +24749,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec5e550a-9b4a-4dfe-afc2-aa2cf687989a")
 		(property "Reference" "#PWR0118"
-			(at 259.08 55.88 0)
+			(at 250.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23746,7 +24758,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 54.61 0)
+			(at 250.19 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23754,7 +24766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 49.53 0)
+			(at 250.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23763,7 +24775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 49.53 0)
+			(at 250.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23772,7 +24784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 49.53 0)
+			(at 250.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23785,7 +24797,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0118")
 					(unit 1)
 				)
@@ -23852,7 +24864,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R54")
 					(unit 1)
 				)
@@ -23919,7 +24931,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0117")
 					(unit 1)
 				)
@@ -24020,7 +25032,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J24")
 					(unit 1)
 				)
@@ -24087,7 +25099,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R43")
 					(unit 1)
 				)
@@ -24153,7 +25165,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0104")
 					(unit 1)
 				)
@@ -24220,7 +25232,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R50")
 					(unit 1)
 				)
@@ -24286,7 +25298,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR076")
 					(unit 1)
 				)
@@ -24295,7 +25307,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 255.27 40.64 0)
+		(at 246.38 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24304,7 +25316,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbe81295-9144-4722-a4c6-9531e7ddb74c")
 		(property "Reference" "#PWR088"
-			(at 255.27 44.45 0)
+			(at 246.38 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24313,7 +25325,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 255.27 35.56 0)
+			(at 246.38 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24321,7 +25333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 40.64 0)
+			(at 246.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24330,7 +25342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 40.64 0)
+			(at 246.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24339,7 +25351,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 40.64 0)
+			(at 246.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24352,7 +25364,7 @@
 		)
 		(instances
 			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR088")
 					(unit 1)
 				)
@@ -24418,7 +25430,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR073")
 					(unit 1)
 				)
@@ -24485,7 +25497,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R60")
 					(unit 1)
 				)
@@ -24552,7 +25564,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R27")
 					(unit 1)
 				)
@@ -24619,7 +25631,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "R32")
 					(unit 1)
 				)
@@ -24719,7 +25731,7 @@
 		)
 		(instances
 			(project "Tubender PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/f5482ea7-2c7e-4b8c-980a-1e009a8c23d8"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "J25")
 					(unit 1)
 				)
