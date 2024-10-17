@@ -12016,7 +12016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.5252 72.39 0)
 			(effects
 				(font
@@ -12084,7 +12084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-WROOM-32UE_M113EH6400UH3Q0_:MODULE_ESP32-WROOM-32UE_M113EH6400UH3Q0_"
+		(property "Footprint" "${KIPRJMOD}:MODULE_ESP32-WROOM-32UE_M113EH6400UH3Q0_"
 			(at 127 195.58 0)
 			(effects
 				(font
@@ -12453,7 +12453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 211.074 55.626 90)
 			(effects
 				(font
@@ -12521,7 +12521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 241.554 232.156 90)
 			(effects
 				(font
@@ -12588,7 +12588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.786 92.456 90)
 			(effects
 				(font
@@ -12722,7 +12722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 270.2052 66.04 0)
 			(effects
 				(font
@@ -12855,7 +12855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TVS_DFN2_SLP1006P2_SEM"
+		(property "Footprint" "${KIPRJMOD}:TVS_DFN2_SLP1006P2_SEM"
 			(at 153.67 92.71 0)
 			(effects
 				(font
@@ -12991,7 +12991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 193.294 68.326 90)
 			(effects
 				(font
@@ -13061,7 +13061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AO3400A:SOT95P280X125-3N"
+		(property "Footprint" "${KIPRJMOD}:SOT95P280X125-3N"
 			(at 250.19 160.02 0)
 			(effects
 				(font
@@ -13450,7 +13450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 272.796 195.326 90)
 			(effects
 				(font
@@ -13517,7 +13517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS02-66-70-BK-260-LCR-D:SW_TS02-66-70-BK-260-LCR-D"
+		(property "Footprint" "${KIPRJMOD}:SW_TS02-66-70-BK-260-LCR-D"
 			(at 307.34 220.98 0)
 			(effects
 				(font
@@ -13623,7 +13623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 172.4152 72.39 0)
 			(effects
 				(font
@@ -13692,7 +13692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 321.564 190.246 90)
 			(effects
 				(font
@@ -13759,7 +13759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 186.944 63.754 90)
 			(effects
 				(font
@@ -14288,7 +14288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 326.39 52.07 0)
 			(effects
 				(font
@@ -14404,7 +14404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 102.87 175.26 0)
 			(effects
 				(font
@@ -14784,7 +14784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 102.87 182.88 0)
 			(effects
 				(font
@@ -14902,7 +14902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AO3400A:SOT95P280X125-3N"
+		(property "Footprint" "${KIPRJMOD}:SOT95P280X125-3N"
 			(at 250.19 175.26 0)
 			(effects
 				(font
@@ -15093,7 +15093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.786 102.616 90)
 			(effects
 				(font
@@ -15228,7 +15228,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 94.234 75.946 90)
 			(effects
 				(font
@@ -15360,7 +15360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+		(property "Footprint" "${KIPRJMOD}:WL-SMCW_0603"
 			(at 204.47 101.6 0)
 			(effects
 				(font
@@ -15561,7 +15561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 325.12 100.33 0)
 			(effects
 				(font
@@ -15744,7 +15744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 279.0952 66.04 0)
 			(effects
 				(font
@@ -15812,7 +15812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 260.604 182.626 90)
 			(effects
 				(font
@@ -15879,7 +15879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 260.604 152.654 90)
 			(effects
 				(font
@@ -15947,7 +15947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS02-66-70-BK-260-LCR-D:SW_TS02-66-70-BK-260-LCR-D"
+		(property "Footprint" "${KIPRJMOD}:SW_TS02-66-70-BK-260-LCR-D"
 			(at 334.01 200.66 0)
 			(effects
 				(font
@@ -16051,7 +16051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 240.284 171.704 90)
 			(effects
 				(font
@@ -16119,7 +16119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 320.04 100.33 0)
 			(effects
 				(font
@@ -16235,7 +16235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 177.8 175.26 0)
 			(effects
 				(font
@@ -16352,7 +16352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.2252 157.48 0)
 			(effects
 				(font
@@ -16421,7 +16421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 159.7152 87.63 0)
 			(effects
 				(font
@@ -16555,7 +16555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TVS_DFN2_SLP1006P2_SEM"
+		(property "Footprint" "${KIPRJMOD}:TVS_DFN2_SLP1006P2_SEM"
 			(at 148.59 77.47 0)
 			(effects
 				(font
@@ -16692,7 +16692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 293.6748 227.33 0)
 			(effects
 				(font
@@ -16760,7 +16760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP23017-E_SO:SOIC127P1030X265-28N"
+		(property "Footprint" "${KIPRJMOD}:SOIC127P1030X265-28N"
 			(at 345.44 119.38 0)
 			(effects
 				(font
@@ -17322,7 +17322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 168.6052 87.63 0)
 			(effects
 				(font
@@ -17456,7 +17456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 240.284 161.544 90)
 			(effects
 				(font
@@ -17524,7 +17524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP23017-E_SO:SOIC127P1030X265-28N"
+		(property "Footprint" "${KIPRJMOD}:SOIC127P1030X265-28N"
 			(at 346.71 69.85 0)
 			(effects
 				(font
@@ -18085,7 +18085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 102.87 195.58 0)
 			(effects
 				(font
@@ -18268,7 +18268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 293.624 210.566 90)
 			(effects
 				(font
@@ -18402,7 +18402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 241.554 223.266 90)
 			(effects
 				(font
@@ -18535,7 +18535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 241.554 239.776 90)
 			(effects
 				(font
@@ -18604,7 +18604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 167.3352 157.48 0)
 			(effects
 				(font
@@ -18738,7 +18738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 237.236 195.326 90)
 			(effects
 				(font
@@ -18872,7 +18872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP2102N-A02-GQFN28:QFN50P500X500X80-29N"
+		(property "Footprint" "${KIPRJMOD}:QFN50P500X500X80-29N"
 			(at 236.22 85.09 0)
 			(effects
 				(font
@@ -19128,7 +19128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 86.614 73.406 90)
 			(effects
 				(font
@@ -19196,7 +19196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 320.04 52.07 0)
 			(effects
 				(font
@@ -19378,7 +19378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TVS_DFN2_SLP1006P2_SEM"
+		(property "Footprint" "${KIPRJMOD}:TVS_DFN2_SLP1006P2_SEM"
 			(at 140.97 77.47 0)
 			(effects
 				(font
@@ -19580,7 +19580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 183.8452 157.48 0)
 			(effects
 				(font
@@ -19714,7 +19714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 241.554 215.646 90)
 			(effects
 				(font
@@ -19979,7 +19979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.4452 157.48 0)
 			(effects
 				(font
@@ -20048,7 +20048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB4110GFA:GCT_USB4110GFA"
+		(property "Footprint" "${KIPRJMOD}:GCT_USB4110GFA"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -20218,7 +20218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+		(property "Footprint" "${KIPRJMOD}:WL-SMCW_0603"
 			(at 204.47 91.44 0)
 			(effects
 				(font

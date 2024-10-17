@@ -6120,7 +6120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+		(property "Footprint" "${KIPRJMOD}:WL-SMCW_0603"
 			(at 210.82 156.21 0)
 			(effects
 				(font
@@ -6256,7 +6256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 94.9452 78.74 0)
 			(effects
 				(font
@@ -6406,7 +6406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 187.96 142.24 0)
 			(effects
 				(font
@@ -6587,7 +6587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGY0020B-MFG"
+		(property "Footprint" "${KIPRJMOD}:RGY0020B-MFG"
 			(at 49.53 118.11 0)
 			(effects
 				(font
@@ -6714,7 +6714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SDC08B"
+		(property "Footprint" "${KIPRJMOD}:SDC08B"
 			(at 35.56 59.69 0)
 			(effects
 				(font
@@ -6804,7 +6804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 144.78 142.24 0)
 			(effects
 				(font
@@ -6871,7 +6871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 40.64 138.43 0)
 			(effects
 				(font
@@ -7155,7 +7155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 124.46 170.18 0)
 			(effects
 				(font
@@ -7224,7 +7224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 156.21 140.97 0)
 			(effects
 				(font
@@ -7293,7 +7293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -7556,7 +7556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+		(property "Footprint" "${KIPRJMOD}:WL-SMCW_0603"
 			(at 267.97 156.21 0)
 			(effects
 				(font
@@ -7627,7 +7627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.87 139.7 0)
 			(effects
 				(font
@@ -7696,7 +7696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 267.97 147.32 0)
 			(effects
 				(font
@@ -7763,7 +7763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 104.14 158.75 0)
 			(effects
 				(font
@@ -7832,7 +7832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 144.78 134.62 0)
 			(effects
 				(font
@@ -7901,7 +7901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.1552 72.39 0)
 			(effects
 				(font
@@ -7971,7 +7971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 27.94 123.19 0)
 			(effects
 				(font
@@ -8171,7 +8171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 210.82 147.32 0)
 			(effects
 				(font
@@ -8238,7 +8238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+		(property "Footprint" "${KIPRJMOD}:WL-SMCW_0603"
 			(at 248.92 156.21 0)
 			(effects
 				(font
@@ -8438,7 +8438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 243.84 142.24 0)
 			(effects
 				(font
@@ -8554,7 +8554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 266.7 85.3948 0)
 			(effects
 				(font
@@ -8622,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 41.91 168.91 0)
 			(effects
 				(font
@@ -8691,7 +8691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 22.86 154.94 0)
 			(effects
 				(font
@@ -8959,7 +8959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.83 162.56 0)
 			(effects
 				(font
@@ -9028,7 +9028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 248.92 147.32 0)
 			(effects
 				(font
@@ -9098,7 +9098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 34.29 177.8 0)
 			(effects
 				(font
@@ -9168,7 +9168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 250.444 50.546 90)
 			(effects
 				(font
@@ -9235,7 +9235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 114.3 158.75 0)
 			(effects
 				(font
@@ -9696,7 +9696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 258.064 97.536 90)
 			(effects
 				(font
@@ -9829,7 +9829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMR36520FADDAR:IC_LMR36520FADDAR"
+		(property "Footprint" "${KIPRJMOD}:IC_LMR36520FADDAR"
 			(at 243.84 99.06 0)
 			(effects
 				(font
@@ -10069,7 +10069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -10137,7 +10137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 205.74 142.24 0)
 			(effects
 				(font
@@ -10254,7 +10254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 193.04 96.52 0)
 			(effects
 				(font
@@ -10322,7 +10322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SIL0010C"
+		(property "Footprint" "${KIPRJMOD}:SIL0010C"
 			(at 223.52 45.72 0)
 			(effects
 				(font
@@ -10418,7 +10418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 113.284 67.056 90)
 			(effects
 				(font
@@ -10551,7 +10551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -10621,7 +10621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 250.444 40.386 90)
 			(effects
 				(font
@@ -10691,7 +10691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.33 125.73 0)
 			(effects
 				(font
@@ -10760,7 +10760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 30.1752 64.77 0)
 			(effects
 				(font
@@ -10829,7 +10829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 229.87 147.32 0)
 			(effects
 				(font
@@ -10897,7 +10897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 262.89 142.24 0)
 			(effects
 				(font
@@ -11081,7 +11081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640387-2:TE_640387-2"
+		(property "Footprint" "${KIPRJMOD}:TE_640387-2"
 			(at 140.97 27.94 0)
 			(effects
 				(font
@@ -11245,7 +11245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 208.28 106.68 0)
 			(effects
 				(font
@@ -11312,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 40.64 153.67 0)
 			(effects
 				(font
@@ -11511,7 +11511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 40.64 146.05 0)
 			(effects
 				(font
@@ -11581,7 +11581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 261.62 41.91 0)
 			(effects
 				(font
@@ -11648,7 +11648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+		(property "Footprint" "${KIPRJMOD}:WL-SMCW_0603"
 			(at 193.04 156.21 0)
 			(effects
 				(font
@@ -11782,7 +11782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 113.284 75.946 90)
 			(effects
 				(font
@@ -11915,7 +11915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 109.22 137.16 0)
 			(effects
 				(font
@@ -12049,7 +12049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.4852 59.69 0)
 			(effects
 				(font
@@ -12117,7 +12117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 106.68 0)
 			(effects
 				(font
@@ -12186,7 +12186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 193.04 147.32 0)
 			(effects
 				(font
@@ -12253,7 +12253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.784 59.436 90)
 			(effects
 				(font
@@ -12320,7 +12320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WL-SMCW_0603:WL-SMCW_0603"
+		(property "Footprint" "${KIPRJMOD}:WL-SMCW_0603"
 			(at 229.87 156.21 0)
 			(effects
 				(font
@@ -12520,7 +12520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 42.164 75.946 90)
 			(effects
 				(font
@@ -12718,7 +12718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 217.17 106.68 0)
 			(effects
 				(font
@@ -12851,7 +12851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 122.174 75.946 90)
 			(effects
 				(font
@@ -12985,7 +12985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 226.06 104.14 0)
 			(effects
 				(font
@@ -13119,7 +13119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 207.01 113.03 0)
 			(effects
 				(font
@@ -13189,7 +13189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 27.94 133.35 0)
 			(effects
 				(font
@@ -13256,7 +13256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 42.164 67.056 90)
 			(effects
 				(font
@@ -13786,7 +13786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 224.79 142.24 0)
 			(effects
 				(font
@@ -13902,7 +13902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 133.35 130.81 0)
 			(effects
 				(font
@@ -13972,7 +13972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 41.91 120.65 0)
 			(effects
 				(font
@@ -14039,7 +14039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 104.14 166.37 0)
 			(effects
 				(font
@@ -14240,7 +14240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 27.94 113.03 0)
 			(effects
 				(font
