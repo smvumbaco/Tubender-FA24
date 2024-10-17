@@ -2332,7 +2332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1be4ccac-063b-4aa4-aa48-1c6d5c980561")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0110"
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -2382,7 +2382,7 @@
 		(instances
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
-					(reference "#PWR037")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2463,7 +2463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fe2521e-ee74-4aa0-914e-550342e988d4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0111"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -2513,7 +2513,7 @@
 		(instances
 			(project ""
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/cace885d-07c2-48b7-a983-3b69a09d8a62"
-					(reference "#PWR034")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
