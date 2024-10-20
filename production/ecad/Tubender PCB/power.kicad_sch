@@ -11891,13 +11891,13 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 109.22 137.16 270)
-		(mirror x)
+		(at 109.22 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bac4fed1-6782-49ec-be87-4871b2b9cacc")
 		(property "Reference" "R_ILIM1"
 			(at 109.22 130.81 90)
