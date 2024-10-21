@@ -53726,7 +53726,7 @@
 		)
 	)
 	(gr_text "drain gang"
-		(at 109 67.5 90)
+		(at 110 72.75 90)
 		(layer "F.SilkS")
 		(uuid "993ce4bb-e5d4-48d6-9e57-719a04070d7a")
 		(effects
