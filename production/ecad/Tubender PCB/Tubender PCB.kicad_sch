@@ -60,7 +60,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 92.71) (xy 90.17 95.25)
+			(xy 87.63 92.71) (xy 87.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -360,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 93.98) (xy 87.63 95.25)
+			(xy 85.09 93.98) (xy 85.09 95.25)
 		)
 		(stroke
 			(width 0)
@@ -377,6 +377,16 @@
 			(type default)
 		)
 		(uuid "8ac12b3b-dba7-4655-9bbc-9d21d22e213b")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c29f4f1-3e71-4621-84f2-f8196a2cfdfa")
 	)
 	(wire
 		(pts
@@ -410,7 +420,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 85.09 95.25)
+			(xy 82.55 93.98) (xy 82.55 95.25)
 		)
 		(stroke
 			(width 0)
@@ -766,6 +776,28 @@
 	)
 	(global_label "3.3V"
 		(shape input)
+		(at 90.17 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "130025ee-9a5f-4ba3-ab52-7ed92c7eb822")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 86.8824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
 		(at 93.98 33.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -854,7 +886,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 87.63 93.98 90)
+		(at 85.09 93.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -864,7 +896,7 @@
 		)
 		(uuid "6a1233f0-0841-414f-a5eb-1223eeb44f61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 87.4872 90)
+			(at 85.09 87.4872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +930,7 @@
 	)
 	(global_label "24V"
 		(shape input)
-		(at 85.09 93.98 90)
+		(at 82.55 93.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -908,7 +940,7 @@
 		)
 		(uuid "7103e55c-863c-4a59-bb66-8e1a5a2691aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 87.4872 90)
+			(at 82.55 87.4872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +1062,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 90.17 92.71 90)
+		(at 87.63 92.71 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1040,7 +1072,7 @@
 		)
 		(uuid "b4aea875-01e6-4471-bc58-a1f83363756d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 87.4267 90)
+			(at 87.63 87.4267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2420,7 @@
 			)
 		)
 		(pin "12V" input
-			(at 87.63 95.25 90)
+			(at 85.09 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2430,7 @@
 			(uuid "4b2ca8c0-16df-4c72-af71-b268029d278f")
 		)
 		(pin "24V" input
-			(at 85.09 95.25 90)
+			(at 82.55 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2440,7 @@
 			(uuid "0fa479a6-9e27-4c5a-b01e-bf6597ed4742")
 		)
 		(pin "5V" input
-			(at 90.17 95.25 90)
+			(at 87.63 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,6 +2548,16 @@
 				(justify right)
 			)
 			(uuid "ec6c4e1e-542f-479b-8846-cebc9d31ec99")
+		)
+		(pin "3.3V" input
+			(at 90.17 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ad42356-221d-4a80-8ba7-1d6f2e9e8cf3")
 		)
 		(instances
 			(project "Tubender PCB"
