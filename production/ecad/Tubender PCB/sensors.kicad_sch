@@ -3881,7 +3881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640387-2:TE_640387-2"
+		(property "Footprint" "${KIPRJMOD}:TE_640387-2"
 			(at 80.01 43.18 0)
 			(effects
 				(font
@@ -4182,7 +4182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640387-2:TE_640387-2"
+		(property "Footprint" "${KIPRJMOD}:TE_640387-2"
 			(at 156.21 43.18 0)
 			(effects
 				(font
@@ -4615,7 +4615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640387-2:TE_640387-2"
+		(property "Footprint" "${KIPRJMOD}:TE_640387-2"
 			(at 73.66 99.06 0)
 			(effects
 				(font
@@ -5281,7 +5281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640387-2:TE_640387-2"
+		(property "Footprint" "${KIPRJMOD}:TE_640387-2"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -5991,7 +5991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640387-2:TE_640387-2"
+		(property "Footprint" "${KIPRJMOD}:TE_640387-2"
 			(at 156.21 59.69 0)
 			(effects
 				(font
@@ -6157,7 +6157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640387-2:TE_640387-2"
+		(property "Footprint" "${KIPRJMOD}:TE_640387-2"
 			(at 80.01 59.69 0)
 			(effects
 				(font

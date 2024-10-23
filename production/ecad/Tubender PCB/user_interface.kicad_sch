@@ -13509,7 +13509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 129.54 128.27 0)
 			(effects
 				(font
@@ -13793,7 +13793,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 125.73 124.46 0)
 			(effects
 				(font
@@ -14275,7 +14275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 153.67 140.97 0)
 			(effects
 				(font
@@ -14526,7 +14526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 128.27 147.32 0)
 			(effects
 				(font
@@ -16307,7 +16307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 81.28 151.13 0)
 			(effects
 				(font
@@ -16955,7 +16955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOIC127P600X175-16N"
+		(property "Footprint" "${KIPRJMOD}:SOIC127P600X175-16N"
 			(at 353.06 216.84 0)
 			(effects
 				(font
@@ -17271,7 +17271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 146.05 138.43 0)
 			(effects
 				(font
@@ -18838,7 +18838,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 116.84 90.17 0)
 			(effects
 				(font
@@ -19638,7 +19638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 124.46 151.13 0)
 			(effects
 				(font
@@ -20254,7 +20254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 118.11 50.8 0)
 			(effects
 				(font
@@ -21302,7 +21302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 88.9 52.07 0)
 			(effects
 				(font
@@ -21718,7 +21718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 88.9 123.19 0)
 			(effects
 				(font
@@ -22233,7 +22233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOT109-1_NXP"
+		(property "Footprint" "${KIPRJMOD}:SOT109-1_NXP"
 			(at 118.11 228.27 0)
 			(effects
 				(font
@@ -23314,7 +23314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
+		(property "Footprint" "${KIPRJMOD}:QFP40P1600X1600X160-128N"
 			(at 231.14 143.18 0)
 			(effects
 				(font
@@ -23949,7 +23949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 86.36 129.54 0)
 			(effects
 				(font
@@ -25042,7 +25042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TE_4-1734592-0"
+		(property "Footprint" "${KIPRJMOD}:TE_4-1734592-0"
 			(at 44.45 144.45 0)
 			(effects
 				(font
@@ -25664,7 +25664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 144.78 86.36 0)
 			(effects
 				(font
@@ -25913,7 +25913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOIC127P600X175-16N"
+		(property "Footprint" "${KIPRJMOD}:SOIC127P600X175-16N"
 			(at 353.06 171.12 0)
 			(effects
 				(font
@@ -26598,7 +26598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "5006:KEYSTONE_5006"
+		(property "Footprint" "${KIPRJMOD}:KEYSTONE_5006"
 			(at 88.9 102.87 0)
 			(effects
 				(font
