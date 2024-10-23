@@ -3814,7 +3814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "640387-5:TE_640387-5"
+		(property "Footprint" "footprints:TE_640387-5"
 			(at 224.79 109.22 0)
 			(effects
 				(font
@@ -4035,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 36.5252 38.1 0)
 			(effects
 				(font
@@ -4236,7 +4236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P400X130-8N"
+		(property "Footprint" ""
 			(at 128.27 -39.04 0)
 			(effects
 				(font
@@ -4393,7 +4393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 232.41 48.26 0)
 			(effects
 				(font
@@ -4460,7 +4460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 232.41 53.34 0)
 			(effects
 				(font
@@ -4930,7 +4930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 234.95 58.42 0)
 			(effects
 				(font
@@ -5000,7 +5000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1-640387-0:TE_1-640387-0"
+		(property "Footprint" "footprints:TE_1-640387-0"
 			(at 62.23 114.3 0)
 			(effects
 				(font
@@ -5191,7 +5191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 243.84 58.42 0)
 			(effects
 				(font
@@ -5259,7 +5259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DIPS1524W50P254L3760H835Q12N"
+		(property "Footprint" ""
 			(at 109.22 143.18 0)
 			(effects
 				(font
@@ -5429,7 +5429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PEC11R-4XXXK-SXXXX"
+		(property "Footprint" ""
 			(at 224.79 143.18 0)
 			(effects
 				(font
