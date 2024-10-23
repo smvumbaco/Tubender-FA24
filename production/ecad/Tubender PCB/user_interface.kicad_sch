@@ -16955,7 +16955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-16N"
+		(property "Footprint" "footprints:SOIC127P600X175-16N"
 			(at 353.06 216.84 0)
 			(effects
 				(font
@@ -22233,7 +22233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-16N"
+		(property "Footprint" "footprints:SOT109-1_NXP"
 			(at 118.11 228.27 0)
 			(effects
 				(font
@@ -23314,7 +23314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFP50P1600X1600X160-100N"
+		(property "Footprint" "footprints:QFP40P1600X1600X160-128N"
 			(at 231.14 143.18 0)
 			(effects
 				(font
@@ -25042,7 +25042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "417345920"
+		(property "Footprint" "footprints:TE_4-1734592-0"
 			(at 44.45 144.45 0)
 			(effects
 				(font
@@ -25913,7 +25913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-16N"
+		(property "Footprint" "footprints:SOIC127P600X175-16N"
 			(at 353.06 171.12 0)
 			(effects
 				(font
