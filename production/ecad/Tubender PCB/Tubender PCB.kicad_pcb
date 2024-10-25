@@ -38564,7 +38564,7 @@
 		(uuid "9416c906-d550-48aa-b468-3bbd1b14cff0")
 		(at 287.775 145.175 180)
 		(property "Reference" "IC3"
-			(at -0.795 -6.035 360)
+			(at -0.795 -6.035 0)
 			(layer "F.SilkS")
 			(uuid "bd08cb66-fc9d-4448-98bb-cee781060f3d")
 			(effects
@@ -38575,7 +38575,7 @@
 			)
 		)
 		(property "Value" "CD4051BM96"
-			(at 8.095 6.035 360)
+			(at 8.095 6.035 0)
 			(layer "F.Fab")
 			(uuid "4b594116-6528-4e60-a773-ddc35d6fe0ce")
 			(effects
@@ -38586,7 +38586,7 @@
 			)
 		)
 		(property "Footprint" "${KIPRJMOD}:SOIC127P600X175-16N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "361bcf7c-626a-4a98-90bb-0e61e53d5c47")
@@ -38598,7 +38598,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=CD4051B&&fileType=pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02afadee-5a0d-482d-8667-6d594debb481")
@@ -38610,7 +38610,7 @@
 			)
 		)
 		(property "Description" "CMOS 8-Ch Analog Mux/Demux CD4051BM96G4 CD4051BM96, Multiplexer/Demultiplexer Single 8:1, 12 V, 15 V, 18 V, 5 V, 9 V, 16-Pin, SOIC, 1"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bafbd3e1-aae1-4245-a17a-feba946249e9")
@@ -61263,7 +61263,7 @@
 		(uuid "e8918eac-b66b-4936-abf9-6e1b2e0d2ee3")
 		(at 287.775 130.895 180)
 		(property "Reference" "IC4"
-			(at -0.795 -6.035 360)
+			(at -0.795 -6.035 0)
 			(layer "F.SilkS")
 			(uuid "588fcfdb-b455-4025-ba43-81169c2a09c4")
 			(effects
@@ -61274,7 +61274,7 @@
 			)
 		)
 		(property "Value" "CD4051BM96"
-			(at 8.095 6.035 360)
+			(at 8.095 6.035 0)
 			(layer "F.Fab")
 			(uuid "7a2f0eaf-aac8-4838-848f-d942672d88be")
 			(effects
@@ -61285,7 +61285,7 @@
 			)
 		)
 		(property "Footprint" "${KIPRJMOD}:SOIC127P600X175-16N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87730c04-99d4-4481-a676-987b07b840c1")
@@ -61297,7 +61297,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=CD4051B&&fileType=pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d80a68f9-ca8f-46f5-9ea2-5bb2cbfd9398")
@@ -61309,7 +61309,7 @@
 			)
 		)
 		(property "Description" "CMOS 8-Ch Analog Mux/Demux CD4051BM96G4 CD4051BM96, Multiplexer/Demultiplexer Single 8:1, 12 V, 15 V, 18 V, 5 V, 9 V, 16-Pin, SOIC, 1"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a415363-eb42-47ca-a9bc-b54cd90d7e26")
@@ -68275,36 +68275,12 @@
 		(uuid "eeeed074-776e-471e-a36f-7a05c6c87463")
 	)
 	(segment
-		(start 209.75 173.5)
-		(end 142.3925 173.2)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "25e78369-b3fe-42ff-8c8f-47766822e55c")
-	)
-	(segment
-		(start 215 168)
-		(end 215 168)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "3803b424-4ca3-42c8-82b2-82c9152a41e2")
-	)
-	(segment
 		(start 122.5 193.0925)
 		(end 125.575 193.0925)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 20)
 		(uuid "7079c4e2-82d8-40cb-9613-5b89698142d6")
-	)
-	(segment
-		(start 142.3925 173.2)
-		(end 122.5 193.0925)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "7e272df8-9c67-4a0a-94bd-f921f95b082a")
 	)
 	(segment
 		(start 125.575 193.0925)
@@ -68323,52 +68299,12 @@
 		(uuid "ac237331-b7d0-4123-811e-89530b27761a")
 	)
 	(segment
-		(start 209.8 173.2)
-		(end 209.75 173.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 20)
-		(uuid "c7107040-da89-4836-aa2d-16e513aa8a1c")
-	)
-	(segment
 		(start 127 200.28312)
 		(end 126.91312 200.37)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 20)
 		(uuid "c79b93eb-d3fe-4faf-9cde-09268afd3ec2")
-	)
-	(via
-		(at 209.75 173.5)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 20)
-		(uuid "4843fd1c-4c66-4638-81d6-f46385280e6e")
-	)
-	(via
-		(at 215 168)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 20)
-		(uuid "5910f3cb-6ccb-4e97-ba89-954adb9abfbe")
-	)
-	(segment
-		(start 209.75 173.5)
-		(end 215 168.25)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 20)
-		(uuid "34eef649-1547-41ce-a1cb-95481bacac0d")
-	)
-	(segment
-		(start 215 168.25)
-		(end 215 168)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 20)
-		(uuid "522bd322-b284-4076-9474-9db5e66a5ea7")
 	)
 	(segment
 		(start 136.575 193.0925)
