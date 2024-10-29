@@ -2936,6 +2936,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 170.18) (xy 50.8 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11dde92a-be1a-4a38-b00a-080c9d34524a")
+	)
+	(wire
+		(pts
 			(xy 48.26 109.22) (xy 52.07 109.22)
 		)
 		(stroke
@@ -3023,6 +3033,16 @@
 			(type default)
 		)
 		(uuid "240c23b7-3337-4a97-86c7-5eccc7b5b8e0")
+	)
+	(wire
+		(pts
+			(xy 48.26 165.1) (xy 50.8 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249d9968-672e-4618-9d49-9ef97259138b")
 	)
 	(wire
 		(pts
@@ -3286,6 +3306,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 160.02) (xy 50.8 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebb715a-712a-4b55-bd40-bdca4a18f9c4")
+	)
+	(wire
+		(pts
 			(xy 30.48 55.88) (xy 38.1 55.88)
 		)
 		(stroke
@@ -3416,6 +3446,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 162.56) (xy 50.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a205247a-daa9-4325-9028-5534a20ccff8")
+	)
+	(wire
+		(pts
 			(xy 60.96 49.53) (xy 59.69 49.53)
 		)
 		(stroke
@@ -3543,6 +3583,16 @@
 			(type default)
 		)
 		(uuid "bd1a6273-2d50-43e0-94d8-11d1b1f941a1")
+	)
+	(wire
+		(pts
+			(xy 48.26 167.64) (xy 50.8 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd09cb0-60d3-4110-b501-6ad3014f038a")
 	)
 	(wire
 		(pts
@@ -3705,6 +3755,18 @@
 		(uuid "fed841db-b0af-415d-a9ae-27a50bfe305b")
 	)
 	(rectangle
+		(start 17.78 149.86)
+		(end 90.17 186.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 454f19b2-f4b5-4431-888f-88e3a4b26bf2)
+	)
+	(rectangle
 		(start 190.5 25.4)
 		(end 270.51 74.93)
 		(stroke
@@ -3739,6 +3801,18 @@
 			(type none)
 		)
 		(uuid 85ae3ce8-3e6f-4c21-bfca-6d0e903362f2)
+	)
+	(rectangle
+		(start 104.14 90.17)
+		(end 176.53 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b9698ff5-8b7a-4c5a-8639-62f3ac03235e)
 	)
 	(rectangle
 		(start 190.5 88.9)
@@ -3791,6 +3865,19 @@
 		)
 		(uuid "a26ca94f-6ae2-4832-920c-b48c00357707")
 	)
+	(text "SD CARD"
+		(exclude_from_sim no)
+		(at 114.046 88.138 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.794 2.794)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "a29abfd4-2781-45cf-a95d-1f0ae548d862")
+	)
 	(text "Rotary Connector"
 		(exclude_from_sim no)
 		(at 208.534 86.106 0)
@@ -3803,6 +3890,19 @@
 			)
 		)
 		(uuid "e1fedc69-00e3-4fa6-9271-adfa2b321028")
+	)
+	(text "SD CARD Connector"
+		(exclude_from_sim no)
+		(at 40.132 147.574 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.794 2.794)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "ed689dcc-fd15-446a-ad40-9070afb0a4f2")
 	)
 	(global_label "DIAL_BUTTON"
 		(shape input)
@@ -4002,6 +4102,28 @@
 			)
 		)
 	)
+	(global_label "SD_DAT0"
+		(shape input)
+		(at 48.26 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ace2e94-c731-4a54-8701-ca8a47109d2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.292 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIAL_CHANNEL_B"
 		(shape input)
 		(at 246.38 48.26 0)
@@ -4037,6 +4159,50 @@
 		(uuid "81636d57-e81b-436f-ad9b-d6827c72794b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.2683 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CMD"
+		(shape input)
+		(at 48.26 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8430aef5-2068-400d-9403-aebdf1a54d4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.8363 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CLK"
+		(shape input)
+		(at 48.26 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84cd6e38-a9d3-4884-9e61-3074d69f02c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.2596 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,6 +4410,28 @@
 			)
 		)
 	)
+	(global_label "SD_CD"
+		(shape input)
+		(at 48.26 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e85f636a-74c0-480f-b130-0bd38eafd5b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.2877 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "7-SEG_A0"
 		(shape input)
 		(at 48.26 116.84 180)
@@ -4393,6 +4581,116 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "640387-5:640387-5")
+		(at 60.96 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fca0507-7624-40dd-af1b-fa87427bfd5c")
+		(property "Reference" "J4"
+			(at 67.31 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "640387-5"
+			(at 67.31 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TE_640387-5"
+			(at 60.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 60.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 60.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE"
+			(at 60.96 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b09584fa-f24f-49e0-8f2f-955f8abab0e5")
+		)
+		(pin "2"
+			(uuid "88eddb3d-c82d-4944-95c9-c16e055b7b3e")
+		)
+		(pin "3"
+			(uuid "92ee1c8d-78e1-4ebc-a6ed-8e5a494d9091")
+		)
+		(pin "4"
+			(uuid "78ea8743-7163-4a87-8734-4a6922660c48")
+		)
+		(pin "5"
+			(uuid "917c0eaa-afb4-40bd-ac06-8533cc8e03d3")
+		)
+		(instances
+			(project "Tubender UI_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5374,6 +5672,71 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76fccf5c-02dd-40ae-a724-8ff27565e1dd")
+		(property "Reference" "#PWR09"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca557477-974b-4f98-a65e-2b22a0db2da8")
+		)
+		(instances
+			(project "Tubender UI_PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3052d7ff-6484-4cba-b320-c154d511606f"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
