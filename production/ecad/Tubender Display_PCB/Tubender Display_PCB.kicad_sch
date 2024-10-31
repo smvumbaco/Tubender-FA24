@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4916e72e-7ae9-4101-aee3-2b754b142b5b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 78.74 49.53)
+		(size 120.65 90.17)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59890dec-aa8e-45b5-80f9-35cb87a82d38")
+		(property "Sheetname" "DISPLAY EXPANDER"
+			(at 78.74 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "expander.kicad_sch"
+			(at 78.74 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tubender Display_PCB"
+				(path "/4916e72e-7ae9-4101-aee3-2b754b142b5b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
