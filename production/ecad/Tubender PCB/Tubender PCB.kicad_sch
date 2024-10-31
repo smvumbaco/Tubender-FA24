@@ -510,6 +510,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 76.2) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29c6bfa-22df-417b-b128-536a454abdfd")
+	)
+	(wire
+		(pts
 			(xy 96.52 123.19) (xy 105.41 123.19)
 		)
 		(stroke
@@ -700,7 +710,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 76.2) (xy 106.68 76.2)
+			(xy 105.41 73.66) (xy 106.68 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1082,6 +1092,28 @@
 			)
 		)
 	)
+	(global_label "24V"
+		(shape input)
+		(at 105.41 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d91a2559-b5cd-4788-9231-a0964be2e725")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.9172 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 246.38 87.63 90)
@@ -1128,7 +1160,7 @@
 	)
 	(global_label "48V"
 		(shape input)
-		(at 105.41 76.2 180)
+		(at 105.41 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1138,7 +1170,7 @@
 		)
 		(uuid "ee8ba54a-b3e3-4de3-bb65-b02b8d1ffdee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9172 76.2 0)
+			(at 98.9172 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1356,7 @@
 			(uuid "6469d743-ad78-44e0-a179-8f1d1dcc51d1")
 		)
 		(pin "48V" input
-			(at 106.68 76.2 180)
+			(at 106.68 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,6 +1454,16 @@
 				(justify left)
 			)
 			(uuid "9c372ec4-801c-4894-9b8d-c867b0acc859")
+		)
+		(pin "24V" input
+			(at 106.68 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d58040f-56f2-4072-97af-20d95db8f045")
 		)
 		(instances
 			(project "Tubender PCB"

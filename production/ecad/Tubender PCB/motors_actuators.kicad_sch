@@ -433,6 +433,176 @@
 				)
 			)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
@@ -650,6 +820,30 @@
 			)
 		)
 	)
+	(junction
+		(at 110.49 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "774c829e-2833-4d65-912a-a9ea585b2066")
+	)
+	(junction
+		(at 143.51 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94133a1f-2294-44a0-9f9f-d3fa7e27f90b")
+	)
+	(junction
+		(at 210.82 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c0f9a95-2b5b-4b7e-b118-1236359cbd95")
+	)
+	(junction
+		(at 78.74 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c290a4c0-0d7c-48b5-8237-7d48c47a126e")
+	)
 	(wire
 		(pts
 			(xy 162.56 128.27) (xy 186.69 128.27)
@@ -672,7 +866,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 25.4) (xy 29.21 25.4)
+			(xy 21.59 25.4) (xy 33.02 25.4)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +906,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 142.24) (xy 111.76 143.51)
+			(xy 111.76 147.32) (xy 111.76 148.59)
 		)
 		(stroke
 			(width 0)
@@ -732,13 +926,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 139.7) (xy 115.57 139.7)
+			(xy 111.76 144.78) (xy 115.57 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "15a6a27c-7b25-4e50-acc3-b4344a27f7cb")
+	)
+	(wire
+		(pts
+			(xy 128.27 78.74) (xy 128.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163ca3b8-9e84-4225-8f38-76806141f1a4")
 	)
 	(wire
 		(pts
@@ -752,6 +956,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 86.36) (xy 148.59 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e072166-cecc-4807-8ddf-e49a5fa1ee71")
+	)
+	(wire
+		(pts
 			(xy 157.48 130.81) (xy 157.48 132.08)
 		)
 		(stroke
@@ -762,13 +976,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 33.02) (xy 43.18 33.02)
+			(xy 20.32 36.83) (xy 45.72 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b343a1c-903d-495f-b7e0-7ff33c62516f")
+	)
+	(wire
+		(pts
+			(xy 195.58 78.74) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eaf333a-3881-4959-98b8-71a224676bbc")
 	)
 	(wire
 		(pts
@@ -779,6 +1003,26 @@
 			(type default)
 		)
 		(uuid "3051aa0f-6ad6-4e65-9a84-e7388e492190")
+	)
+	(wire
+		(pts
+			(xy 195.58 86.36) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384126cc-7f14-4f5b-b7d2-f182446eac3d")
+	)
+	(wire
+		(pts
+			(xy 128.27 86.36) (xy 143.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bfc6c0-178f-4235-86d0-42d76de18419")
 	)
 	(wire
 		(pts
@@ -802,17 +1046,37 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 86.36) (xy 83.82 86.36)
+			(xy 143.51 78.74) (xy 143.51 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52fb24bd-f24f-4c1d-adae-324459c8dba4")
+		(uuid "45281ea5-6c42-4043-a1e5-23029edced41")
 	)
 	(wire
 		(pts
-			(xy 21.59 36.83) (xy 48.26 36.83)
+			(xy 78.74 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469625e4-04bb-4b41-8a73-6e2796367ab0")
+	)
+	(wire
+		(pts
+			(xy 78.74 85.09) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c76a158-0816-4cb8-affa-28b8131d62be")
+	)
+	(wire
+		(pts
+			(xy 21.59 40.64) (xy 48.26 40.64)
 		)
 		(stroke
 			(width 0)
@@ -852,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 142.24) (xy 111.76 142.24)
+			(xy 115.57 147.32) (xy 111.76 147.32)
 		)
 		(stroke
 			(width 0)
@@ -972,6 +1236,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 86.36) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0fe405-f38c-44da-beed-3de617ea6067")
+	)
+	(wire
+		(pts
 			(xy 85.09 21.59) (xy 82.55 21.59)
 		)
 		(stroke
@@ -982,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 134.62) (xy 115.57 134.62)
+			(xy 111.76 139.7) (xy 115.57 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1032,16 +1306,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 148.59 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ddeca4-9c89-43e0-9d18-e915201b06b0")
-	)
-	(wire
-		(pts
 			(xy 212.09 88.9) (xy 215.9 88.9)
 		)
 		(stroke
@@ -1049,6 +1313,26 @@
 			(type default)
 		)
 		(uuid "aa072a95-2d91-4926-a406-2a265edb46b0")
+	)
+	(wire
+		(pts
+			(xy 21.59 29.21) (xy 38.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8cf6d8-6c2b-4612-8fac-88d9d5626cff")
+	)
+	(wire
+		(pts
+			(xy 110.49 135.89) (xy 110.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9644d3-cfb0-43a8-8c8f-232d8e70a9a8")
 	)
 	(wire
 		(pts
@@ -1082,13 +1366,33 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 137.16) (xy 115.57 137.16)
+			(xy 111.76 142.24) (xy 115.57 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba9e1687-8990-4c4b-992a-a0fae5ec6218")
+	)
+	(wire
+		(pts
+			(xy 210.82 78.74) (xy 210.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7df7b6-a579-4230-a3f2-cad41fb21485")
+	)
+	(wire
+		(pts
+			(xy 95.25 129.54) (xy 95.25 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ae9f21-7095-467c-8581-d860c3ed6ebc")
 	)
 	(wire
 		(pts
@@ -1112,7 +1416,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 29.21) (xy 38.1 29.21)
+			(xy 21.59 33.02) (xy 41.91 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1122,13 +1426,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 132.08) (xy 115.57 132.08)
+			(xy 63.5 78.74) (xy 63.5 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc6d164d-31de-40f0-88dd-341e6e4b5355")
+		(uuid "d86f746b-f972-49ad-bd27-d85fbb4a282b")
 	)
 	(wire
 		(pts
@@ -1142,13 +1446,33 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 215.9 86.36)
+			(xy 210.82 86.36) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e80f99dc-0f32-4637-9653-aa1d7b158fd3")
+		(uuid "e191d3c0-8708-4c9d-b3f1-fa8b11a5e515")
+	)
+	(wire
+		(pts
+			(xy 110.49 137.16) (xy 115.57 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf53e3b-472f-4fa7-8c88-1dbd43dccdf0")
+	)
+	(wire
+		(pts
+			(xy 95.25 137.16) (xy 110.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bbc2bd-f8bf-4030-acc0-44d1bd0e36dd")
 	)
 	(wire
 		(pts
@@ -1203,7 +1527,7 @@
 		(uuid 208c71c7-b8b7-46f6-b1ae-757c6aa6b2f6)
 	)
 	(rectangle
-		(start 120.65 77.47)
+		(start 120.65 71.12)
 		(end 180.34 110.49)
 		(stroke
 			(width 0)
@@ -1227,7 +1551,7 @@
 		(uuid 3c6addcc-1ce8-4c33-a81a-3567c7de31d1)
 	)
 	(rectangle
-		(start 186.69 77.47)
+		(start 186.69 71.12)
 		(end 246.38 110.49)
 		(stroke
 			(width 0)
@@ -1240,7 +1564,7 @@
 	)
 	(rectangle
 		(start 86.36 121.92)
-		(end 146.05 154.94)
+		(end 146.05 160.02)
 		(stroke
 			(width 0)
 			(type default)
@@ -1251,7 +1575,7 @@
 		(uuid 8157cc7b-9a02-47b1-a578-40f31a97e642)
 	)
 	(rectangle
-		(start 53.34 77.47)
+		(start 53.34 71.12)
 		(end 113.03 110.49)
 		(stroke
 			(width 0)
@@ -1264,7 +1588,7 @@
 	)
 	(rectangle
 		(start 13.97 19.05)
-		(end 55.88 43.18)
+		(end 55.88 49.53)
 		(stroke
 			(width 0)
 			(type default)
@@ -1276,7 +1600,7 @@
 	)
 	(text "Chuck Clamp Motor Connector"
 		(exclude_from_sim no)
-		(at 115.316 119.634 0)
+		(at 115.57 119.888 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -1289,7 +1613,7 @@
 	)
 	(text "Die Clamp Motor Connector\n"
 		(exclude_from_sim no)
-		(at 79.756 75.438 0)
+		(at 79.502 69.342 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -1327,7 +1651,7 @@
 	)
 	(text "Advancing Motor Connector"
 		(exclude_from_sim no)
-		(at 146.558 75.438 0)
+		(at 147.066 68.834 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -1352,7 +1676,7 @@
 	)
 	(text "Rotation Motor Connector"
 		(exclude_from_sim no)
-		(at 210.82 75.692 0)
+		(at 211.074 68.326 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -1497,7 +1821,7 @@
 	)
 	(global_label "CHUCK_CLAMP_PUL+"
 		(shape input)
-		(at 111.76 134.62 180)
+		(at 111.76 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1507,7 +1831,7 @@
 		)
 		(uuid "31042063-64f0-408a-aee5-dfbede8ffe94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.0595 134.62 0)
+			(at 89.0595 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,7 +1997,7 @@
 	)
 	(global_label "CHUCK_CLAMP_DIR+"
 		(shape input)
-		(at 111.76 139.7 180)
+		(at 111.76 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1683,7 +2007,7 @@
 		)
 		(uuid "60632659-501d-4bae-8a34-b26440526f1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.5433 139.7 0)
+			(at 89.5433 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +2151,7 @@
 	)
 	(global_label "CHUCK_CLAMP_ENA+"
 		(shape input)
-		(at 111.76 137.16 180)
+		(at 111.76 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1837,7 +2161,7 @@
 		)
 		(uuid "7eacfe64-37ad-4ceb-9a94-a83780cd73f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.12 137.16 0)
+			(at 89.12 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2489,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 20.32 33.02 180)
+		(at 20.32 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2177,7 +2501,7 @@
 	)
 	(hierarchical_label "12V"
 		(shape input)
-		(at 21.59 29.21 180)
+		(at 21.59 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2189,7 +2513,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 21.59 36.83 180)
+		(at 21.59 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2271,6 +2595,18 @@
 		)
 		(uuid "eb7e7b81-68e7-4e2c-bc93-4bb8687ff156")
 	)
+	(hierarchical_label "24V"
+		(shape input)
+		(at 21.59 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efe408ca-9f35-4ce7-b5a6-bf509c0f1fe2")
+	)
 	(hierarchical_label "DIE_CLAMP_PUL+"
 		(shape input)
 		(at 85.09 21.59 0)
@@ -2308,16 +2644,33 @@
 		(uuid "fe699879-36af-4712-a2f9-eed25270536d")
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 38.1 29.21 0)
+		(lib_id "Device:R_US")
+		(at 110.49 132.08 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
-		(uuid "1cd8e647-8af8-4143-9672-67762c356c2c")
-		(property "Reference" "#PWR076"
-			(at 38.1 33.02 0)
+		(dnp yes)
+		(uuid "0b5644a6-65cf-4768-bd82-32c33869c13f")
+		(property "Reference" "R83"
+			(at 106.934 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 106.934 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 111.506 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,8 +2678,195 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 38.1 25.146 0)
+		(property "Datasheet" "~"
+			(at 110.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 110.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ddba06f-ac4f-42d2-af55-7e7bbb572c49")
+		)
+		(pin "1"
+			(uuid "4e16a012-f210-4ea4-ada4-fa94b70c12b9")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 95.25 133.35 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bba97ed-fc5d-4655-a13b-ae3fdcad05c4")
+		(property "Reference" "R82"
+			(at 92.202 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 92.456 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 96.266 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "873b0b9f-d5a2-4dfa-aae2-dd1871002aed")
+		)
+		(pin "1"
+			(uuid "62074c99-46be-47b4-a7ca-215e60c1c410")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 63.5 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "116e061a-54a3-47f6-85c8-08904172e57b")
+		(property "Reference" "R77"
+			(at 60.452 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 60.706 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 64.516 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e400ec02-86b8-4fcb-8f1d-3457058eb0f5")
+		)
+		(pin "1"
+			(uuid "43507cda-ad1c-4a0d-a22d-c6a0a9513049")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 110.49 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17893faa-51bc-493b-9e6a-04f93b6e8930")
+		(property "Reference" "#PWR0217"
+			(at 110.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 110.49 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 29.21 0)
+			(at 110.49 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 29.21 0)
+			(at 110.49 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2892,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 38.1 29.21 0)
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5422b333-996d-4261-9e8d-d839c055a46d")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 41.91 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cd8e647-8af8-4143-9672-67762c356c2c")
+		(property "Reference" "#PWR076"
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 41.91 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 41.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2979,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 143.51 0)
+		(at 111.76 148.59 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2384,7 +2989,7 @@
 		(fields_autoplaced yes)
 		(uuid "2193358c-97d4-4e10-b7f0-28aa8266febc")
 		(property "Reference" "#PWR033"
-			(at 111.76 149.86 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2998,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 148.59 0)
+			(at 111.76 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +3006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 143.51 0)
+			(at 111.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +3015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 143.51 0)
+			(at 111.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +3024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 143.51 0)
+			(at 111.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,71 +3179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 199.39 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a2c3ae1-46f3-433e-9751-7d2226be41fc")
-		(property "Reference" "#PWR085"
-			(at 199.39 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+48V"
-			(at 199.39 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 199.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34bef49b-6e43-42f1-9414-dd2cb661e6db")
-		)
-		(instances
-			(project "Tubender Main_PCB"
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "640387-5:640387-5")
 		(at 93.98 91.44 0)
 		(unit 1)
@@ -2750,7 +3290,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 67.31 86.36 0)
+		(at 63.5 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2758,7 +3298,7 @@
 		(dnp no)
 		(uuid "30b0ef20-46c8-4750-b515-afff0a27ad13")
 		(property "Reference" "#PWR083"
-			(at 67.31 90.17 0)
+			(at 63.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3307,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 67.31 82.296 0)
+			(at 63.5 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +3315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 86.36 0)
+			(at 63.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +3324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 86.36 0)
+			(at 63.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +3333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 67.31 86.36 0)
+			(at 63.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,16 +3354,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 99.06 132.08 0)
+		(lib_id "Device:R_US")
+		(at 210.82 82.55 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
-		(uuid "320c75d4-2706-43cf-92c8-6211af6356f0")
-		(property "Reference" "#PWR086"
-			(at 99.06 135.89 0)
+		(dnp yes)
+		(uuid "323422a4-a4e5-4c35-81e5-7a6d1fa50b90")
+		(property "Reference" "R81"
+			(at 207.264 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 207.264 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 211.836 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,8 +3388,59 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+48V"
-			(at 99.06 128.016 0)
+		(property "Datasheet" "~"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66a00c5d-766b-4011-afd7-296ac3bb0ecc")
+		)
+		(pin "1"
+			(uuid "e17f8450-c26a-4533-ac8e-403efb3ba1fd")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 210.82 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32cc4be7-b7c5-4150-a50e-d158120f7199")
+		(property "Reference" "#PWR0216"
+			(at 210.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 210.82 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +3448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 132.08 0)
+			(at 210.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +3457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 132.08 0)
+			(at 210.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +3466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 99.06 132.08 0)
+			(at 210.82 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,12 +3475,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "43bc74a4-b4ca-4038-9dd4-a6c72fdb3298")
+			(uuid "3b8e6025-b896-47c5-a3b4-f43dccb86eaf")
 		)
 		(instances
-			(project "Tubender Main_PCB"
+			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
-					(reference "#PWR086")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -2880,15 +3488,15 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 43.18 33.02 0)
+		(at 78.74 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ce3eefa-8272-4585-a95a-c9cef31ef932")
-		(property "Reference" "#PWR078"
-			(at 43.18 36.83 0)
+		(uuid "378881f7-7f1b-4c5f-8a19-09e271d355c9")
+		(property "Reference" "#PWR0101"
+			(at 78.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,8 +3504,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 43.18 28.956 0)
+		(property "Value" "+24V"
+			(at 78.74 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +3513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 33.02 0)
+			(at 78.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +3522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 33.02 0)
+			(at 78.74 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +3531,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 43.18 33.02 0)
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7686db25-0225-4599-9d00-99f68674f3b3")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 45.72 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ce3eefa-8272-4585-a95a-c9cef31ef932")
+		(property "Reference" "#PWR078"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 45.72 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 45.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,6 +3611,74 @@
 			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 78.74 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3e748cb9-1cf8-4648-96de-4ae38374dcf8")
+		(property "Reference" "R76"
+			(at 75.184 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 75.184 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 79.756 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f22dcac-9514-4013-ab4c-e0e9b58443f5")
+		)
+		(pin "1"
+			(uuid "847f5846-d619-41ac-a15e-84c09d65ce9c")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -3005,6 +3746,71 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 128.27 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "415a8b10-fcaf-4b60-8ad9-ccf11c619e35")
+		(property "Reference" "#PWR084"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 128.27 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee1edf9f-5cad-4232-b00c-4d433f376a46")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -3144,15 +3950,15 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 29.21 25.4 0)
+		(at 195.58 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6ff5a85e-d7ab-4b56-beac-11d9f69fa602")
-		(property "Reference" "#PWR029"
-			(at 29.21 29.21 0)
+		(uuid "6ab1804c-6868-4d3c-9c5d-96dba29b4a13")
+		(property "Reference" "#PWR085"
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3967,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 29.21 21.336 0)
+			(at 195.58 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 25.4 0)
+			(at 195.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3984,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 25.4 0)
+			(at 195.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3993,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 29.21 25.4 0)
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd37639a-6540-4ee9-a096-336163baefa1")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 33.02 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ff5a85e-d7ab-4b56-beac-11d9f69fa602")
+		(property "Reference" "#PWR029"
+			(at 33.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 33.02 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 33.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,16 +4079,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 132.08 86.36 0)
+		(lib_id "Device:R_US")
+		(at 128.27 82.55 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "790cce04-db1e-45ee-bf6c-71e6bf2f3518")
-		(property "Reference" "#PWR084"
-			(at 132.08 90.17 0)
+		(uuid "77cd6d14-d64e-4a02-a96e-4c95c0aee84b")
+		(property "Reference" "R78"
+			(at 125.222 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 125.476 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 129.286 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,16 +4113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+48V"
-			(at 132.08 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 86.36 0)
+		(property "Datasheet" "~"
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,8 +4122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 132.08 86.36 0)
+		(property "Description" "Resistor, US symbol"
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,22 +4131,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 132.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "f28d941f-6ab8-4dfd-a629-2ff6d75cd154")
 		)
 		(pin "1"
-			(uuid "6ed9e04b-98e7-4274-b243-d3e8d94e6ca7")
+			(uuid "2f5d7264-615d-47cc-bd3e-d93cec8eb525")
 		)
 		(instances
-			(project "Tubender Main_PCB"
+			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
-					(reference "#PWR084")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -3384,7 +4258,7 @@
 	)
 	(symbol
 		(lib_id "640387-5:640387-5")
-		(at 125.73 137.16 0)
+		(at 125.73 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3393,7 +4267,7 @@
 		(fields_autoplaced yes)
 		(uuid "98b26830-463a-461a-bffa-92a17aa24c6c")
 		(property "Reference" "J13"
-			(at 132.08 135.8899 0)
+			(at 132.08 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +4276,7 @@
 			)
 		)
 		(property "Value" "640387-5"
-			(at 132.08 138.4299 0)
+			(at 132.08 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +4285,7 @@
 			)
 		)
 		(property "Footprint" "${KIPRJMOD}:TE_640387-5"
-			(at 125.73 137.16 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +4295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 137.16 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +4304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 137.16 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +4313,7 @@
 			)
 		)
 		(property "PARTREV" "R"
-			(at 125.73 137.16 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +4323,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 125.73 137.16 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +4333,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE"
-			(at 125.73 137.16 0)
+			(at 125.73 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,6 +4361,139 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 195.58 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b1601c6-e8d7-495c-b0c0-8c87c781b8c1")
+		(property "Reference" "R80"
+			(at 192.532 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 192.786 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 196.596 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 195.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05c344d5-db0c-4d9e-a496-a2431dfd2940")
+		)
+		(pin "1"
+			(uuid "e599a9df-73df-4851-af7a-243390d14ac8")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 95.25 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab784a67-ae86-48b1-8b39-35166593150d")
+		(property "Reference" "#PWR086"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 95.25 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 95.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41ee43bf-6ae0-466d-8956-0043ed916662")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -3552,6 +4559,139 @@
 			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 38.1 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b93ac793-cf97-4ba8-a904-70b020c186c1")
+		(property "Reference" "#PWR040"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 38.1 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7387252e-589f-4357-bc7d-fdf7ad6873a6")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 143.51 82.55 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "bb5a6e34-f504-4412-94c6-c796998d47db")
+		(property "Reference" "R79"
+			(at 139.954 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 139.954 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 144.526 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d2d711c-f548-4d2f-b61b-a0b600b75866")
+		)
+		(pin "1"
+			(uuid "f7958caf-4473-4c76-97b9-9547d947d539")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -3678,7 +4818,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 36.83 0)
+		(at 48.26 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3686,7 +4826,7 @@
 		(dnp no)
 		(uuid "ddf90a87-5028-441a-958c-6ea48ed9603c")
 		(property "Reference" "#PWR077"
-			(at 48.26 43.18 0)
+			(at 48.26 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +4835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 40.894 0)
+			(at 48.26 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +4843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 36.83 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +4852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 36.83 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +4861,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 36.83 0)
+			(at 48.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,6 +4943,71 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 143.51 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5402e3c-9942-4503-a1aa-987cb385c707")
+		(property "Reference" "#PWR0215"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 143.51 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc47061a-4f61-46dd-9b6c-522949644d19")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/13aa630f-a113-42e5-a444-8a43936e9c33"
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
