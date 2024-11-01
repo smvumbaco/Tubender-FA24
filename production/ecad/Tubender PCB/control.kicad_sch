@@ -5,6 +5,231 @@
 	(uuid "ddf41441-d85f-4518-a1dd-f53857442d38")
 	(paper "A3")
 	(lib_symbols
+		(symbol "2024-11-01_00-41-16:PMEG4010CEH"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "PMEG4010CEH"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOD123F_NXP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "PMEG4010CEH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PMEG4010CEH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOD123F_NXP SOD123F_NXP-M SOD123F_NXP-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMEG4010CEH_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 5.715 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "5006:5006"
 			(pin_names
 				(offset 1.016)
@@ -5215,6 +5440,12 @@
 		(uuid "1a8da2bb-20de-4f52-a9ce-4e296553795c")
 	)
 	(junction
+		(at 99.06 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d60b694-790e-4c36-9ffe-1781992b0308")
+	)
+	(junction
 		(at 167.64 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5623,6 +5854,16 @@
 			(type default)
 		)
 		(uuid "0816a8a2-918c-4657-b08f-1ed09b01c7f3")
+	)
+	(wire
+		(pts
+			(xy 101.6 200.66) (xy 101.6 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082ea515-2ad1-4d36-bfca-0a254e686fd9")
 	)
 	(wire
 		(pts
@@ -6146,6 +6387,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 213.36) (xy 101.6 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3295c3f6-f3f1-47ac-a39d-f2f61709c286")
+	)
+	(wire
+		(pts
 			(xy 317.5 226.06) (xy 317.5 228.6)
 		)
 		(stroke
@@ -6323,16 +6574,6 @@
 			(type default)
 		)
 		(uuid "4703f81b-7405-456a-9dd1-542f30221996")
-	)
-	(wire
-		(pts
-			(xy 105.41 200.66) (xy 106.68 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4772840c-5292-4894-b478-7923fb342f2d")
 	)
 	(wire
 		(pts
@@ -6763,6 +7004,16 @@
 			(type default)
 		)
 		(uuid "670ac6e5-9cd4-4058-b793-0ad02bd9ad12")
+	)
+	(wire
+		(pts
+			(xy 97.79 213.36) (xy 99.06 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a83546-2028-4d36-bc6f-0c3946e713f5")
 	)
 	(wire
 		(pts
@@ -7936,6 +8187,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 200.66) (xy 101.6 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ca913b-fe68-4462-9820-2026da50caa2")
+	)
+	(wire
+		(pts
 			(xy 52.07 151.13) (xy 44.45 151.13)
 		)
 		(stroke
@@ -8413,7 +8674,7 @@
 		(uuid c805ff6a-5ba7-4020-95da-dce1fc798ce8)
 	)
 	(rectangle
-		(start 85.09 143.51)
+		(start 77.47 143.51)
 		(end 199.39 241.3)
 		(stroke
 			(width 0)
@@ -8464,7 +8725,7 @@
 	)
 	(text "ESP32"
 		(exclude_from_sim no)
-		(at 90.678 141.732 0)
+		(at 83.82 141.986 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -10152,7 +10413,7 @@
 	)
 	(global_label "BENDING_LIN_POT"
 		(shape input)
-		(at 105.41 200.66 180)
+		(at 97.79 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10162,7 +10423,7 @@
 		)
 		(uuid "9586df35-2067-4ed3-9ab5-164dd7783a93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.7333 200.66 0)
+			(at 78.1133 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12455,6 +12716,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 99.06 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "080eb6dd-48c7-4876-b358-b61101a3b0e5")
+		(property "Reference" "#PWR0219"
+			(at 99.06 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 199.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 99.06 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "353cd069-a2b6-4f4f-a5ae-50c4058d98d8")
+		)
+		(instances
+			(project "Tubender PCB"
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 212.09 55.88 180)
 		(unit 1)
@@ -14282,6 +14608,78 @@
 			(project "Tubender Main_PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-11-01_00-41-16:PMEG4010CEH")
+		(at 99.06 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a7c6638-05f8-4e6a-9947-faf9b91d847d")
+		(property "Reference" "CR1"
+			(at 102.108 208.026 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMEG4010CEH"
+			(at 78.74 208.026 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:SOD123F_NXP"
+			(at 99.06 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PMEG4010CEH"
+			(at 99.06 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21d6ff93-33b9-446f-a7b7-61264b67a55a")
+		)
+		(pin "2"
+			(uuid "15082bab-8397-44aa-af78-ec978bf388a1")
+		)
+		(instances
+			(project ""
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/970b1c80-6c89-48ca-aa97-a5b3735d13b7"
+					(reference "CR1")
 					(unit 1)
 				)
 			)
