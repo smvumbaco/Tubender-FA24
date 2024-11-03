@@ -1,4 +1,4 @@
-23911288251755827
+23914749586229783
 ${KIPRJMOD}
 1040310811
 1040310811
@@ -342,6 +342,13 @@ XTAL_ABM8-20.000MHz-10-B1U-T
 0
 4
 4
+${KIPRJMOD}
+tube
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69166,6 +69173,13 @@ XTAL_ABM8-20.000MHz-10-B1U-T
 0
 4
 4
+PROJ_LIBRARY
+tube
+
+
+0
+0
+0
 Package_BGA
 Alliance_TFBGA-54_8x8mm_Layout9x9_P0.8mm
 Alliance TFBGA 54 pins, 8x8mm, 54 Ball, 9x9 Layout, 0.8mm Pitch, https://www.alliancememory.com/wp-content/uploads/pdf/dram/Alliance_Memory_64M-AS4C4M16SA-CI_v5.0_October_2018.pdf#page=54
