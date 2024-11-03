@@ -14641,7 +14641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:SOD123F_NXP"
+		(property "Footprint" "${KIPRJMOD}:SOD123F_NXP"
 			(at 99.06 213.36 0)
 			(effects
 				(font
