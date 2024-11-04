@@ -2976,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 107.95) (xy 213.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18811635-0225-4819-93fa-313ca56147d8")
+	)
+	(wire
+		(pts
 			(xy 33.02 115.57) (xy 35.56 115.57)
 		)
 		(stroke
@@ -3182,7 +3192,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4c94db29-3dac-4051-bbbd-8c20f7a4a7c3")
+		(uuid "4d14967c-dc48-4653-8502-e47f4000149b")
 	)
 	(wire
 		(pts
@@ -3493,16 +3503,6 @@
 			(type default)
 		)
 		(uuid "b0ec10a0-b2a5-448e-af3a-61dccc5207a7")
-	)
-	(wire
-		(pts
-			(xy 209.55 107.95) (xy 213.36 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b22d45a3-a71b-4616-bcef-8b291058d36f")
 	)
 	(wire
 		(pts
@@ -4214,7 +4214,7 @@
 	)
 	(global_label "DIAL_CHANNEL_A"
 		(shape input)
-		(at 209.55 110.49 180)
+		(at 209.55 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4224,7 +4224,7 @@
 		)
 		(uuid "877c3f65-1466-47a4-b379-eb05687e61e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.0223 110.49 0)
+			(at 191.0223 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4456,7 @@
 	)
 	(global_label "DIAL_CHANNEL_B"
 		(shape input)
-		(at 209.55 107.95 180)
+		(at 209.55 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4466,7 +4466,7 @@
 		)
 		(uuid "f5892ec8-11f5-4fc2-86d3-0f5716399146")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.8409 107.95 0)
+			(at 190.8409 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

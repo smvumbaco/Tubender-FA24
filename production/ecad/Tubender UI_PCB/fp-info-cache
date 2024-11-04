@@ -1,4 +1,4 @@
-24019325149535351
+24024517038914834
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97181,6 +97181,13 @@ CONV_TPSM265R1V5SILR
 11
 11
 footprints
+DCT0008A_N
+
+SN74LVC1G29DCTR 
+0
+8
+8
+footprints
 DIP794W45P254L1969H508Q16
 
 
@@ -97285,6 +97292,13 @@ TPSM265R1V5SILR
 0
 14
 12
+footprints
+SOD123F_NXP
+
+PMEG4010CEH 
+0
+2
+2
 footprints
 SOD3715X145N
 
@@ -97474,3 +97488,10 @@ XTAL_ABM8-20.000MHz-10-B1U-T
 0
 4
 4
+footprints
+tube
+
+
+0
+0
+0
