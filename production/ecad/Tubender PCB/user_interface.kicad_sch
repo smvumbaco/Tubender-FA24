@@ -15641,7 +15641,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 256.286 231.14 0)
 			(effects
 				(font
@@ -17173,7 +17173,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 36.576 203.2 0)
 			(effects
 				(font
@@ -17489,7 +17489,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 97.536 262.89 0)
 			(effects
 				(font
@@ -18204,7 +18204,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 201.676 200.66 0)
 			(effects
 				(font
@@ -19033,7 +19033,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 91.186 201.93 0)
 			(effects
 				(font
@@ -21271,7 +21271,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 89.916 232.41 0)
 			(effects
 				(font
@@ -22003,7 +22003,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 257.556 261.62 0)
 			(effects
 				(font
@@ -23050,7 +23050,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 253.746 200.66 0)
 			(effects
 				(font
@@ -23784,7 +23784,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 145.796 231.14 0)
 			(effects
 				(font
@@ -24101,7 +24101,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 147.066 200.66 0)
 			(effects
 				(font
@@ -24643,7 +24643,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 36.576 233.68 0)
 			(effects
 				(font
@@ -25439,7 +25439,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 39.116 264.16 0)
 			(effects
 				(font
@@ -25816,7 +25816,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 150.876 262.89 0)
 			(effects
 				(font
@@ -26882,7 +26882,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 205.486 262.89 0)
 			(effects
 				(font
@@ -26949,7 +26949,7 @@
 				)
 			)
 		)
-		(property "Value" "500nF"
+		(property "Value" "490nF"
 			(at 201.676 231.14 0)
 			(effects
 				(font
