@@ -821,6 +821,175 @@
 				)
 			)
 		)
+		(symbol "B82559B7153A027:B82559B7153A027"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "B82559B7153A027"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "B82559B7153A027"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/data_sheet/30/ds/b82559b_a027.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD / SMT Inductors (Coils), L=15.0?H, 25.8mm x 27.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "17.3"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "871-B82559B7153A027"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B82559B7153A027?qs=hWgE7mdIu5RzPV92teQd9A%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "B82559B7153A027"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "B82559B7153A027_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3604,6 +3773,12 @@
 		)
 	)
 	(junction
+		(at 147.32 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014dc5fa-403c-44b4-9f1e-ec67a423074d")
+	)
+	(junction
 		(at 156.21 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3620,12 +3795,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12fc60b6-99b7-406c-8cd0-089d19b11ff8")
-	)
-	(junction
-		(at 144.78 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1524ac45-aa2a-48d3-8027-88bbd9cb417d")
 	)
 	(junction
 		(at 246.38 53.34)
@@ -3826,12 +3995,6 @@
 		(uuid "ac8875a2-ab26-4e9c-a589-d5b4938f009c")
 	)
 	(junction
-		(at 144.78 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0374dae-278f-4e7d-a032-1f1b15bc50ba")
-	)
-	(junction
 		(at 109.22 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3860,6 +4023,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baf982a2-0b46-43ae-a644-1f5dfb5f739c")
+	)
+	(junction
+		(at 147.32 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdf23f3a-85a6-4238-8c31-a56355f94fd3")
 	)
 	(junction
 		(at 203.2 91.44)
@@ -3975,6 +4144,20 @@
 		(at 49.53 179.07)
 		(uuid "bda31d75-2178-49f7-ab09-e4049c22f2a2")
 	)
+	(no_connect
+		(at 139.7 110.49)
+		(uuid "e8cf3d5e-9582-4687-a01b-591c62f72ec3")
+	)
+	(wire
+		(pts
+			(xy 147.32 152.4) (xy 156.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01237482-b88e-454a-a92c-13f602ab66c3")
+	)
 	(wire
 		(pts
 			(xy 95.25 137.16) (xy 102.87 137.16)
@@ -4017,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 152.4) (xy 144.78 152.4)
+			(xy 124.46 152.4) (xy 147.32 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4377,6 +4560,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 130.81) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9d5e2e-7fd3-42e2-8001-9d148622331c")
+	)
+	(wire
+		(pts
 			(xy 156.21 152.4) (xy 156.21 143.51)
 		)
 		(stroke
@@ -4497,7 +4690,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 144.78) (xy 144.78 152.4)
+			(xy 147.32 144.78) (xy 147.32 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4604,6 +4797,16 @@
 			(type default)
 		)
 		(uuid "5aec046c-6991-4254-9314-d6d1b70cb015")
+	)
+	(wire
+		(pts
+			(xy 124.46 130.81) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baa33d9-0ecb-4894-9da5-e8118c40d82c")
 	)
 	(wire
 		(pts
@@ -4787,6 +4990,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 130.81) (xy 156.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2f380a-d2f7-47e3-88aa-1d25d97e5565")
+	)
+	(wire
+		(pts
 			(xy 198.12 115.57) (xy 198.12 113.03)
 		)
 		(stroke
@@ -4854,16 +5067,6 @@
 			(type default)
 		)
 		(uuid "87e55907-28b3-4995-b14c-28ecc4905702")
-	)
-	(wire
-		(pts
-			(xy 129.54 130.81) (xy 124.46 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88980f16-3240-41ec-8b52-af4e9031840d")
 	)
 	(wire
 		(pts
@@ -4964,16 +5167,6 @@
 			(type default)
 		)
 		(uuid "9392a4f2-ac5a-4ff3-bd85-e6280b7c443a")
-	)
-	(wire
-		(pts
-			(xy 144.78 130.81) (xy 156.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9676e6d7-6472-4559-8a36-992d04900f3d")
 	)
 	(wire
 		(pts
@@ -5257,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 130.81) (xy 144.78 132.08)
+			(xy 147.32 130.81) (xy 147.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5474,16 +5667,6 @@
 			(type default)
 		)
 		(uuid "d47a63ee-7b14-47ed-9af9-3fd7335c8f88")
-	)
-	(wire
-		(pts
-			(xy 137.16 130.81) (xy 144.78 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ca3776-f3b7-456d-bf30-098f554c1b11")
 	)
 	(wire
 		(pts
@@ -5817,23 +6000,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 137.16) (xy 144.78 139.7)
+			(xy 147.32 137.16) (xy 147.32 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f5f4e620-604e-4998-994c-02e193fc44b2")
-	)
-	(wire
-		(pts
-			(xy 144.78 152.4) (xy 156.21 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7a59df0-6e21-49fd-a0e7-35759ccfab03")
 	)
 	(wire
 		(pts
@@ -6841,7 +7014,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 144.78 142.24 0)
+		(at 147.32 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6850,7 +7023,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b92d6ff-cd51-4240-9bf9-636fe1871724")
 		(property "Reference" "C_C3"
-			(at 147.32 140.9762 0)
+			(at 149.86 140.9762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6859,7 +7032,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 147.32 143.5162 0)
+			(at 149.86 143.5162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +7041,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 144.78 142.24 0)
+			(at 147.32 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +7050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 142.24 0)
+			(at 147.32 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +7059,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 142.24 0)
+			(at 147.32 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,7 +8043,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 144.78 134.62 0)
+		(at 147.32 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7878,7 +8051,7 @@
 		(dnp no)
 		(uuid "3fd8aa0a-f297-42c8-8458-a26fc1eb39b6")
 		(property "Reference" "R_C2"
-			(at 146.304 133.35 0)
+			(at 148.844 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +8060,7 @@
 			)
 		)
 		(property "Value" "40"
-			(at 146.304 135.89 0)
+			(at 148.844 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +8069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 144.78 134.62 0)
+			(at 147.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +8078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 134.62 0)
+			(at 147.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,7 +8087,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 144.78 134.62 0)
+			(at 147.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,6 +8827,131 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "C_VCC33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B82559B7153A027:B82559B7153A027")
+		(at 139.7 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a8423b2-c1de-4de8-9c4b-1fd49c4929e8")
+		(property "Reference" "L2"
+			(at 146.05 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B82559B7153A027"
+			(at 146.05 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "${KIPRJMOD}:B82559B7153A027"
+			(at 234.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/data_sheet/30/ds/b82559b_a027.pdf"
+			(at 334.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD / SMT Inductors (Coils), L=15.0?H, 25.8mm x 27.8mm"
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "17.3"
+			(at 534.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B82559B7153A027"
+			(at 634.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B82559B7153A027?qs=hWgE7mdIu5RzPV92teQd9A%3D%3D"
+			(at 734.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 834.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B82559B7153A027"
+			(at 934.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "267f4e9e-3a66-4038-9195-5c2c8a051996")
+		)
+		(pin "1"
+			(uuid "de97196e-0ee0-41b0-8c27-b349618b76d0")
+		)
+		(pin "3"
+			(uuid "2c576bcb-1a82-4a85-aac1-66e4cb1537c5")
+		)
+		(instances
+			(project ""
+				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -10614,7 +10912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:6000B_Series_MUR"
+		(property "Footprint" "${KIPRJMOD}:SDR1006"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -12781,7 +13079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "${KIPRJMOD}:IND_BOURNS_5800"
 			(at 217.17 106.68 0)
 			(effects
 				(font
@@ -13182,7 +13480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 207.01 113.03 0)
 			(effects
 				(font
@@ -13999,74 +14297,6 @@
 			(project "Tubender PCB"
 				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 133.35 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5922e22-eeab-4b24-82a2-d5eff3775152")
-		(property "Reference" "L2"
-			(at 133.35 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12uH"
-			(at 133.35 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44f53080-d6b3-4c7c-b3b7-a6fa1c8a9cfc")
-		)
-		(pin "2"
-			(uuid "195a2846-85ea-4d5e-87f8-d270a835bbc8")
-		)
-		(instances
-			(project ""
-				(path "/3e1aedd0-6089-4edb-92c7-0c31da2e7927/3bac66d4-e1f2-42c2-b72f-be753c44ff12"
-					(reference "L2")
 					(unit 1)
 				)
 			)
