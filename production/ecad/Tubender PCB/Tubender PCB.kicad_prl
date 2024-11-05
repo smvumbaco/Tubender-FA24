@@ -64,7 +64,11 @@
       39,
       40
     ],
+<<<<<<< HEAD
     "visible_layers": "fffffff_ffffffff",
+=======
+    "visible_layers": "ffdffff_ffffffff",
+>>>>>>> a070d211dde418a247637ba6219507b4b4a93e26
     "zone_display_mode": 0
   },
   "git": {
