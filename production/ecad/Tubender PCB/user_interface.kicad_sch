@@ -23359,7 +23359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "${KIPRJMOD}:QFP40P1600X1600X160-128N"
+		(property "Footprint" "${KIPRJMOD}:QFP50P1600X1600X160-100N"
 			(at 231.14 143.18 0)
 			(effects
 				(font
