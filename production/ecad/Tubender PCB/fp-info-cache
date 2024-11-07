@@ -1,4 +1,4 @@
-23936570501327708
+23943494327250371
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96754,6 +96754,13 @@ Connector
 14
 14
 footprints
+B82559B7153A027
+B82559B7153A027-2
+Inductor
+0
+3
+3
+footprints
 CONN3X1_B3P-VH_JST
 
 B3P-VH 
@@ -96817,6 +96824,13 @@ IC_LMR36520FADDAR
 15
 15
 footprints
+IND_BOURNS_5800
+
+5800-8R2-RC 
+0
+2
+2
+footprints
 KEYSTONE_5006
 
 
@@ -96859,6 +96873,13 @@ QFP40P1600X1600X160-128N
 128
 128
 footprints
+QFP50P1600X1600X160-100N
+
+
+0
+100
+100
+footprints
 RGY0020B-MFG
 
 LM5146RGYR 
@@ -96886,6 +96907,13 @@ LM5017SDX/NOPB
 0
 9
 9
+footprints
+SDR1006
+Bourns SDR1006
+
+0
+2
+2
 footprints
 SIL0010C
 
